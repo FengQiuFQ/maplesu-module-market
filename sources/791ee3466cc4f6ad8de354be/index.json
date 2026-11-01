@@ -1,0 +1,37 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_hello_world",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_hello_world",
+  "files": [
+    {
+      "path": "jni/Android.mk",
+      "size": 412,
+      "sha256": "7d68cecf1790199e45ada308d870278a2390062a6328160b001b7193f21d462a",
+      "git_blob": "0f6859ec00bf9aae6f8d9223b97236ba8eba9d4e"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_hello_world.cpp",
+      "size": 2782,
+      "sha256": "e7ca050cc989b02ec9b13acead9cb65bf0e919f3cd41954bbe98ebfb6f01a236",
+      "git_blob": "72ca4124948d8eaa6162480b997e4de29b070be8"
+    }
+  ],
+  "archive": {
+    "path": "sources/791ee3466cc4f6ad8de354be/source.zip",
+    "sha256": "935cd84246b839347ad6298040e71827dcc360154d740a3653d14795f98e6f8f",
+    "size": 2457
+  }
+}

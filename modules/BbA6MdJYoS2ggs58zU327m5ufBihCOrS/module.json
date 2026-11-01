@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id32": "BbA6MdJYoS2ggs58zU327m5ufBihCOrS",
+  "releases": [
+    {
+      "ver": "1.1.0",
+      "update_date": "2026-7-24",
+      "chn_name": "防格机 (防变黑砖)",
+      "author": "SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/BbA6MdJYoS2ggs58zU327m5ufBihCOrS/1.1.0/module.zip",
+        "sha256": "ad6bad373c9d70815c857d60dc352503147c1cd555677769eab300415cead148",
+        "size": 555785
+      },
+      "source_url": "sources/aef40faa73e909f4845ca9f5/index.json",
+      "source_index": {
+        "path": "sources/aef40faa73e909f4845ca9f5/index.json",
+        "sha256": "a3bc12b7c4f45e19346bbeed60be6802dda30444953d403f230aa0dd0affdb20",
+        "size": 4392
+      },
+      "changelog_url": "changelogs/BbA6MdJYoS2ggs58zU327m5ufBihCOrS/1.1.0.md",
+      "upstream": {
+        "chn_name": "防格机 (防变黑砖)",
+        "eng_name": "",
+        "ver": "1.1.0",
+        "desc": "内核级防黑砖保护，在内核层阻断恶意写入核心分区，防止设备变黑砖。开机1分钟后保护生效。双清后可恢复正常开机。保护后会影响系统升级、刷写。如非必要，建议不要长期安装本模块。",
+        "author": "SKRoot",
+        "id32": "BbA6MdJYoS2ggs58zU327m5ufBihCOrS",
+        "update_date": "2026-7-24",
+        "ban": false,
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_protect_device",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_protect_device/module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "防格机 (防变黑砖)",
+  "latest_version": "1.1.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

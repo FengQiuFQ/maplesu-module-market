@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "6080b19fb2db26c534af3051103f541f",
+  "releases": [
+    {
+      "ver": "1.0.0",
+      "update_date": "2025-12-10",
+      "chn_name": "【教程】内置 WebUI Demo",
+      "author": "SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/6080b19fb2db26c534af3051103f541f/1.0.0/module.zip",
+        "sha256": "7a61cbb7b3c453b4ad3f53a40f91cc2fc7d8f0b7e5e1dc4b88af9068fa2e7db5",
+        "size": 384827
+      },
+      "source_url": "sources/fd7290f86a4a073929f7e249/index.json",
+      "source_index": {
+        "path": "sources/fd7290f86a4a073929f7e249/index.json",
+        "sha256": "5e1c23c5458352bc0fb9bfd35d8c11153cd51efe1a2c7c76070495cece4766ee",
+        "size": 1591
+      },
+      "changelog_url": "changelogs/6080b19fb2db26c534af3051103f541f/1.0.0.md",
+      "upstream": {
+        "chn_name": "【教程】内置 WebUI Demo",
+        "eng_name": "",
+        "ver": "1.0.0",
+        "desc": "演示在模块中使用WebUI页面。",
+        "author": "SKRoot",
+        "id32": "6080b19fb2db26c534af3051103f541f",
+        "update_date": "2025-12-10",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_web_ui_example",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_demo/module_web_ui_example.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "【教程】内置 WebUI Demo",
+  "latest_version": "1.0.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

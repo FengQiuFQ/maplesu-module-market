@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "nv2ZfKbBpBYxYvFqwgcGHEvQkjFjaRvS",
+  "releases": [
+    {
+      "ver": "1.0.0",
+      "update_date": "2026-6-20",
+      "chn_name": "修改Android安全补丁日期",
+      "author": "SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/nv2ZfKbBpBYxYvFqwgcGHEvQkjFjaRvS/1.0.0/module.zip",
+        "sha256": "3f0a5b911ebfb48dcd1d4f02937fa9a7418f4d41b9b9df85e9d8cbb058b6c055",
+        "size": 596725
+      },
+      "source_url": "sources/8ed07655b50066c61e578cac/index.json",
+      "source_index": {
+        "path": "sources/8ed07655b50066c61e578cac/index.json",
+        "sha256": "c35dd453fdbfe9de97c1a2b41d6d4aa869027777d19d3e0838675031964ee1ce",
+        "size": 25384
+      },
+      "changelog_url": "changelogs/nv2ZfKbBpBYxYvFqwgcGHEvQkjFjaRvS/1.0.0.md",
+      "upstream": {
+        "chn_name": "修改Android安全补丁日期",
+        "eng_name": "",
+        "ver": "1.0.0",
+        "desc": "一键修改 Android 安全补丁日期，自动同步多个系统分区相关属性。",
+        "author": "SKRoot",
+        "id32": "nv2ZfKbBpBYxYvFqwgcGHEvQkjFjaRvS",
+        "update_date": "2026-6-20",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_fake_device",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_fake_device/sk_fake_security_date_module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "修改Android安全补丁日期",
+  "latest_version": "1.0.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

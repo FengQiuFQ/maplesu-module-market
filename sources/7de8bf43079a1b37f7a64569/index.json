@@ -1,0 +1,193 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_TEESimulatorRS",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_TEESimulatorRS",
+  "files": [
+    {
+      "path": "android_packages_list_utils.h",
+      "size": 10289,
+      "sha256": "6de985c7a94f195ef4f92f69fd52befaef8510bfc0ba4f174fb1f604dd28d11b",
+      "git_blob": "554f8fc6e63874a7684d0a9eab30bc70cba146e3"
+    },
+    {
+      "path": "android_system_property_utils.h",
+      "size": 323,
+      "sha256": "5e5aa62f70134a4db83e6007db397ebb9fdcc1b65cbea43f9d4fc31cccdcb6c5",
+      "git_blob": "e4e4af702ac451f61660074405f91b62aa505f71"
+    },
+    {
+      "path": "file_utils.h",
+      "size": 2667,
+      "sha256": "d4404d74a254904df033c3912fcf22ab53deba110545a5caf4bcf908736e0f1e",
+      "git_blob": "f704a8f8a8b1776aff468a443f005c0cda99b9ff"
+    },
+    {
+      "path": "jni/Android.mk",
+      "size": 410,
+      "sha256": "a2553af53c4614fe3c14688e4ad86775b93233dbc7100098331acdd96abb495e",
+      "git_blob": "69823a3c624b26e0e36314bd8aec25d59e758173"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_TEESimulatorRS.cpp",
+      "size": 8658,
+      "sha256": "fa87c4308b414e6cfea07519dd23f0fca104cc330824ebd7cab3f311377f7086",
+      "git_blob": "f8722e71cca265511e70a1f087f5ed634e20f06f"
+    },
+    {
+      "path": "module_TEESimulatorRS.h",
+      "size": 1927,
+      "sha256": "954c1c6726be4548a6cd3b02100bef5043e74c402304a36eb8628e873cebc8ed",
+      "git_blob": "ff66248c76e2a1e8579c69cb4624d5e1846a1924"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/classes.dex",
+      "size": 2452488,
+      "sha256": "ee1b2d545a0d7b3ab231860dc4243d02e2cc849afd4919c25c3032366d10e468",
+      "git_blob": "c58df3fda9b834d1931025b761ae04214f650cc3"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/daemon",
+      "size": 415,
+      "sha256": "2106785d5bc34cec56f534b4471746a7000038d8fa80e71c05bda7e4bb5b192c",
+      "git_blob": "7cfcf5f32c25b117cdccd4b281080a483630d49a"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/inject",
+      "size": 475432,
+      "sha256": "16e9e7a4c5f3dc33015b32cb06f229c28b04b0925daba21bbb98e892ab680b8d",
+      "git_blob": "893f72f87f19f65a8f1d69d769b7cdb34ffcdefd"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/jni/Android.mk",
+      "size": 309,
+      "sha256": "f70ccef4b2281dbb9a494acd87e92fee5806278f42a00374e4cda34a6cdf2646",
+      "git_blob": "5b9c6b3d6de5b966bb6ecdb450a55a298f821a92"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/jni/Application.mk",
+      "size": 176,
+      "sha256": "1d26dfdc8f07a490e9bb1008ec3181cef1367dde4041cd41994e3740a05c1cf4",
+      "git_blob": "9ac20112fe7f14025b4deba84af186a07b008853"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/jni/module.cpp",
+      "size": 1060,
+      "sha256": "c4c5f75407f50d5daf15340a12c843e7e6cc9b858be72fa2c2c245bba19c954e",
+      "git_blob": "0e8a9248194d4b9c8eeb95d93ab52affc7ef33cb"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/keybox.xml",
+      "size": 16315,
+      "sha256": "6a0522d41d410fc15288944cc5d75c92bbe2f216d5f7f0b2421fa51ce5c5bdf3",
+      "git_blob": "b431d7cc9a121fd163e4695792a64d9d10ca6785"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/libTEESimulator.so",
+      "size": 206624,
+      "sha256": "ad17dd5ba0343d75053c78c5b6ed67f49f8c09f939bff2eef704da13c03d1cc4",
+      "git_blob": "c7a7633534f120570db55781ba727de586818ffa"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/libcertgen.so",
+      "size": 1180864,
+      "sha256": "d8736896ba78caa51a6944adbd68b7cf5bae19900320ec301461fc645435936e",
+      "git_blob": "f2b804a9715ddb39a5b5a32413bd905d34d3819d"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/resetprop",
+      "size": 93776,
+      "sha256": "a83e519eb7177fc8f1b669dfa9540fd7d54a25a53992f9a7fc67d4765f436fd4",
+      "git_blob": "1daa4d998303419c24513571c759acf6d7c44f29"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/sepolicy.rule",
+      "size": 915,
+      "sha256": "3d04fa91ba20e5fb2372a6855626b79485c85e268f131e22a0884c86a9c6a520",
+      "git_blob": "4ded9763550243a3cad9c5e3e063207380b677d8"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/service.sh",
+      "size": 1767,
+      "sha256": "ee8e902814dbaba1b927c5ca104a31bcb45232f4a9c41b8c051e4f275ef66246",
+      "git_blob": "47b6173a743a90082dfe7a195622bd8c8fb29c9b"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/supervisor",
+      "size": 6144,
+      "sha256": "03179d85012e4d3cef7c5ba1f4b700c86278656f1de11cb4a09505563c8ed0e3",
+      "git_blob": "b17789f5abdf0fd4c04567b5ea34875c3a67c3f2"
+    },
+    {
+      "path": "resources/TEESimulatorRS_Core/target.txt",
+      "size": 263,
+      "sha256": "f23e8e15e27903fd1ac78b49d043df54efd3b6bba1705aeab9d4ae69d24e165a",
+      "git_blob": "9f3ec54e8b6336f568532f91653c80fb5d046c94"
+    },
+    {
+      "path": "resources/hide_bootloader.sh",
+      "size": 2377,
+      "sha256": "ae3ef43c1ebe149a6b829f9f44e2678dd1c815f2843ff3a0085f034f9feda677",
+      "git_blob": "99ac5a92810664115a71316a7d714cc953a4dc06"
+    },
+    {
+      "path": "resources/resetprop",
+      "size": 400568,
+      "sha256": "70558e6d6199fa5a961b7bafeb8f96d8157cc63810db8df2a3cded1881763697",
+      "git_blob": "feeb0284f281eceaa8e6fe7051e798a2c0ab9bdf"
+    },
+    {
+      "path": "resources/webroot/index.html",
+      "size": 7063,
+      "sha256": "d77860579e40a0dc54893182cfd4006d144341fd030b0717d2dfb99ca3f6b287",
+      "git_blob": "758364b29a43952162f8108866b7bf5c168442d3"
+    },
+    {
+      "path": "resources/webroot/main.js",
+      "size": 9232,
+      "sha256": "8a57a6754c2f24980f2b8ca4d1fe845f0a422eb3f45d546fd52b417bb8da4ed2",
+      "git_blob": "d1b4cc8389e11c9c973d4e00b068e14a1d556d35"
+    },
+    {
+      "path": "resources/webroot/request.js",
+      "size": 3124,
+      "sha256": "e06b2914d6ffe6a2b8c29b1318090fb1924e7d9d02c32d8f6768b9e67e9b12a5",
+      "git_blob": "366e600d6ca891a4d9442b4015d34d83ff4cd9e6"
+    },
+    {
+      "path": "resources/webroot/style.css",
+      "size": 7451,
+      "sha256": "03daeeec651e42bdbb19462b005fa4c9d30983d42cabbf87f144c5cc1127cbbb",
+      "git_blob": "291f0794669b24e032ceb5f104470755426adb98"
+    },
+    {
+      "path": "resources/webroot/toast.css",
+      "size": 518,
+      "sha256": "28450fa819821308e7fd23bb94fefae2942a565ed3c27d0f91c71840989c1ee9",
+      "git_blob": "0f376bef1bc368e5dd88e9877afbb4fcde5fedaa"
+    },
+    {
+      "path": "resources/webroot/toast.js",
+      "size": 349,
+      "sha256": "dc41022fc953682991a118877bcf7ca2832aa6ca79f07d162b252e697cad1959",
+      "git_blob": "52e886df4eb6b80d6f0513c84e7f6966fd3acfd6"
+    }
+  ],
+  "archive": {
+    "path": "sources/7de8bf43079a1b37f7a64569/source.zip",
+    "sha256": "c2e9b8159c318b74e9b8a643e6b692211ff801c1de8accbd5c678f88916efc69",
+    "size": 2333296
+  }
+}

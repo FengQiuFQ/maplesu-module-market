@@ -1,0 +1,205 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_tricky_store",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_tricky_store",
+  "files": [
+    {
+      "path": "android_packages_list_utils.h",
+      "size": 10295,
+      "sha256": "e6fedf5bcc5fd7921be968e1688a053d8d36f986306a21308f0fb75cd2f7f20b",
+      "git_blob": "127d24d7736bc76c2bc116ce05a2c3bd2f92650e"
+    },
+    {
+      "path": "android_system_property_utils.h",
+      "size": 323,
+      "sha256": "5e5aa62f70134a4db83e6007db397ebb9fdcc1b65cbea43f9d4fc31cccdcb6c5",
+      "git_blob": "e4e4af702ac451f61660074405f91b62aa505f71"
+    },
+    {
+      "path": "file_utils.h",
+      "size": 2667,
+      "sha256": "d4404d74a254904df033c3912fcf22ab53deba110545a5caf4bcf908736e0f1e",
+      "git_blob": "f704a8f8a8b1776aff468a443f005c0cda99b9ff"
+    },
+    {
+      "path": "jni/Android.mk",
+      "size": 406,
+      "sha256": "92cff2ad2e297f7150f1d7fa8aaf9e176704fbc43be8c7ed1ab14ee03d2d2955",
+      "git_blob": "722e75194b15743a09d93dd51ed4811cec5c2562"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_tricky_store.cpp",
+      "size": 9055,
+      "sha256": "349f40dc4bb55d3e9a7e58108a8b471f31fbe924e8a163c98d5e521e48eb307e",
+      "git_blob": "1b61fd9e52507e6eaeeb35de83ee92cacce8e1a9"
+    },
+    {
+      "path": "module_tricky_store.h",
+      "size": 1927,
+      "sha256": "954c1c6726be4548a6cd3b02100bef5043e74c402304a36eb8628e873cebc8ed",
+      "git_blob": "ff66248c76e2a1e8579c69cb4624d5e1846a1924"
+    },
+    {
+      "path": "resources/TS/modules/tricky_store/daemon",
+      "size": 148,
+      "sha256": "6ec6ec3f88c8b126d7935e5482d485ed8b37219ce26dbc16be5168ffd95658ed",
+      "git_blob": "66490887e2ec0d8a9dbf8fd8d2a6e53ef5ee5355"
+    },
+    {
+      "path": "resources/TS/modules/tricky_store/libtricky_store.so",
+      "size": 1060352,
+      "sha256": "6d729980d400d656e5f2908dc86c69104f49e7067961f3fc43dec4b30804cc91",
+      "git_blob": "f72810e7d3efa097a1f6deb03537f5cc9a4422b9"
+    },
+    {
+      "path": "resources/TS/modules/tricky_store/machikado",
+      "size": 96,
+      "sha256": "9966ed4617b73493147fda4508e47e5f82eb90675af664716bba93279a7f7c32",
+      "git_blob": "6285f67838f7305a63a832bb2c12458f3072ea3f"
+    },
+    {
+      "path": "resources/TS/modules/tricky_store/mazoku",
+      "size": 96,
+      "sha256": "2228e297b52440590af3c19177ed79fd899b35b1586d5580e0bea6380520f01b",
+      "git_blob": "cbfc76316b2b05dac1b647cd8229bacab9004359"
+    },
+    {
+      "path": "resources/TS/modules/tricky_store/module.prop",
+      "size": 223,
+      "sha256": "5f37d592ffb95b278a865409f0beeb9ccc5e3c49d6caefc9ecb338d0ce736251",
+      "git_blob": "82838b64093f74b97e5eb3477734b06208566e62"
+    },
+    {
+      "path": "resources/TS/modules/tricky_store/post-fs-data.sh",
+      "size": 15,
+      "sha256": "d61199e8e894c9964719547437eb08be307f2aa871572b7bf23eaabafd387283",
+      "git_blob": "08eb364485c66ff5bc1985b2e3c094e2ce719cec"
+    },
+    {
+      "path": "resources/TS/modules/tricky_store/sepolicy.rule",
+      "size": 36,
+      "sha256": "3c9da33889957ce4706ac5a6464293801f405ddbd75231c36d1e4854fe8c5827",
+      "git_blob": "04c5338b6f2b8f3259c5d8aee3c6b60a448fa8ad"
+    },
+    {
+      "path": "resources/TS/modules/tricky_store/service.apk",
+      "size": 2409346,
+      "sha256": "75a78b56d7c6615cf49dfad8c7b3ed22b966ce506c99e4d664dacb4298c5e54d",
+      "git_blob": "aaeb5f6df740d8843c276b918b14ecbb1539ee15"
+    },
+    {
+      "path": "resources/TS/modules/tricky_store/service.sh",
+      "size": 164,
+      "sha256": "d1b1813d7bfe66ed58b357d2c6f247fe7e8d698a3aa79c722769ff0c0da6e508",
+      "git_blob": "c52cfe8a113c5a50ba473975a9117adce26df22c"
+    },
+    {
+      "path": "resources/TS/tricky_store/key_db/keystore.db",
+      "size": 36864,
+      "sha256": "6d6b782ed97b558bd88e2774a059123e4d1247d1c93f94332a121a43d75ac4b0",
+      "git_blob": "c7f16a3818529835297d616f9a54b0e597550e14"
+    },
+    {
+      "path": "resources/TS/tricky_store/key_db/keystore.db-shm",
+      "size": 32768,
+      "sha256": "7d59d71e35d523538e489fde6449c1d3aa2c997189f965bd5490977c78b462fa",
+      "git_blob": "1457eb4549c0d28c9c81c5b0b25b0d5882ae5970"
+    },
+    {
+      "path": "resources/TS/tricky_store/key_db/keystore.db-wal",
+      "size": 412032,
+      "sha256": "4ae6ac139e745285338f74f360f0b290ad700bd802a2eb92baa32b3e941e40c8",
+      "git_blob": "607c257693b73f45b5d3050638341854ed343f06"
+    },
+    {
+      "path": "resources/TS/tricky_store/keybox.xml",
+      "size": 12724,
+      "sha256": "7a4998d385da7714f8714f506857b6428bc8d12c498b1f3582d03bb94827588f",
+      "git_blob": "34d1277c3a959ff979de21c24f301e19c3567276"
+    },
+    {
+      "path": "resources/TS/tricky_store/target.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "resources/TS/tricky_store/tee_status",
+      "size": 15,
+      "sha256": "c3e6e3e70faf2c5083dc44840f5c976420779f18de960a3f2c9353e5f223412d",
+      "git_blob": "ec9076c0b1affd22b5f618f80794ff892906f64f"
+    },
+    {
+      "path": "resources/hide_bootloader.sh",
+      "size": 2377,
+      "sha256": "ae3ef43c1ebe149a6b829f9f44e2678dd1c815f2843ff3a0085f034f9feda677",
+      "git_blob": "99ac5a92810664115a71316a7d714cc953a4dc06"
+    },
+    {
+      "path": "resources/resetprop",
+      "size": 400568,
+      "sha256": "70558e6d6199fa5a961b7bafeb8f96d8157cc63810db8df2a3cded1881763697",
+      "git_blob": "feeb0284f281eceaa8e6fe7051e798a2c0ab9bdf"
+    },
+    {
+      "path": "resources/webroot/index.html",
+      "size": 7074,
+      "sha256": "508208f8e4f38461e51a21934a2399d5a887d46176c54508c96c024dfbc7bb43",
+      "git_blob": "f21d424b7950eb3bc05f7ad576c72405c2929d5d"
+    },
+    {
+      "path": "resources/webroot/main.js",
+      "size": 9232,
+      "sha256": "8a57a6754c2f24980f2b8ca4d1fe845f0a422eb3f45d546fd52b417bb8da4ed2",
+      "git_blob": "d1b4cc8389e11c9c973d4e00b068e14a1d556d35"
+    },
+    {
+      "path": "resources/webroot/request.js",
+      "size": 3124,
+      "sha256": "e06b2914d6ffe6a2b8c29b1318090fb1924e7d9d02c32d8f6768b9e67e9b12a5",
+      "git_blob": "366e600d6ca891a4d9442b4015d34d83ff4cd9e6"
+    },
+    {
+      "path": "resources/webroot/style.css",
+      "size": 7451,
+      "sha256": "03daeeec651e42bdbb19462b005fa4c9d30983d42cabbf87f144c5cc1127cbbb",
+      "git_blob": "291f0794669b24e032ceb5f104470755426adb98"
+    },
+    {
+      "path": "resources/webroot/toast.css",
+      "size": 518,
+      "sha256": "28450fa819821308e7fd23bb94fefae2942a565ed3c27d0f91c71840989c1ee9",
+      "git_blob": "0f376bef1bc368e5dd88e9877afbb4fcde5fedaa"
+    },
+    {
+      "path": "resources/webroot/toast.js",
+      "size": 349,
+      "sha256": "dc41022fc953682991a118877bcf7ca2832aa6ca79f07d162b252e697cad1959",
+      "git_blob": "52e886df4eb6b80d6f0513c84e7f6966fd3acfd6"
+    },
+    {
+      "path": "tricky_store_daemon.h",
+      "size": 968,
+      "sha256": "9942785ccb8bf3e85ef7f198db6ab2ee6672ebe57b78e54d0725aabab8e6c5a3",
+      "git_blob": "5f12402dc7c3ec94294e828afcbebcb96b06dfa5"
+    }
+  ],
+  "archive": {
+    "path": "sources/9111d10433f5824f21ed1baf/source.zip",
+    "sha256": "86ba8bf8be9ca13b84757efb6cb6a7001a6913c2ff41ea8bf7c9822b391beeba",
+    "size": 2069321
+  }
+}

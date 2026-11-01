@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id32": "7a3f1c9e5b2d4867af01e93c4b7d2e58",
+  "releases": [
+    {
+      "ver": "1.0.0",
+      "update_date": "2026-11-01",
+      "chn_name": "Zygisk for SKRoot",
+      "author": "ReZygisk / SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/7a3f1c9e5b2d4867af01e93c4b7d2e58/1.0.0/module.zip",
+        "sha256": "842509d03824ccec8cd59e98325cb765705a0c43cdc60a8bac34d497e1af27d1",
+        "size": 666720
+      },
+      "source_url": "sources/ae90c0e1b1e198f5539f8841/index.json",
+      "source_index": {
+        "path": "sources/ae90c0e1b1e198f5539f8841/index.json",
+        "sha256": "26c54af2990bcb7e930ee9de6b6c79da4a2b4919763c7c8857bd45a85d455377",
+        "size": 1039
+      },
+      "changelog_url": "changelogs/7a3f1c9e5b2d4867af01e93c4b7d2e58/1.0.0.md",
+      "upstream": {
+        "chn_name": "Zygisk for SKRoot",
+        "eng_name": "Zygisk for SKRoot",
+        "ver": "1.0.0",
+        "author": "ReZygisk / SKRoot",
+        "desc": "在 SKRoot 上运行 Zygisk 模块：移植 ReZygisk 的 ptrace 注入链路，将 libzygisk.so 注入 zygote，使依赖 Zygisk 的模块（如 LSPosed）可用。",
+        "id32": "7a3f1c9e5b2d4867af01e93c4b7d2e58",
+        "update_date": "2026-11-01",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "module_zygisk_skroot_pro_2026-11-01.zip",
+          "sha256": "842509d03824ccec8cd59e98325cb765705a0c43cdc60a8bac34d497e1af27d1",
+          "size": 666720,
+          "payload_module_prop": {
+            "id": "zygisk_skroot",
+            "name": "Zygisk for SKRoot",
+            "version": "1.0.0",
+            "versionCode": "10000",
+            "author": "ReZygisk / SKRoot",
+            "description": "在 SKRoot 上运行 Zygisk 模块：移植 ReZygisk 的 ptrace 注入链路，将 libzygisk.so 注入 zygote，使依赖 Zygisk 的模块（如 LSPosed）可用。"
+          },
+          "native_identity": {
+            "id32": "7a3f1c9e5b2d4867af01e93c4b7d2e58",
+            "member": "libmodule_zygisk_skroot.so",
+            "sha256": "5f31523df749fcc0b97f3199ef2d73882a625aa78527306307def616a685bf8f"
+          },
+          "release_date_basis": "date in user-supplied filename"
+        }
+      }
+    }
+  ],
+  "name": "Zygisk for SKRoot",
+  "latest_version": "1.0.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

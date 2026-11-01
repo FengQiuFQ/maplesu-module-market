@@ -1,0 +1,9 @@
+{
+  "kind": "upstream-archive",
+  "upstream_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E8%AE%BE%E5%A4%87%E6%A0%87%E8%AF%86%E7%AE%A1%E7%90%86/src.zip",
+  "archive": {
+    "path": "sources/17e8bbd88d96aef0cc057163/source.zip",
+    "sha256": "d8be5701d1cf22bdb2ffc21fed512f8c771e562a369e640a05f4bf62461983af",
+    "size": 4277300
+  }
+}

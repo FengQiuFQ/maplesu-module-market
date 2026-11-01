@@ -1,0 +1,37 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_install_uninstall_cb_demo",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_install_uninstall_cb_demo",
+  "files": [
+    {
+      "path": "jni/Android.mk",
+      "size": 440,
+      "sha256": "69bddd673272cf74dfd794f798daecd7bfcb4982e8e6b46ea612ad5577e96165",
+      "git_blob": "bc6348c6b92dd6b1e22916150eb384e59a8f400f"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_install_uninstall_cb_demo.cpp",
+      "size": 919,
+      "sha256": "b55b3a70a2af78d2c2f4e1b8fd5294b190129b6c4ed4116fcc387c813bd5d67f",
+      "git_blob": "7c8362103afc0cdd470f7aab8c7607bcdfeedc9c"
+    }
+  ],
+  "archive": {
+    "path": "sources/c2b9fcf23e92ba73cba632ab/source.zip",
+    "sha256": "9391db8ce9278b8fe17f5d05e5a181a5902cafde9157e6a056199888fff7002e",
+    "size": 1439
+  }
+}

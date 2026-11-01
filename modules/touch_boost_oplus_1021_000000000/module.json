@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id32": "touch_boost_oplus_1021_000000000",
+  "releases": [
+    {
+      "ver": "1.0.0",
+      "update_date": "2026-9-17",
+      "chn_name": "TouchBoost 欧加采样率",
+      "author": "1021",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/touch_boost_oplus_1021_000000000/1.0.0/module.zip",
+        "sha256": "afc338359ab082ac40c2da8cb9575e22f38dee3648947cf9188d4e01e06fb0b6",
+        "size": 2223775
+      },
+      "source_url": "sources/8402595617f75711145acdde/index.json",
+      "source_index": {
+        "path": "sources/8402595617f75711145acdde/index.json",
+        "sha256": "ea888572468418aaa465d05cc896c0020bce1d3dde5c06c7e5fbd0ea11036d2c",
+        "size": 437
+      },
+      "changelog_url": "changelogs/touch_boost_oplus_1021_000000000/1.0.0.md",
+      "upstream": {
+        "chn_name": "TouchBoost 欧加采样率",
+        "eng_name": "",
+        "ver": "1.0.0",
+        "desc": "基于OPPO游戏空间数据库修改，为一加/OPPO设备添加游戏内最高采样率支持，0循环0耗电，支持自定义游戏包名",
+        "author": "1021",
+        "id32": "touch_boost_oplus_1021_000000000",
+        "update_date": "2026-9-17",
+        "ban": false,
+        "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/TouchBoost%20%E6%AC%A7%E5%8A%A0%E9%87%87%E6%A0%B7%E7%8E%87/TouchBoost%20%E6%AC%A7%E5%8A%A0%E9%87%87%E6%A0%B7%E7%8E%87%E6%BA%90%E7%A0%81.zip",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/TouchBoost%20%E6%AC%A7%E5%8A%A0%E9%87%87%E6%A0%B7%E7%8E%87/TouchBoost%20%E6%AC%A7%E5%8A%A0%E9%87%87%E6%A0%B7%E7%8E%87.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "TouchBoost 欧加采样率",
+  "latest_version": "1.0.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

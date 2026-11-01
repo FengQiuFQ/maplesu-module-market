@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "teesimulator601skpro202607210000",
+  "releases": [
+    {
+      "ver": "6.0.1-r3",
+      "update_date": "2026-8-7",
+      "chn_name": "TEESimulator-RS",
+      "author": "JingMatrix, Enginex0, xiaoxun",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/teesimulator601skpro202607210000/6.0.1-r3/module.zip",
+        "sha256": "fb07c1371aab317a4c2013a514f6e1ee3cab90aa8df6e7b34287c28df9623c04",
+        "size": 2630888
+      },
+      "source_url": "sources/7de8bf43079a1b37f7a64569/index.json",
+      "source_index": {
+        "path": "sources/7de8bf43079a1b37f7a64569/index.json",
+        "sha256": "49f9a5bdb97e96c5fe0c3b31e15467d25804c115ab8b522682268724e0295f6d",
+        "size": 7368
+      },
+      "changelog_url": "changelogs/teesimulator601skpro202607210000/6.0.1-r3.md",
+      "upstream": {
+        "chn_name": "TEESimulator-RS",
+        "eng_name": "",
+        "ver": "6.0.1-r3",
+        "desc": "Software simulation for Android hardware-backed key pairs with key attestation",
+        "author": "JingMatrix, Enginex0, xiaoxun",
+        "id32": "teesimulator601skpro202607210000",
+        "update_date": "2026-8-7",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_TEESimulatorRS",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_TEESimulatorRS/module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "TEESimulator-RS",
+  "latest_version": "6.0.1-r3",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "sha": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "node_id": "C_kwDOGAGsedoAKDRiOTRjZDY0YWNiZTA3OTQyZjFjMzdlOThmNjFmN2UzNGMzMDc0OTU",
+  "commit": {
+    "author": {
+      "name": "abcz316",
+      "email": "60607547+abcz316@users.noreply.github.com",
+      "date": "2026-10-30T15:43:59Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-30T15:43:59Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "602a94bb23f29944af9c072fe6c58326b6cef80e",
+      "url": "https://api.github.com/repos/abcz316/SKRoot-linuxKernelRoot/git/trees/602a94bb23f29944af9c072fe6c58326b6cef80e"
+    },
+    "url": "https://api.github.com/repos/abcz316/SKRoot-linuxKernelRoot/git/commits/4b94cd64acbe07942f1c37e98f61f7e34c307495",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq5Ls/CRC1aQ7uu5UhlAAAbzQQAKJIdHbJQhjGfuHdDv3N08NE\n3cNo4XJ+28ES4FdGCtxCHNcWPutUZTYLZDtBCEmoYIaUw2mSZeFUcvOTYg3DIZjB\noHe8RtGyX/Oa/TvOoOLoEyGb7Y+EMzM0hE0YzM5h+gYk0MVKxHHhzujLoN+xXBZl\n/dEIcjNcPjyiVeqQnhHlq9OPbG3g2A6tGuAT1DWlhM9/Slp3P/KrPbyDAMG0v+Xk\nncjzsU/webTfrzWB+UMrOeHkfEgkws51JYxfSRTNK4DnoaJYiAELeE1TZKgFEefU\nOU8MIubKytvI24oDHk4fOShEkWjVisuOkwv+mSXTxbT5nQnK8RUGegSXJN9T+HVI\nYB+rSF7L+jfnK00lSIS2LcGo0JZYmBvxiM+fracU5A3FsoamRauSEvbnSJHl8Xif\ncI5Ptxqv+fUC0iNV0f14GPUxwPoJZrBT6GUU70rWB8rL/9Z70JY7VlwIoWP/DKwR\nJF9raWZ86ItU+FekOeTrZrMjVh0pu1I7grUSvR14wB2csMPchO3kp+T7lxFiQerY\nMjJEyKUDWSLh5nZkIoL8PEJDwm14MiH5JCCS/hds6zWvKRHLbe93zBnth0QFAXwb\nFRQi1qmcH+SVhoTzyzFbPafH1EJ/z1tvHteF8ZRLIrhDNhXJtYe66uu2HOQDEAEE\n1iU7Dn7cQVlR5YXFymJN\n=D2mz\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 602a94bb23f29944af9c072fe6c58326b6cef80e\nparent 0357c62aa6195522cf5068e0d6f7db99639ad01f\nauthor abcz316 <60607547+abcz316@users.noreply.github.com> 1793375039 +0800\ncommitter GitHub <noreply@github.com> 1793375039 +0800\n\nUpdate README.md",
+      "verified_at": "2026-10-30T15:44:00Z"
+    }
+  },
+  "url": "https://api.github.com/repos/abcz316/SKRoot-linuxKernelRoot/commits/4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "html_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/commit/4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "comments_url": "https://api.github.com/repos/abcz316/SKRoot-linuxKernelRoot/commits/4b94cd64acbe07942f1c37e98f61f7e34c307495/comments",
+  "author": {
+    "login": "abcz316",
+    "id": 60607547,
+    "node_id": "MDQ6VXNlcjYwNjA3NTQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/60607547?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/abcz316",
+    "html_url": "https://github.com/abcz316",
+    "followers_url": "https://api.github.com/users/abcz316/followers",
+    "following_url": "https://api.github.com/users/abcz316/following{/other_user}",
+    "gists_url": "https://api.github.com/users/abcz316/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/abcz316/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/abcz316/subscriptions",
+    "organizations_url": "https://api.github.com/users/abcz316/orgs",
+    "repos_url": "https://api.github.com/users/abcz316/repos",
+    "events_url": "https://api.github.com/users/abcz316/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/abcz316/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0357c62aa6195522cf5068e0d6f7db99639ad01f",
+      "url": "https://api.github.com/repos/abcz316/SKRoot-linuxKernelRoot/commits/0357c62aa6195522cf5068e0d6f7db99639ad01f",
+      "html_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/commit/0357c62aa6195522cf5068e0d6f7db99639ad01f"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 1,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "b1acc7bb33ce596cab8c208eea9f80b9e9511a8d",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/blob/4b94cd64acbe07942f1c37e98f61f7e34c307495/README.md",
+      "raw_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/raw/4b94cd64acbe07942f1c37e98f61f7e34c307495/README.md",
+      "contents_url": "https://api.github.com/repos/abcz316/SKRoot-linuxKernelRoot/contents/README.md?ref=4b94cd64acbe07942f1c37e98f61f7e34c307495",
+      "patch": "@@ -9,7 +9,7 @@\n | **隐蔽性** | **完美隐藏** Root、SELinux 零触碰、无挂载。 | **完美隐藏** Root、SELinux 零触碰、无挂载。 |\n | **形态** | **寄生**于其他 APP 内，**无外显实体**。 | **寄生**于其他 APP内，**无外显实体**。  |\n | **用途** | **稳定和兼容性**优先。 | **更深度的功能扩展**。 |\n-| **功能** | **核心 Root 环境**。 | **授权管理 + 内核模块 + 免解/越狱/漏洞利用**。 |\n+| **功能** | **核心 Root 环境**。 | **授权管理 + 内核模块 + 越狱/漏洞利用**。 |\n | **启动方式** | 纯 Boot 刷入 | 纯 Boot 刷入 + 漏洞利用 |\n | **可选漏洞** | — | CVE-2026-43499<br>CVE-2026-43284 |\n | **进阶** | — | 隐藏目录、隐蔽执行sh、解除温控、系统文件无痕伪造等。 |"
+    }
+  ]
+}

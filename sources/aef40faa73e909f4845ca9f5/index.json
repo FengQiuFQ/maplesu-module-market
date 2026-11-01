@@ -1,0 +1,121 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_protect_device",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_protect_device",
+  "files": [
+    {
+      "path": "block_device_helper.h",
+      "size": 14536,
+      "sha256": "b739ff8e3d388000efe4d00462bf1fb3e24ae6fa1db5d41dab2f7d6bad898388",
+      "git_blob": "a1fbec861837e7f0c40aeb17390941020c0a6092"
+    },
+    {
+      "path": "block_device_manager.cpp",
+      "size": 4787,
+      "sha256": "2bef63095c666e3ae24002b7d97526b72b90c29cd23eaa6d6bcf008b29d1ba7f",
+      "git_blob": "bb9ea2062727893a2470974bd225a965107e7e1e"
+    },
+    {
+      "path": "block_device_manager.h",
+      "size": 647,
+      "sha256": "dd6f792e2bd6daf2307d05fc87fb2c80207e200e643b83553ac8fea1bd20b829",
+      "git_blob": "459aec6336397635bca3e5beb77118901b262bc2"
+    },
+    {
+      "path": "block_device_policy.cpp",
+      "size": 4550,
+      "sha256": "99e5a605959ebb001035aa12c77d883fead6dda343199123e8e0ab986e5f8320",
+      "git_blob": "fe6ba49972f219579c5797606dac922a29b2f754"
+    },
+    {
+      "path": "block_device_policy.h",
+      "size": 678,
+      "sha256": "4f9cd7d145bc4abd20a9046494fb8de85851234ca3669e6104508fb10eb32da1",
+      "git_blob": "c1b13847f0d9a53cb00e8c5a062b2d4963529413"
+    },
+    {
+      "path": "block_device_scanner.cpp",
+      "size": 22398,
+      "sha256": "ffff4256dc11043fb14be89da9595866ac60e0cc5d8af7a329cd56066f218bd7",
+      "git_blob": "10b19b4403b8b2199355589e75e3e419e390c504"
+    },
+    {
+      "path": "block_device_scanner.h",
+      "size": 2983,
+      "sha256": "29fdf5c83727af79ff707d90a8591fd44e1116db9c32932ffeae4d96cfa316cc",
+      "git_blob": "c2e32769e384f8aacbe91e4daed50b775745b406"
+    },
+    {
+      "path": "block_device_types.h",
+      "size": 2316,
+      "sha256": "dc69eb5a6600dd83cd8fc273962c8a8c910972cea44bec6812de376cf6cfc52b",
+      "git_blob": "d4bcaeec8b432520d721bb8e50c82fc5f40d3dcb"
+    },
+    {
+      "path": "jni/Android.mk",
+      "size": 540,
+      "sha256": "00d3a5bc0940049904e0a2160afbaa676d669ad14e1e7f3c3fab46034f5c8a2b",
+      "git_blob": "5e4216e174c61235de860377bb4bda7456abbf13"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_protect_device.cpp",
+      "size": 4940,
+      "sha256": "cc76f778eca59623c81dbfcefb532d184bc9c66bf0c4e223a9f775ee57761fba",
+      "git_blob": "96cd488a899502fc25c2ac6c3168fe7f00482ea4"
+    },
+    {
+      "path": "patch_base.cpp",
+      "size": 1649,
+      "sha256": "da2e4984bee730aeebad7e29bd396baf6bc9fe627663b690882cf40b236e0e0c",
+      "git_blob": "d6cdc580cfccff65648a9c1b929ecb06b3955786"
+    },
+    {
+      "path": "patch_base.h",
+      "size": 573,
+      "sha256": "808999c2021ad807f4164a3f709f575cb69d5f7fa73125bfd44a0e5328cf4805",
+      "git_blob": "f8cdc68a60083c784cc086214aea2f566685bc94"
+    },
+    {
+      "path": "patch_blkdev_open.cpp",
+      "size": 4216,
+      "sha256": "7e1b6e74489aab3896841ffc0b6778608f94cd319e1c3068b971cda9ac7b8909",
+      "git_blob": "98120ab9ba5add64b80b38dcab33a3add752cdc4"
+    },
+    {
+      "path": "patch_blkdev_open.h",
+      "size": 663,
+      "sha256": "9e29cfc8f001447c9b9b9546e39c3a4fa9b4b69ca756ca0010cf1bd1d001c442",
+      "git_blob": "46850dc17ba90bcc37850ee020a733f6dbb8807d"
+    },
+    {
+      "path": "process_utils.h",
+      "size": 1193,
+      "sha256": "3642d27a5142147415e26883ef5a0b7e06fcf84966c8e8aa2719546f24614779",
+      "git_blob": "2bd2ea04ca1c644599547b37658aa05c8451b063"
+    },
+    {
+      "path": "random_utils.h",
+      "size": 4666,
+      "sha256": "9799ad8183a5a6cf7c0dec02a2a321248672878ff568a08ad0147e842d13dcd3",
+      "git_blob": "0758ef769bb7e08ed83283d907ce5d58e7b629be"
+    }
+  ],
+  "archive": {
+    "path": "sources/aef40faa73e909f4845ca9f5/source.zip",
+    "sha256": "3c74a3bdea1aabd13caaf583fe477a5f4dda537c5dbada6b38681687114d5b4b",
+    "size": 24130
+  }
+}

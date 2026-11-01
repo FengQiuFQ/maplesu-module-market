@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id32": "Vk0EFJTuG2aBLQqc6WLHVPHnhfiZ8VKG",
+  "releases": [
+    {
+      "ver": "5.0.6",
+      "update_date": "2026-5-29",
+      "chn_name": "防设备标记&自动清理",
+      "author": "SKRoot & 蜃 & Cycle1337",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/Vk0EFJTuG2aBLQqc6WLHVPHnhfiZ8VKG/5.0.6/module.zip",
+        "sha256": "9d7a31b800ec876ef89d74dff1b118175f14fef04b56319590f07818aa23732c",
+        "size": 616021
+      },
+      "source_url": "sources/8ed07655b50066c61e578cac/index.json",
+      "source_index": {
+        "path": "sources/8ed07655b50066c61e578cac/index.json",
+        "sha256": "c35dd453fdbfe9de97c1a2b41d6d4aa869027777d19d3e0838675031964ee1ce",
+        "size": 25384
+      },
+      "changelog_url": "changelogs/Vk0EFJTuG2aBLQqc6WLHVPHnhfiZ8VKG/5.0.6.md",
+      "upstream": {
+        "chn_name": "防设备标记&自动清理",
+        "eng_name": "",
+        "ver": "5.0.6",
+        "desc": "需手动添加目标包名。本模块采用内核拦截技术，不改目录权限。支持高通、天玑。防标记工作时，指纹支付App可能报异常。",
+        "author": "SKRoot & 蜃 & Cycle1337",
+        "id32": "Vk0EFJTuG2aBLQqc6WLHVPHnhfiZ8VKG",
+        "update_date": "2026-5-29",
+        "ban": false,
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_fake_device",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_fake_device/cycle1337_bypass_device_flag_module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "风险警告：此模块为高风险模块，仅满足使用效果，不保证隐藏效果，若继续安装，请点击“确认”，产生一切后果请自负。",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "防设备标记&自动清理",
+  "latest_version": "5.0.6",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

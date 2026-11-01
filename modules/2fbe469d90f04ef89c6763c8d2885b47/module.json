@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "2fbe469d90f04ef89c6763c8d2885b47",
+  "releases": [
+    {
+      "ver": "4.3.0",
+      "update_date": "2026-10-16",
+      "chn_name": "隐蔽终端PLUS",
+      "author": "斓梦语",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.3.0/module.zip",
+        "sha256": "95beb48973e795f23442ffa018aac9b2ec4c6270301ed677db8f4d341f2a42c2",
+        "size": 1399288
+      },
+      "source_url": "sources/51a577346e529b78f0cf459b/index.json",
+      "source_index": {
+        "path": "sources/51a577346e529b78f0cf459b/index.json",
+        "sha256": "fe654034217f26e07c063681b5406845e63f378877ffa86a38d2998cc8025255",
+        "size": 346
+      },
+      "changelog_url": "changelogs/2fbe469d90f04ef89c6763c8d2885b47/4.3.0.md",
+      "upstream": {
+        "chn_name": "隐蔽终端PLUS",
+        "eng_name": "",
+        "ver": "4.3.0",
+        "desc": "提供隐蔽的sh执行通道、自动化，以及功能完善的双栏文件管理(类MT风格)功能。避免类似App带来的特征暴露风险。",
+        "author": "斓梦语",
+        "id32": "2fbe469d90f04ef89c6763c8d2885b47",
+        "update_date": "2026-10-16",
+        "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E9%9A%90%E8%94%BD%E7%BB%88%E7%AB%AFPLUS/src.zip",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E9%9A%90%E8%94%BD%E7%BB%88%E7%AB%AFPLUS/module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "隐蔽终端PLUS",
+  "latest_version": "4.3.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

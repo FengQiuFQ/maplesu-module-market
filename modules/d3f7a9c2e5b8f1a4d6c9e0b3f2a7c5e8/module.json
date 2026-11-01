@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id32": "d3f7a9c2e5b8f1a4d6c9e0b3f2a7c5e8",
+  "releases": [
+    {
+      "ver": "1.0.3",
+      "update_date": "2026-7-19",
+      "chn_name": "自定义自启动模块",
+      "author": "蜃",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/d3f7a9c2e5b8f1a4d6c9e0b3f2a7c5e8/1.0.3/module.zip",
+        "sha256": "7c559fbea304f9fce3b8350b2976514d8a71d52a5190dc2bbdde8b206a404494",
+        "size": 369154
+      },
+      "source_url": "sources/eb94088977225f4a2a376259/index.json",
+      "source_index": {
+        "path": "sources/eb94088977225f4a2a376259/index.json",
+        "sha256": "75b229da65932c771f4f2a5736d9f488f3ed40a290a2df5c2099fc1b5cc9fc3b",
+        "size": 381
+      },
+      "changelog_url": "changelogs/d3f7a9c2e5b8f1a4d6c9e0b3f2a7c5e8/1.0.3.md",
+      "upstream": {
+        "chn_name": "自定义自启动模块",
+        "eng_name": "",
+        "ver": "1.0.3",
+        "desc": "一个自定义脚本模块，会启动/data/adb/.zqd目录下的所有sh",
+        "author": "蜃",
+        "id32": "d3f7a9c2e5b8f1a4d6c9e0b3f2a7c5e8",
+        "update_date": "2026-7-19",
+        "ban": false,
+        "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%87%AA%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%9D%97/source.zip",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E8%87%AA%E5%AE%9A%E4%B9%89%E8%87%AA%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%9D%97/module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "自定义自启动模块",
+  "latest_version": "1.0.3",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

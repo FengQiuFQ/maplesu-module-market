@@ -1,0 +1,157 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_hide_data_dir",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_hide_data_dir",
+  "files": [
+    {
+      "path": "cJSON.cpp",
+      "size": 78284,
+      "sha256": "c3a07f8085ec41ca9511d5a4d0ee686c0a66f5c79a6a63a1f466d1525de5b3d6",
+      "git_blob": "faa3e29743493f4846ca4dfd740b15f7ce9baaa5"
+    },
+    {
+      "path": "cJSON.h",
+      "size": 16193,
+      "sha256": "c23de3b1227c1edc312be62c21b3324563c8180ddc04a826a412bd34bac13c9d",
+      "git_blob": "2628d7637d403e6eee7478086f9a893a86634ba8"
+    },
+    {
+      "path": "hide_dir_json_utils.h",
+      "size": 4770,
+      "sha256": "c9f0fcf09bc7fa0480a4f3a838fd0da6564585f1af23be8850f4d5e646e32b71",
+      "git_blob": "7954339405fccd778cfcdcf36025c5dff67cfec0"
+    },
+    {
+      "path": "jni/Android.mk",
+      "size": 549,
+      "sha256": "2752758e0294f12ef42d54a768f1e3d98d5f30aad577e54b064d127d9816a956",
+      "git_blob": "bf2a446ab919067580f7c9c44d66fc5e2ca567b5"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_hide_data_dir.cpp",
+      "size": 7677,
+      "sha256": "9c574d4ad6dca6b43b0d56a8d919210974dc585080e60240d2a72ca9911c93cb",
+      "git_blob": "5c1a2429ac052210819bfd2d0119400cfeebdace"
+    },
+    {
+      "path": "patch_base.cpp",
+      "size": 2183,
+      "sha256": "d18b46b6d955fc2a6960b04a9879b94c26caa1849ba753d793abce71d72a6c1e",
+      "git_blob": "f0f2462a61bcd079fd3ea048c2f81ae269f788a1"
+    },
+    {
+      "path": "patch_base.h",
+      "size": 765,
+      "sha256": "9cf25b0e33b542ec2c6d27d88ac307c6f4cf42e053b6ae97ed73dd8a82c686e6",
+      "git_blob": "999c786bf793e5e4c11c1cd9e0871e33ba345114"
+    },
+    {
+      "path": "patch_compat_filldir.cpp",
+      "size": 2411,
+      "sha256": "cbc02fefb956548514ec99a5340dab955e126d5adad8071fdf88584b38b04542",
+      "git_blob": "e6005e3a8919fe5dae0baa56f2c277d615ce8e40"
+    },
+    {
+      "path": "patch_compat_filldir.h",
+      "size": 375,
+      "sha256": "b978499f6d69f6b4766413cf077575ebc212fc5136c8c588d2d483004b1a510c",
+      "git_blob": "8db5da3602f0fa1925c9e3116030266c178e6fd1"
+    },
+    {
+      "path": "patch_filldir64.cpp",
+      "size": 3793,
+      "sha256": "f6af28eac0aa1af0f92d1abd5059edf0c3331edd97b1d2386de44c81b93f06f0",
+      "git_blob": "c5b0245aaed78eecec99abe865317943c40fb795"
+    },
+    {
+      "path": "patch_filldir64.h",
+      "size": 348,
+      "sha256": "841d816e7bdd1aaa84b2d8995a7f47e6f65add0da625b8a8e262ebf9a85475d5",
+      "git_blob": "54dfa659853513f03c602c7ea6d4f4b3c746a0aa"
+    },
+    {
+      "path": "patch_iterate_dir.cpp",
+      "size": 1105,
+      "sha256": "f58386fd6fe741cc8c8ede17b04fc0bd4ad92a9e3a7b045d433ddadb1f9dc972",
+      "git_blob": "4159e2bc0b7d4cece2f9eaad563a4f76220b32d1"
+    },
+    {
+      "path": "patch_iterate_dir.h",
+      "size": 342,
+      "sha256": "6a80036131a5bdee14b67281ba00091f5e44fdd513f4940f4a3f3cf8681a2b52",
+      "git_blob": "e985ec7b071e1eec124b05f077e8b29201ae48ed"
+    },
+    {
+      "path": "patch_mtk_hbt_filldir64.cpp",
+      "size": 3669,
+      "sha256": "5efa147de14d609c16e738ebab628ed4de26982ecbabb353d8cac63a99c87bc2",
+      "git_blob": "5ef9ecb5e3ffae5e9525f5c0f388e99f48b5bb4e"
+    },
+    {
+      "path": "patch_mtk_hbt_filldir64.h",
+      "size": 545,
+      "sha256": "3b4db2a782c9e4633ca1e81e5cd5be7b96ffc0dfc8ee36f896f7864bd289d9e0",
+      "git_blob": "4151106738455d639fac88b1ad6101983e5eef11"
+    },
+    {
+      "path": "simple_hash_util.h",
+      "size": 2216,
+      "sha256": "a88491c03979d57eb2968f54876701b74682ae4d571a61d13d8dae593fd61767",
+      "git_blob": "e8e213ac65d11eeb8e8f5b58a1c7f7c786b5b1ad"
+    },
+    {
+      "path": "webroot/index.html",
+      "size": 3451,
+      "sha256": "e7ac899d8f4f1dc3a432453819752280d803c40f6134246a1ff7593f249389bc",
+      "git_blob": "80ec77488d6950cc2208b7a9478bbd1bbcc4f8fd"
+    },
+    {
+      "path": "webroot/main.js",
+      "size": 10833,
+      "sha256": "e7e446f199a214b84a292f402d2549b8ccb8b1f15adf8b3b7261eb7ead76a6f4",
+      "git_blob": "517229d25692d81fef89ddc2aa8527f8994c4cdb"
+    },
+    {
+      "path": "webroot/request.js",
+      "size": 795,
+      "sha256": "b3fdba7c85735fce9cdb37601cd4a0b6e70b51f905004d8bdaa59db42dabe40c",
+      "git_blob": "e5839cf8fdf2e490a20ee1de5700eae880a2d2d6"
+    },
+    {
+      "path": "webroot/style.css",
+      "size": 11341,
+      "sha256": "265af84256f86f7a3645e8247a877d9189082f75882d8f4a174e9ce542aa3a5d",
+      "git_blob": "9c0a07e9a98300384894a46e3c59a0690d405c30"
+    },
+    {
+      "path": "webroot/toast.css",
+      "size": 758,
+      "sha256": "c8f0f88ef2ecf8cb5bebfe6d22cd20a5be9b4c185677cb7996913c4637dbb94e",
+      "git_blob": "149a5db68f8ab0219da64d7e34d1fa03ffcb1020"
+    },
+    {
+      "path": "webroot/toast.js",
+      "size": 922,
+      "sha256": "348ca9400b2415692bcb82a20438160010501d32debce2c673a97eca75a0e048",
+      "git_blob": "d60cb545cac7d00e0c7fe412aa7ccef08cf55738"
+    }
+  ],
+  "archive": {
+    "path": "sources/f58df1ee5aa6788240a7f6d5/source.zip",
+    "sha256": "07dcc01dd3508f8d9ede87de4348a8a8e6fc75e64ad4db9188a1e2b233fdf4f7",
+    "size": 44462
+  }
+}

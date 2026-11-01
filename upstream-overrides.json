@@ -1,0 +1,14 @@
+{
+  "a1b2c3d4e5f67890abcdef1234567890": {
+    "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/ColorOS%20%E8%A7%A6%E6%8E%A7%E4%BC%98%E5%8C%96/module.zip",
+    "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/ColorOS%20%E8%A7%A6%E6%8E%A7%E4%BC%98%E5%8C%96/src.zip",
+    "reason": "Upstream catalog inserts an extra 源码 suffix in the directory and returns HTTP 404. The primary site's site branch contains the matching package and source under ColorOS 触控优化.",
+    "evidence": {
+      "repository": "https://github.com/abcz316/SKRoot-linuxKernelRoot",
+      "site_commit": "b93940ea7e09c8bc69d5d11ce9fff25a931bee47",
+      "package_member": "libmodule_coloros_touch.so",
+      "embedded_id32": "a1b2c3d4e5f67890abcdef1234567890",
+      "module_prop": {"version": "v1.0.0", "author": "1021", "name": "ColorOS 触控优化[SKP版]"}
+    }
+  }
+}

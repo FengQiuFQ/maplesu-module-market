@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id32": "8f87c81c9a2542a3b0d9e4b7c5f16a2d",
+  "releases": [
+    {
+      "ver": "v1.0.13-skp-private",
+      "update_date": "2026-09-19",
+      "chn_name": "ReZygisk",
+      "author": "The PerformanC Organization",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/8f87c81c9a2542a3b0d9e4b7c5f16a2d/v1.0.13-skp-private/module.zip",
+        "sha256": "a19d0f6a07fb6e29536b2ccc7154b6c28f3c02a20498bb0c4182f80be23ec4cb",
+        "size": 725422
+      },
+      "source_url": "sources/24e7503be0f7826bf2dbadb8/index.json",
+      "source_index": {
+        "path": "sources/24e7503be0f7826bf2dbadb8/index.json",
+        "sha256": "7683092b68e3b66035ad9b5262337b1b8847df3a3594a89e20fe173347228377",
+        "size": 1082
+      },
+      "changelog_url": "changelogs/8f87c81c9a2542a3b0d9e4b7c5f16a2d/v1.0.13-skp-private.md",
+      "upstream": {
+        "chn_name": "ReZygisk",
+        "eng_name": "ReZygisk",
+        "ver": "v1.0.13-skp-private",
+        "author": "The PerformanC Organization",
+        "desc": "Standalone implementation of Zygisk.",
+        "id32": "8f87c81c9a2542a3b0d9e4b7c5f16a2d",
+        "update_date": "2026-09-19",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "rezygisk_skp-v1.0.13-fixed-final-20260919.zip",
+          "sha256": "a19d0f6a07fb6e29536b2ccc7154b6c28f3c02a20498bb0c4182f80be23ec4cb",
+          "size": 725422,
+          "payload_module_prop": {
+            "id": "rezygisk",
+            "name": "ReZygisk",
+            "version": "v1.0.13-skp-private",
+            "versionCode": "518",
+            "author": "The PerformanC Organization",
+            "description": "Standalone implementation of Zygisk.",
+            "updateJson": "https://raw.githubusercontent.com/ThePedroo/RemoteFiles/refs/heads/main/ReZygisk/update.json",
+            "managedFeatures": "kernel_umount"
+          },
+          "native_identity": {
+            "id32": "8f87c81c9a2542a3b0d9e4b7c5f16a2d",
+            "member": "libmodule_rezygisk_skp.so",
+            "sha256": "732d35e319c2c0b3ee3066c686119bd379ef7cd15be29f962ba42aa7de8e4e47"
+          },
+          "release_date_basis": "date in user-supplied filename"
+        }
+      }
+    }
+  ],
+  "name": "ReZygisk",
+  "latest_version": "v1.0.13-skp-private",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

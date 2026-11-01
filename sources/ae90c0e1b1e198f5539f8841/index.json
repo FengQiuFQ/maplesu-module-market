@@ -1,0 +1,26 @@
+{
+  "kind": "user-supplied-package",
+  "archive": null,
+  "source_available": false,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "module_zygisk_skroot_pro_2026-11-01.zip",
+    "sha256": "842509d03824ccec8cd59e98325cb765705a0c43cdc60a8bac34d497e1af27d1",
+    "size": 666720,
+    "payload_module_prop": {
+      "id": "zygisk_skroot",
+      "name": "Zygisk for SKRoot",
+      "version": "1.0.0",
+      "versionCode": "10000",
+      "author": "ReZygisk / SKRoot",
+      "description": "在 SKRoot 上运行 Zygisk 模块：移植 ReZygisk 的 ptrace 注入链路，将 libzygisk.so 注入 zygote，使依赖 Zygisk 的模块（如 LSPosed）可用。"
+    },
+    "native_identity": {
+      "id32": "7a3f1c9e5b2d4867af01e93c4b7d2e58",
+      "member": "libmodule_zygisk_skroot.so",
+      "sha256": "5f31523df749fcc0b97f3199ef2d73882a625aa78527306307def616a685bf8f"
+    },
+    "release_date_basis": "date in user-supplied filename"
+  },
+  "note": "用户提供此模块 ZIP；未提供可对应此包的源码归档。"
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_clear_usb_trace",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_clear_usb_trace",
+  "files": [
+    {
+      "path": "jni/Android.mk",
+      "size": 420,
+      "sha256": "4450ac9b58938f7c8093ab6492b3cc38ef45ae0c4a58eed634d52889fd2fc611",
+      "git_blob": "7396e90de3e76ee697d854b8f2bd95f1158e3a03"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_clear_usb_trace.cpp",
+      "size": 1268,
+      "sha256": "9219768b593fe304f97fdcc90d366527ad3b97c8b2a61a65f71d4680b07f29fc",
+      "git_blob": "e04cb54940cd8b3d4c0963666b8de19c8cc6c0da"
+    }
+  ],
+  "archive": {
+    "path": "sources/2fd93bf3102c2288dbcad48c/source.zip",
+    "sha256": "57a30d3617def02371766fb4bf48b4e5d3b87c2c788c527bb83aacf83b79aa9a",
+    "size": 1642
+  }
+}

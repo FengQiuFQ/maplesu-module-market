@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "ae12076c010ebabbb233affdd0239c14",
+  "releases": [
+    {
+      "ver": "2.0.6",
+      "update_date": "2026-9-2",
+      "chn_name": "隐藏/data目录",
+      "author": "SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/ae12076c010ebabbb233affdd0239c14/2.0.6/module.zip",
+        "sha256": "29e4f5a3464965ef6e75e05567246c85abd925056a02165a892a44ef7a71756d",
+        "size": 574280
+      },
+      "source_url": "sources/f58df1ee5aa6788240a7f6d5/index.json",
+      "source_index": {
+        "path": "sources/f58df1ee5aa6788240a7f6d5/index.json",
+        "sha256": "5ba03b2ce32b59728dd72b9b4d84e1a15e3bb0af18f0fb44fb5ebd9edda12443",
+        "size": 5647
+      },
+      "changelog_url": "changelogs/ae12076c010ebabbb233affdd0239c14/2.0.6.md",
+      "upstream": {
+        "chn_name": "隐藏/data目录",
+        "eng_name": "",
+        "ver": "2.0.6",
+        "desc": "内核级隐藏 /data 指定目录，彻底阻断文件扫描；底层拦截机制，免疫各类基于漏洞的暴力扫盘。",
+        "author": "SKRoot",
+        "id32": "ae12076c010ebabbb233affdd0239c14",
+        "update_date": "2026-9-2",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_hide_data_dir",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_hide_data_dir/module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "隐藏/data目录",
+  "latest_version": "2.0.6",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

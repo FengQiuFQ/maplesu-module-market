@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id32": "cd08ae9eef7bb885c06f80ef3aea1d5c",
+  "releases": [
+    {
+      "ver": "1.9.3",
+      "update_date": "2026-10-16",
+      "chn_name": "应用自动隐藏",
+      "author": "榆爱",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/cd08ae9eef7bb885c06f80ef3aea1d5c/1.9.3/module.zip",
+        "sha256": "2fdc08482075a9865d49e2595a2487f07a37ab499aab744d8d9bb09a098d4a31",
+        "size": 668026
+      },
+      "source_url": "sources/952781b1892999f3698f2c30/index.json",
+      "source_index": {
+        "path": "sources/952781b1892999f3698f2c30/index.json",
+        "sha256": "5c6af6aacb39e4000a1449e7db76b51d042a0079562ad0ccb70aba83a718cd10",
+        "size": 367
+      },
+      "changelog_url": "changelogs/cd08ae9eef7bb885c06f80ef3aea1d5c/1.9.3.md",
+      "upstream": {
+        "chn_name": "应用自动隐藏",
+        "eng_name": "",
+        "ver": "1.9.3",
+        "desc": "【应用自动隐藏】检测触发应用进入前台时自动隐藏指定应用，离开后恢复。三重隐藏：pm hide应用层 + 内核filldir64目录层 + am force-stop进程层，对抗内核层枚举扫描；并在内核/proc层隐藏模块自身守护进程。支持后台保持、仅前台模式、多用户、一键救回。",
+        "author": "榆爱",
+        "id32": "cd08ae9eef7bb885c06f80ef3aea1d5c",
+        "update_date": "2026-10-16",
+        "ban": false,
+        "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E5%86%85%E6%A0%B8%E7%BA%A7%E5%BA%94%E7%94%A8%E9%9A%90%E8%97%8F/src.zip",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E5%86%85%E6%A0%B8%E7%BA%A7%E5%BA%94%E7%94%A8%E9%9A%90%E8%97%8F/module.zip",
+        "changelog_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E5%86%85%E6%A0%B8%E7%BA%A7%E5%BA%94%E7%94%A8%E9%9A%90%E8%97%8F/changelog.txt",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "应用自动隐藏",
+  "latest_version": "1.9.3",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

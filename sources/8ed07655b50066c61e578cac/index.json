@@ -1,0 +1,625 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_fake_device",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_fake_device",
+  "files": [
+    {
+      "path": "伪装CPU信息为麒麟9000s/fake_cpuinfo.txt",
+      "size": 1515,
+      "sha256": "d47e57c143d8b657a027938f6691cdbd7bf5e346e7c11133052aed4190ecb935",
+      "git_blob": "3337f1dc5df5ec2174f138e539d699e8bc7fcaf6"
+    },
+    {
+      "path": "伪装CPU信息为麒麟9000s/file_utils.h",
+      "size": 2385,
+      "sha256": "5403bc1fbf344d01338d75010237573a1f3162917fc0fc7ab5cc65c6d9f0e08c",
+      "git_blob": "da45dd7c11e9da4e12e4a32c8548612ca65efdea"
+    },
+    {
+      "path": "伪装CPU信息为麒麟9000s/jni/Android.mk",
+      "size": 417,
+      "sha256": "357a68b212009b264ab098fcb2ea0b503715b34f91bbb652bbe03917f3197d50",
+      "git_blob": "0e53a4efa0fc04a8d3668ca461bb0d145305a524"
+    },
+    {
+      "path": "伪装CPU信息为麒麟9000s/jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "伪装CPU信息为麒麟9000s/jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "伪装CPU信息为麒麟9000s/main.cpp",
+      "size": 1890,
+      "sha256": "ea3a10dc3fd3bfb9dd7e2204ff17b2d94fb00a47ff9fdfa36f420f483b2a2461",
+      "git_blob": "58950da598263e79bc95d13f5b0bc18c3e2c9b91"
+    },
+    {
+      "path": "伪装CPU信息为麒麟9000s/patch_base.cpp",
+      "size": 711,
+      "sha256": "2c3d904ffa92f09cb6ff910f004e4faea0e4bf6ef121463f89b06b1c098d0bbc",
+      "git_blob": "e72728fad7ef07e3fd3d9c187ec628926dd547aa"
+    },
+    {
+      "path": "伪装CPU信息为麒麟9000s/patch_base.h",
+      "size": 349,
+      "sha256": "16333e9bf4951bcf9c88cd6986245f46d62a3bdced9ea7b0f42870aea4cc83f3",
+      "git_blob": "64fe80baa3fdf5f1ddd96c99fbeab08fc3125b86"
+    },
+    {
+      "path": "伪装CPU信息为麒麟9000s/patch_c_show.cpp",
+      "size": 3290,
+      "sha256": "77cd31dc9d0b86380677e70a2fe24699071cd8783b9f813ed3c57c87964e324e",
+      "git_blob": "c388f5160cbbe8d39a7002ee058f2ddcef222805"
+    },
+    {
+      "path": "伪装CPU信息为麒麟9000s/patch_c_show.h",
+      "size": 289,
+      "sha256": "c9f889ca48b41f1da68b303f301f8caee2ec9e0c58ec114297f463a56ce04d7f",
+      "git_blob": "26e4bfd539ba0bb8c4536953b011cbe510774575"
+    },
+    {
+      "path": "修改Android安全补丁日期/android_system_property_utils.h",
+      "size": 323,
+      "sha256": "5e5aa62f70134a4db83e6007db397ebb9fdcc1b65cbea43f9d4fc31cccdcb6c5",
+      "git_blob": "e4e4af702ac451f61660074405f91b62aa505f71"
+    },
+    {
+      "path": "修改Android安全补丁日期/exec_cmdline_utils.h",
+      "size": 3060,
+      "sha256": "dd38ea02b6a8dfae4b6ee4c6f0c6155d5390522846fdc89e0d7882d6c9d6a45d",
+      "git_blob": "4faafc767990a91af6146cf026b16b6d6a84a7e0"
+    },
+    {
+      "path": "修改Android安全补丁日期/jni/Android.mk",
+      "size": 379,
+      "sha256": "2237fbafa211230b52df352c220c83b882c1702bcc8360cb667de146d2697c74",
+      "git_blob": "187c987fab8b8d9879a5e5f94638070f793e1d4b"
+    },
+    {
+      "path": "修改Android安全补丁日期/jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "修改Android安全补丁日期/jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "修改Android安全补丁日期/main.cpp",
+      "size": 3633,
+      "sha256": "d01ff53db88463a92c750c2b1ca884236c2a4e358ad17bea7c331de193e11e38",
+      "git_blob": "b38b983a9d4501b1394ee98d84c3bac260ae4969"
+    },
+    {
+      "path": "修改Android安全补丁日期/resetprop",
+      "size": 400568,
+      "sha256": "70558e6d6199fa5a961b7bafeb8f96d8157cc63810db8df2a3cded1881763697",
+      "git_blob": "feeb0284f281eceaa8e6fe7051e798a2c0ab9bdf"
+    },
+    {
+      "path": "修改Android安全补丁日期/resetprop_helper.h",
+      "size": 3446,
+      "sha256": "b0a52e1bde512750dce2dacdd52d72fabd3fde7c439f8c8e0929d7d39bc20f07",
+      "git_blob": "260d65802a6411302c8ad724505fc23aab86e1b0"
+    },
+    {
+      "path": "修改Android安全补丁日期/webroot/index.html",
+      "size": 2663,
+      "sha256": "4e87cfa82e03eadc1640b12ccf0392917e98518d071cc887f5e478f01865c956",
+      "git_blob": "39406f52d560d1f7e44019e7b850c63ce22914d5"
+    },
+    {
+      "path": "修改Android安全补丁日期/webroot/main.js",
+      "size": 3458,
+      "sha256": "1b551e25ca225261c0c2e71745841f9f2b9d0be7225b309ee561376fa5f8aef7",
+      "git_blob": "c5fe94485ff94f8fd10b821e039a00fce66208a6"
+    },
+    {
+      "path": "修改Android安全补丁日期/webroot/request.js",
+      "size": 854,
+      "sha256": "4bee71fc39cb313c7d1db8f4d7aaa78982f4756747aa81fff217277977ee62ef",
+      "git_blob": "25fe6c2c2e2d9cfe40dc0a18b978051a752e0e15"
+    },
+    {
+      "path": "修改Android安全补丁日期/webroot/style.css",
+      "size": 5935,
+      "sha256": "adba9e03d8cb8d61c5b105a70b5b7aeb76888041fbfa3b5758fcfad9cbdb3beb",
+      "git_blob": "d59f23a62cc2124642b89b6395d1a84bc84bb415"
+    },
+    {
+      "path": "修改Android安全补丁日期/webroot/toast.css",
+      "size": 2128,
+      "sha256": "f9443d627045694ce776abc6acf1878dbc648cf659a534b713f080d8410cc321",
+      "git_blob": "230ba0a426d679846d48b66e2ec3beb7534bbb98"
+    },
+    {
+      "path": "修改Android安全补丁日期/webroot/toast.js",
+      "size": 1610,
+      "sha256": "586475a6eb00b32f74647eae7c4139e30b72733e5c3cc2d2b3f479b36ab4e7ec",
+      "git_blob": "0eff37e5015837b1c352e3060b137c6eb1857f97"
+    },
+    {
+      "path": "防设备标记与自动清理/fd_guard.h",
+      "size": 635,
+      "sha256": "bf3bbd4f0cd9d5ce863aaaea7f90d7fe0cb72adde16fb7259f4e449438b15ef6",
+      "git_blob": "6da66fe1e3c9d9bfa8647ffda3e3bcb205731c32"
+    },
+    {
+      "path": "防设备标记与自动清理/jni/Android.mk",
+      "size": 498,
+      "sha256": "04d4087dc5c9d66b1bf38bc649e5b96add721f5cc367bd56f13aa246e3216015",
+      "git_blob": "95561b792bd6bdb20fb38d1a3e284412227b5245"
+    },
+    {
+      "path": "防设备标记与自动清理/jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "防设备标记与自动清理/jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "防设备标记与自动清理/kernel_func_executor_helper.h",
+      "size": 983,
+      "sha256": "8f7e2e42ae7e3514dcd377df8a18d04cde0d504acb33358dfef9f0ecc0dcb38e",
+      "git_blob": "3ffcb8d82ce6d16a010f2efe6c58406e7c6bae5d"
+    },
+    {
+      "path": "防设备标记与自动清理/kernel_struct_path_helper.h",
+      "size": 2170,
+      "sha256": "b94a5b66110e6876f8e6b2af0745300557ec5966f1d5ac79131e917d3b47cab1",
+      "git_blob": "d3b4835c6a504d7887c662c3698ae17bf9877b76"
+    },
+    {
+      "path": "防设备标记与自动清理/main.cpp",
+      "size": 12214,
+      "sha256": "2c6d82a5922a8295d3eb5213fa2527ec7c163adb3567c4be45346908f9548574",
+      "git_blob": "603bdab4c60cc3d7ff19ee1a0c3895d5bbbe3145"
+    },
+    {
+      "path": "防设备标记与自动清理/patch_base.cpp",
+      "size": 1583,
+      "sha256": "26aa63baa72c1b45a479389cb22bc573d97f6a93ec84494e290ac25c8c30ec55",
+      "git_blob": "a65c87c3dae050e34dda53a6404950cdb0b2a7b9"
+    },
+    {
+      "path": "防设备标记与自动清理/patch_base.h",
+      "size": 558,
+      "sha256": "b7425253c78e8eeff9e40ddae82849ef85404465f34b7b03d016cd0095b7d373",
+      "git_blob": "0a687e2949e4c5f63110cd764503883b91c6e4bb"
+    },
+    {
+      "path": "防设备标记与自动清理/patch_selinux_inode_permission.cpp",
+      "size": 3543,
+      "sha256": "d5b3cf05e5d77846a46aeac830414d187df6799d0a5d21367c2218ccd4c858df",
+      "git_blob": "81d55a1061d55da8587c5daf33057b03c881a3b3"
+    },
+    {
+      "path": "防设备标记与自动清理/patch_selinux_inode_permission.h",
+      "size": 635,
+      "sha256": "90bd2916bfc4d1caed8c1a415dd58a34e11255f9ca3af059e66baa8352e0bfe6",
+      "git_blob": "650973652b0ec0dd10feb73b9681cd49fbb06261"
+    },
+    {
+      "path": "防设备标记与自动清理/persist_dir_perm_manager.cpp",
+      "size": 10357,
+      "sha256": "ac7e2ba1ad7923e8b98a28c04819d901dfefed1bd3ab9786e0040123d7fde803",
+      "git_blob": "90ed79ad654d53bfad8a92b7d82fecc59da639bc"
+    },
+    {
+      "path": "防设备标记与自动清理/persist_dir_perm_manager.h",
+      "size": 921,
+      "sha256": "ff1139fdefd4abb221a225e40b26b005c7043f53f2055a62d3a987e0d6fae7a0",
+      "git_blob": "46897632998f52f0586569b0ed86afcaad42659a"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/android_packages_list_utils.h",
+      "size": 5158,
+      "sha256": "0811ca907ea30d8f1a17427f0e2a993777c55f185ed82fb90759cdad766a2c24",
+      "git_blob": "723d05842e00cd63135a55e54f40dc56a4083383"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/app_label_helper/AppLabelsHelper.java",
+      "size": 4581,
+      "sha256": "5709d51ac40b915a84c3a977944a810022351eb8109874793626fd9754d4a0b7",
+      "git_blob": "33d380bfe8369e7dae1ac10279fec8df6777d24a"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/app_label_helper/app_label_helper.h",
+      "size": 2849,
+      "sha256": "81339baa2332fd4d3cb1167d8f4de4b1927389a0d5d6aa7cd668f2274dc916bc",
+      "git_blob": "f61b3291e8129d1738c59803a552652b16de0ac1"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/app_label_helper/app_label_helper_data.generated.h",
+      "size": 13063,
+      "sha256": "5eff94787a38e05548b87c56ad3bbd1b33b3260991a61e24764e8fee358bee9f",
+      "git_blob": "621f04e3e80e65b250cfb9361b1f6d7c74ce0ed2"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/app_label_helper/build.bat",
+      "size": 1998,
+      "sha256": "69a6b1c19167276c12ee40b19f10c3ca5ef58d56e9030df7abcee9367d417fd7",
+      "git_blob": "79b3cee1e2b79738254180e153164c7472af8e65"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/app_label_helper/build/AppLabelsHelper.class",
+      "size": 6186,
+      "sha256": "4b31ab72e59f93963788098042bdafd7d319a35332b1ac6e130c59ed0f4bbf6c",
+      "git_blob": "6af049eb76436107c1cd700c350f0f72f240ade6"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/app_label_helper/build/classes.dex",
+      "size": 5848,
+      "sha256": "b3ddf9f8f6b39ef9cb6f3f79677216c6772026e465320f705d7f8b8e4a7ad45c",
+      "git_blob": "e35bcabd405663f7ded5fa954c7b4f50953aea40"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/app_label_helper/tools/file_convert_to_source_tools.ps1",
+      "size": 1423,
+      "sha256": "80dbc5ced59ed4c98bde37fb2619bc14c769121c71ed5d791fcbfa5da629fad9",
+      "git_blob": "fef40906d42effd4e1e02a21fbb7e33135b3db1b"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/app_label_helper/tools/generate_source_app_label_helper_data.bat",
+      "size": 1716,
+      "sha256": "28a47c8763979bf2d5deb70faceb892cba11688050da287aa41e4619645a8dae",
+      "git_blob": "74c720c1efd983661ddaac6a8f3482d8068add83"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/boot_session_utils.h",
+      "size": 1122,
+      "sha256": "13cbdea1c185fe8c7b651bababb196d5681858ed230a8895b8a0743783e5e17b",
+      "git_blob": "96f439c33b8ca7675bed322fa106728cd4a0d973"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/file_utils.h",
+      "size": 3522,
+      "sha256": "694e03c8ba71bcbeccf6398382adc2c19fe2458108f421f2ac6708771e433002",
+      "git_blob": "4f6c7ff0474b4ab989cc582cfedc451027f1e38f"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/json_helper.h",
+      "size": 927,
+      "sha256": "bbeefff8eb1d5d7042b21ee0292f79cc84a362e9fe9c5a22feb0c5a2f828e8d7",
+      "git_blob": "85da3fb14c71c28c00ff77d614893c5808e833f5"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/pkg_process_helper.h",
+      "size": 5348,
+      "sha256": "74184bb1d73a96c7c291c9afeed5d5a7ecb63fe0f587e4e4746280413a5fae7e",
+      "git_blob": "ae846ca524b90ce5633b766986cea725f9a6189d"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/process_utils.h",
+      "size": 2358,
+      "sha256": "d50d1ef7c401465f833c91847736e50ef79386c88ff26cce6fa089d1703d7732",
+      "git_blob": "412fc90b1897d3ad107bf32e49fd44aecc52ac43"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/random_utils.h",
+      "size": 4666,
+      "sha256": "9799ad8183a5a6cf7c0dec02a2a321248672878ff568a08ad0147e842d13dcd3",
+      "git_blob": "0758ef769bb7e08ed83283d907ce5d58e7b629be"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/third_party/cJSON.cpp",
+      "size": 78284,
+      "sha256": "c3a07f8085ec41ca9511d5a4d0ee686c0a66f5c79a6a63a1f466d1525de5b3d6",
+      "git_blob": "faa3e29743493f4846ca4dfd740b15f7ce9baaa5"
+    },
+    {
+      "path": "防设备标记与自动清理/utils/third_party/cJSON.h",
+      "size": 16193,
+      "sha256": "c23de3b1227c1edc312be62c21b3324563c8180ddc04a826a412bd34bac13c9d",
+      "git_blob": "2628d7637d403e6eee7478086f9a893a86634ba8"
+    },
+    {
+      "path": "防设备标记与自动清理/webroot/index.html",
+      "size": 2514,
+      "sha256": "b77e9d6c5b65ce7d3d370f63ac9efdfc59ec4e8eda6e1e6ecb274c3a2c6f9e12",
+      "git_blob": "98ab63620fd1268ab4036472a1fd635ee54ed7a0"
+    },
+    {
+      "path": "防设备标记与自动清理/webroot/main.js",
+      "size": 9852,
+      "sha256": "e845758a352c5f8a781d487da9ba74e27a62d4be0662500c32f2a2a7d485a237",
+      "git_blob": "7692136b3c00fa85b9ae2adb778105274af07e59"
+    },
+    {
+      "path": "防设备标记与自动清理/webroot/request.js",
+      "size": 789,
+      "sha256": "1bb1b8ff61cdf4e894c55f040070c055ed6ca155484a7064995096426a7cd405",
+      "git_blob": "b60162e0fa55a900690461537b20b5b2abef7179"
+    },
+    {
+      "path": "防设备标记与自动清理/webroot/style.css",
+      "size": 7549,
+      "sha256": "36be5236a8a9e371fd273e573088af0fedb725f511ad63330c3eff32e1b7f41c",
+      "git_blob": "8edb9399f1c54f9bd203b88ebce53e1e6f0a223d"
+    },
+    {
+      "path": "防设备标记与自动清理/webroot/toast.css",
+      "size": 601,
+      "sha256": "8c6ae287edbca2d67edebe02a38e5445ec641c66ad23fe1b46906b2ab0b1b888",
+      "git_blob": "3703a3813c9d82814a7269412391b343e4c6a2dd"
+    },
+    {
+      "path": "防设备标记与自动清理/webroot/toast.js",
+      "size": 611,
+      "sha256": "7dfde80aa19a8d47ec0d5aa74a0225c2098b45991d502c8c09e33e07d78c3a6d",
+      "git_blob": "c9fac110e86474176130902459ed15d0051779d5"
+    },
+    {
+      "path": "阿灵的机型模拟/hm10s_pro.sh",
+      "size": 347,
+      "sha256": "06dd35fa1387726ade4632c0ff60d868e9e161cdefa3aa5ca86e3dc7a43913bb",
+      "git_blob": "2098a8b4ac980ceda201baa2b493f0ad0ffc5faf"
+    },
+    {
+      "path": "阿灵的机型模拟/hmpad3_pro.sh",
+      "size": 1488,
+      "sha256": "8fc3892e5af40b1e6a80d01d0f59187c37b5647aa2aa03eaf418db91d22377c6",
+      "git_blob": "6f7a255556918709113bc3f2517afcd1a0986800"
+    },
+    {
+      "path": "阿灵的机型模拟/hmpad3_pro.sh.secure_date.sh",
+      "size": 271,
+      "sha256": "741075a67eb566f5e230de06fe7a0193c93d854dbf910ed961894e5153b6c954",
+      "git_blob": "9a4e99769a36c4995d582e76e223e6caa1cb26a8"
+    },
+    {
+      "path": "阿灵的机型模拟/huawei_mate80_promax.sh",
+      "size": 352,
+      "sha256": "8287c904ac587f0a49d67777d13d9d5087937cdfff6eb3b1388ba4db89c970d6",
+      "git_blob": "e65f1d8237feb5b90e0c659faca6696ded7b60ec"
+    },
+    {
+      "path": "阿灵的机型模拟/huawei_mate80_promax_fengchi.sh",
+      "size": 352,
+      "sha256": "18fab4f195e1c1d6908498d16062a85498c69621a15dcba7034409f959c0414b",
+      "git_blob": "4009092365bc2290d7ac9aa8cbb97ea2e9b88634"
+    },
+    {
+      "path": "阿灵的机型模拟/iqoo_15.sh",
+      "size": 5267,
+      "sha256": "e416cec725460f466e8befbb07ebbd2b424ab5288bf3baa95829f05c356a572b",
+      "git_blob": "93682776bb2c67b3df5a60fa6b0246de46005afa"
+    },
+    {
+      "path": "阿灵的机型模拟/iqoo_15.sh.secure_date.sh",
+      "size": 252,
+      "sha256": "337ec2c9b2921bfbd73d8725aa4446dec344abf30039c4d27198d3873999c983",
+      "git_blob": "f65f0a4b74d05a4771e5d051865898e867c21b18"
+    },
+    {
+      "path": "阿灵的机型模拟/iqoo_15_ultra.sh",
+      "size": 403,
+      "sha256": "0c4017f9c58d54560c6949f83d3c7db072505968a3f0636fe4959a29e3d6de91",
+      "git_blob": "1d64cd428bc7f78ee75328578a8e389f98877e52"
+    },
+    {
+      "path": "阿灵的机型模拟/jni/Android.mk",
+      "size": 379,
+      "sha256": "2237fbafa211230b52df352c220c83b882c1702bcc8360cb667de146d2697c74",
+      "git_blob": "187c987fab8b8d9879a5e5f94638070f793e1d4b"
+    },
+    {
+      "path": "阿灵的机型模拟/jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "阿灵的机型模拟/jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "阿灵的机型模拟/main.cpp",
+      "size": 3545,
+      "sha256": "7b3e3e3d3341678e73aa05ad8d8b30300a188f3df00f6687e1bcfa3b332a15fd",
+      "git_blob": "c2c462ed586ccdf589e9823882fca916c047beb6"
+    },
+    {
+      "path": "阿灵的机型模拟/moto_x70_air_pro.sh",
+      "size": 416,
+      "sha256": "a0c4c96a6416e5e7427d8bcd7a2d2a7c8233ad3b760ff4e284b4addacc0d3775",
+      "git_blob": "6d1959d670bb486dd64bffa0e7152a9003691ac5"
+    },
+    {
+      "path": "阿灵的机型模拟/oneplus15.sh",
+      "size": 405,
+      "sha256": "01cf76bf3059d492c1223cfe2d4059f93c6c1c3dd312269f30ea5d3fd9500bc4",
+      "git_blob": "d72e47c83cd784b009098c429f76a685c7bed4ac"
+    },
+    {
+      "path": "阿灵的机型模拟/oneplus_ace6.sh",
+      "size": 405,
+      "sha256": "1a8640fd812a86deb8dd7ed3f634024602ffcbeff248fdc951fc3452dba2cb63",
+      "git_blob": "117c80365f181e3df6afa0aea381e0c6266449bc"
+    },
+    {
+      "path": "阿灵的机型模拟/oppo_find_x8_ultra.sh",
+      "size": 1533,
+      "sha256": "76dd288794c946b90a366d83843a95291fc0f659390969ad7424b1848fd84c7e",
+      "git_blob": "82239a9b6ede35221776dddbb3fd04c6f21e83d0"
+    },
+    {
+      "path": "阿灵的机型模拟/oppo_find_x8_ultra.sh.secure_date.sh",
+      "size": 270,
+      "sha256": "bec97e0067d34a16e69f2044e67fed5c09d108cd2aa0e722f43ee0b93e77fe98",
+      "git_blob": "e1853a955e0e976d4cb04aa7b2dbb3ef978a56be"
+    },
+    {
+      "path": "阿灵的机型模拟/redmi_k90.sh",
+      "size": 452,
+      "sha256": "17292253dc624d7fdc34ab03a97db92f51d80a33114ad42fd5bcdb4ec1debf2c",
+      "git_blob": "05a89e6b9f9c26eaa8fa9d456e04defcff34f743"
+    },
+    {
+      "path": "阿灵的机型模拟/redmi_k90_max.sh",
+      "size": 453,
+      "sha256": "8aeef45c14e99158d213a2d4ff8e6f4262346ebf53cc80658d7280271bba1b2a",
+      "git_blob": "b2aa48e3a5209a3a3320937e2a53e517204313cf"
+    },
+    {
+      "path": "阿灵的机型模拟/redmi_k90_pro_max.sh",
+      "size": 457,
+      "sha256": "873a7549b7ecb34feb2a63539980db274da49bdbea75ed0002fbe8dead35d04d",
+      "git_blob": "79c5a7bc5519a84ca31c24e24438a36fd620c2d3"
+    },
+    {
+      "path": "阿灵的机型模拟/resetprop",
+      "size": 400568,
+      "sha256": "70558e6d6199fa5a961b7bafeb8f96d8157cc63810db8df2a3cded1881763697",
+      "git_blob": "feeb0284f281eceaa8e6fe7051e798a2c0ab9bdf"
+    },
+    {
+      "path": "阿灵的机型模拟/webroot/index.html",
+      "size": 2473,
+      "sha256": "0d13319d8eea302523f5fd0156e97b10fe35c3f4d44ecd250d70dc7c920b6f43",
+      "git_blob": "eff5fe31841a3b4514e4e3713bdd7dc4d2a8b0dd"
+    },
+    {
+      "path": "阿灵的机型模拟/webroot/main.js",
+      "size": 5842,
+      "sha256": "171004d893b30c2161045a3bc620c7a357a36d6e41da95606d4de00ff106bbb9",
+      "git_blob": "2fbdf761be2207228fd012dd0dd48c7aca9eaa6c"
+    },
+    {
+      "path": "阿灵的机型模拟/webroot/request.js",
+      "size": 564,
+      "sha256": "5644b1ec81c6b631d36ee78b1b4e053091cbfa247b96a1f3c1b28564a4681b2c",
+      "git_blob": "83b50934e25c52c9c26f41494d1c7ac699a8027f"
+    },
+    {
+      "path": "阿灵的机型模拟/webroot/style.css",
+      "size": 6151,
+      "sha256": "0126139f296303b6adfeddf00f3e928ae258cae9be4ff79a26e952921d3feb3e",
+      "git_blob": "eb758e28111e7a073c4f08b5cd346d5ece108057"
+    },
+    {
+      "path": "阿灵的机型模拟/webroot/toast.css",
+      "size": 2128,
+      "sha256": "f9443d627045694ce776abc6acf1878dbc648cf659a534b713f080d8410cc321",
+      "git_blob": "230ba0a426d679846d48b66e2ec3beb7534bbb98"
+    },
+    {
+      "path": "阿灵的机型模拟/webroot/toast.js",
+      "size": 1610,
+      "sha256": "586475a6eb00b32f74647eae7c4139e30b72733e5c3cc2d2b3f479b36ab4e7ec",
+      "git_blob": "0eff37e5015837b1c352e3060b137c6eb1857f97"
+    },
+    {
+      "path": "随机设备序列号/android_system_property_utils.h",
+      "size": 323,
+      "sha256": "5e5aa62f70134a4db83e6007db397ebb9fdcc1b65cbea43f9d4fc31cccdcb6c5",
+      "git_blob": "e4e4af702ac451f61660074405f91b62aa505f71"
+    },
+    {
+      "path": "随机设备序列号/boot_session_utils.h",
+      "size": 1122,
+      "sha256": "13cbdea1c185fe8c7b651bababb196d5681858ed230a8895b8a0743783e5e17b",
+      "git_blob": "96f439c33b8ca7675bed322fa106728cd4a0d973"
+    },
+    {
+      "path": "随机设备序列号/exec_cmdline_utils.h",
+      "size": 3060,
+      "sha256": "dd38ea02b6a8dfae4b6ee4c6f0c6155d5390522846fdc89e0d7882d6c9d6a45d",
+      "git_blob": "4faafc767990a91af6146cf026b16b6d6a84a7e0"
+    },
+    {
+      "path": "随机设备序列号/jni/Android.mk",
+      "size": 459,
+      "sha256": "b80d4e401c38d00183f1e7618c9cd03ad98e751234bbd0af67717a45f9e11a46",
+      "git_blob": "83c360f208ef371a6b03476bf44808ef77c275a3"
+    },
+    {
+      "path": "随机设备序列号/jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "随机设备序列号/jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "随机设备序列号/main.cpp",
+      "size": 12757,
+      "sha256": "67c35b1e96395a8a70b73ae502b5f2acd0c4979333340266484899bfb59cf0d4",
+      "git_blob": "8964d39780a1d5a067d4f2cbd5adcfc11ac3a43e"
+    },
+    {
+      "path": "随机设备序列号/patch_base.cpp",
+      "size": 711,
+      "sha256": "2c3d904ffa92f09cb6ff910f004e4faea0e4bf6ef121463f89b06b1c098d0bbc",
+      "git_blob": "e72728fad7ef07e3fd3d9c187ec628926dd547aa"
+    },
+    {
+      "path": "随机设备序列号/patch_base.h",
+      "size": 349,
+      "sha256": "16333e9bf4951bcf9c88cd6986245f46d62a3bdced9ea7b0f42870aea4cc83f3",
+      "git_blob": "64fe80baa3fdf5f1ddd96c99fbeab08fc3125b86"
+    },
+    {
+      "path": "随机设备序列号/patch_msm_get_serial_number.cpp",
+      "size": 3602,
+      "sha256": "8d1efde60d57922fc324d2103fd82a845b285656b3e930145e0c8112dde8ec2a",
+      "git_blob": "652563ea1bca80870139eb343f0b8e3feada5051"
+    },
+    {
+      "path": "随机设备序列号/patch_msm_get_serial_number.h",
+      "size": 372,
+      "sha256": "ee4b2030f01570af4aaecb069e78ac6c224b4551630c3997d99f67ed97366ad5",
+      "git_blob": "ef7279204d1939cf1210cb4fcf7172550eef47b3"
+    },
+    {
+      "path": "随机设备序列号/patch_soc_info_show.cpp",
+      "size": 3509,
+      "sha256": "99e65e4877f32e4c095f8a1bed06e24c4f70a70bed51093f6ac6d30e3260893e",
+      "git_blob": "8878c91bf654a9679861540db6f9a950b194f51c"
+    },
+    {
+      "path": "随机设备序列号/patch_soc_info_show.h",
+      "size": 327,
+      "sha256": "c9b6cbdd958f0a8bb3ec03522a175a04ec62a78c8cb6df1f97b201400040aede",
+      "git_blob": "bcb0585ff2a47e708870123790a66c2919ceddf8"
+    },
+    {
+      "path": "随机设备序列号/resetprop",
+      "size": 400568,
+      "sha256": "70558e6d6199fa5a961b7bafeb8f96d8157cc63810db8df2a3cded1881763697",
+      "git_blob": "feeb0284f281eceaa8e6fe7051e798a2c0ab9bdf"
+    },
+    {
+      "path": "随机设备序列号/resetprop_helper.h",
+      "size": 3446,
+      "sha256": "b0a52e1bde512750dce2dacdd52d72fabd3fde7c439f8c8e0929d7d39bc20f07",
+      "git_blob": "260d65802a6411302c8ad724505fc23aab86e1b0"
+    }
+  ],
+  "archive": {
+    "path": "sources/8ed07655b50066c61e578cac/source.zip",
+    "sha256": "763b7b66ca7feaf2590c1df6471d0251274681ac4d9abee2f02db18e2c769c47",
+    "size": 769645
+  }
+}

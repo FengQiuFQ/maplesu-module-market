@@ -1,0 +1,37 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_update_demo",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_update_demo",
+  "files": [
+    {
+      "path": "jni/Android.mk",
+      "size": 412,
+      "sha256": "c3bcc4e9d65cd68b94d9c6e7f085fc05c5216d91dfa49b264a44c66fd1438c9b",
+      "git_blob": "4d37902630cb2e918eeaf1f8cb7348ffffde69af"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_update_demo.cpp",
+      "size": 1251,
+      "sha256": "a2c31ba8d6b567bde609bde1af3a459a27efd60547518436f770bba63c3056c4",
+      "git_blob": "146e3129fc7fd2fcc27f1085cf7cb4fe3c969cdf"
+    }
+  ],
+  "archive": {
+    "path": "sources/2b9865fea87366ca4edcdd79/source.zip",
+    "sha256": "3d768f2554f767cea9ecd85831e17bae1415c0ab2bda109eba91f2146811437b",
+    "size": 1671
+  }
+}

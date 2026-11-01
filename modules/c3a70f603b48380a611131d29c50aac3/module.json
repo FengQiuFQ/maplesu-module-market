@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "c3a70f603b48380a611131d29c50aac3",
+  "releases": [
+    {
+      "ver": "1.4.1-r5",
+      "update_date": "2025-12-30",
+      "chn_name": "Tricky Store",
+      "author": "5ec1cff, aviraxp, Cyberenchanter and topjohnwu",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/c3a70f603b48380a611131d29c50aac3/1.4.1-r5/module.zip",
+        "sha256": "80f42a506386e0883a808188e89c6fe5bd5df83fea9f451b469369b9f7600dd0",
+        "size": 2343777
+      },
+      "source_url": "sources/9111d10433f5824f21ed1baf/index.json",
+      "source_index": {
+        "path": "sources/9111d10433f5824f21ed1baf/index.json",
+        "sha256": "9ff50833c9c9f0b2c789274453ace884ddff6c2a863b407085397592f644b0cf",
+        "size": 7831
+      },
+      "changelog_url": "changelogs/c3a70f603b48380a611131d29c50aac3/1.4.1-r5.md",
+      "upstream": {
+        "chn_name": "Tricky Store",
+        "eng_name": "",
+        "ver": "1.4.1-r5",
+        "desc": "提供系统证书接管与 TEE 状态修复能力。",
+        "author": "5ec1cff, aviraxp, Cyberenchanter and topjohnwu",
+        "id32": "c3a70f603b48380a611131d29c50aac3",
+        "update_date": "2025-12-30",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_tricky_store",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tricky_store/module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "Tricky Store",
+  "latest_version": "1.4.1-r5",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

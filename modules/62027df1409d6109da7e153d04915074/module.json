@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "62027df1409d6109da7e153d04915074",
+  "releases": [
+    {
+      "ver": "0.0.1",
+      "update_date": "2025-12-10",
+      "chn_name": "【教程】URL 配置更新 Demo",
+      "author": "SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/62027df1409d6109da7e153d04915074/0.0.1/module.zip",
+        "sha256": "7e1ea2017c35c8191aa75fd47c5e08d3e5da5db35099270651edd9f1019b5303",
+        "size": 376512
+      },
+      "source_url": "sources/2b9865fea87366ca4edcdd79/index.json",
+      "source_index": {
+        "path": "sources/2b9865fea87366ca4edcdd79/index.json",
+        "sha256": "7b4e75c5ff044077a592c2a1e1dcf4ef34d11e6dbecf066441acd53669834ed6",
+        "size": 1368
+      },
+      "changelog_url": "changelogs/62027df1409d6109da7e153d04915074/0.0.1.md",
+      "upstream": {
+        "chn_name": "【教程】URL 配置更新 Demo",
+        "eng_name": "",
+        "ver": "0.0.1",
+        "desc": "演示配置更新 JSON。",
+        "author": "SKRoot",
+        "id32": "62027df1409d6109da7e153d04915074",
+        "update_date": "2025-12-10",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_update_demo",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_demo/module_update_demo.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "【教程】URL 配置更新 Demo",
+  "latest_version": "0.0.1",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

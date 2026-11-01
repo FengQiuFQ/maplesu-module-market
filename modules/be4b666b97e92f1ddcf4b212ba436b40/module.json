@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "be4b666b97e92f1ddcf4b212ba436b40",
+  "releases": [
+    {
+      "ver": "1.0",
+      "update_date": "2026-8-3",
+      "chn_name": "小米定制温控",
+      "author": "苏疫杆菌/蜃",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/be4b666b97e92f1ddcf4b212ba436b40/1.0/module.zip",
+        "sha256": "31c5548855528d789f25c6a9a091809aeffe3372d7bc71af0824767e80f15383",
+        "size": 1612338
+      },
+      "source_url": "sources/26ab0b7852ff56a6182fee15/index.json",
+      "source_index": {
+        "path": "sources/26ab0b7852ff56a6182fee15/index.json",
+        "sha256": "7be30b2f31922d2868dd724982625d6f16dae2c38104a9260b51f89ef83bd260",
+        "size": 451
+      },
+      "changelog_url": "changelogs/be4b666b97e92f1ddcf4b212ba436b40/1.0.md",
+      "upstream": {
+        "chn_name": "小米定制温控",
+        "eng_name": "",
+        "ver": "1.0",
+        "desc": "小米/红米原生 SKP 定制温控，支持四档模式与 Asphyxia 控制器",
+        "author": "苏疫杆菌/蜃",
+        "id32": "be4b666b97e92f1ddcf4b212ba436b40",
+        "update_date": "2026-8-3",
+        "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E5%B0%8F%E7%B1%B3%E5%AE%9A%E5%88%B6%E6%B8%A9%E6%8E%A7/skp-v1.0-r4%E6%BA%90%E7%A0%81-%E5%B0%8F%E7%B1%B3%E5%AE%9A%E5%88%B6%E6%B8%A9%E6%8E%A7-%E8%9C%87.zip",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E5%B0%8F%E7%B1%B3%E5%AE%9A%E5%88%B6%E6%B8%A9%E6%8E%A7/skp%E5%B0%8F%E7%B1%B3%E5%AE%9A%E5%88%B6%E6%B8%A9%E6%8E%A7-v1.0-r4.zip",
+        "changelog_url": "",
+        "download_chn_alert": "本模块由作者【苏疫杆菌、蜃】用心开发，感谢两位作者的辛苦付出，更多信息请查看模块说明。",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "小米定制温控",
+  "latest_version": "1.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

@@ -1,0 +1,55 @@
+name: Sign catalog
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sign:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python tools/check_publish_tree.py --allow-unsigned
+      - run: python -m unittest discover -s tools -p 'test_*.py' -v
+      - name: Sign with the repository release secret
+        env:
+          MARKET_SIGNING_PRIVATE_KEY: ${{ secrets.MARKET_SIGNING_PRIVATE_KEY }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import subprocess
+          import sys
+          import tempfile
+
+          secret = os.environ.pop('MARKET_SIGNING_PRIVATE_KEY', '')
+          if not secret:
+              raise SystemExit('Set MARKET_SIGNING_PRIVATE_KEY before running this workflow.')
+          with tempfile.TemporaryDirectory(prefix='market-sign-', dir=os.environ['RUNNER_TEMP']) as temporary:
+              key = Path(temporary) / 'release-private.pem'
+              descriptor = os.open(key, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o600)
+              with os.fdopen(descriptor, 'w', encoding='utf-8', newline='\n') as output:
+                  output.write(secret)
+              subprocess.run([sys.executable, 'tools/market.py', 'sign', '--private-key', str(key)], check=True)
+              subprocess.run([sys.executable, 'tools/market.py', 'verify', '--public-key', 'trust/public-key.pem'], check=True)
+          PY
+      - name: Upload the exact catalog and its verified signature
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: signed-catalog-${{ github.sha }}
+          path: |
+            market.json
+            market.json.sig
+          if-no-files-found: error
+          retention-days: 7

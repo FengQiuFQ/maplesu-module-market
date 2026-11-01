@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "fb044e7a140697bb1a6d1ddb6f15b0b4",
+  "releases": [
+    {
+      "ver": "0.0.3",
+      "update_date": "2025-12-10",
+      "chn_name": "清理usb调试痕迹",
+      "author": "SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/fb044e7a140697bb1a6d1ddb6f15b0b4/0.0.3/module.zip",
+        "sha256": "6444407708e9e59c63850e269d13536d94d39395e6327614ae4c390c41639a6f",
+        "size": 377044
+      },
+      "source_url": "sources/2fd93bf3102c2288dbcad48c/index.json",
+      "source_index": {
+        "path": "sources/2fd93bf3102c2288dbcad48c/index.json",
+        "sha256": "49e14d0ffec1a686ebc06432e792f2d7ce4e85f98004206049d173dd29493c9c",
+        "size": 1380
+      },
+      "changelog_url": "changelogs/fb044e7a140697bb1a6d1ddb6f15b0b4/0.0.3.md",
+      "upstream": {
+        "chn_name": "清理usb调试痕迹",
+        "eng_name": "",
+        "ver": "0.0.3",
+        "desc": "在系统早期阶段清除 USB/ADB 调试痕迹，关闭相关调试通道，提升设备隐匿性。",
+        "author": "SKRoot",
+        "id32": "fb044e7a140697bb1a6d1ddb6f15b0b4",
+        "update_date": "2025-12-10",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_clear_usb_trace",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_clear_usb_trace/module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "清理usb调试痕迹",
+  "latest_version": "0.0.3",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

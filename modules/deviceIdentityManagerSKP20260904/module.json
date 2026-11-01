@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id32": "deviceIdentityManagerSKP20260904",
+  "releases": [
+    {
+      "ver": "1.0.5",
+      "update_date": "2026-9-28",
+      "chn_name": "设备标识管理",
+      "author": "斓梦语、蜃、榆爱",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/deviceIdentityManagerSKP20260904/1.0.5/module.zip",
+        "sha256": "20a934d13f2517dd61cb690445199664fea5f1e92a754bc50dd419fa65872346",
+        "size": 1397884
+      },
+      "source_url": "sources/17e8bbd88d96aef0cc057163/index.json",
+      "source_index": {
+        "path": "sources/17e8bbd88d96aef0cc057163/index.json",
+        "sha256": "6e1dd5daf7f5ec6e2acc6fcdf6065c95d00ce1c2c6bf367e4ac8920a97775e74",
+        "size": 360
+      },
+      "changelog_url": "changelogs/deviceIdentityManagerSKP20260904/1.0.5.md",
+      "upstream": {
+        "chn_name": "设备标识管理",
+        "eng_name": "",
+        "ver": "1.0.5",
+        "desc": "统一管理设备标识、SSAID、OAID 与 Widevine DRM ID",
+        "author": "斓梦语、蜃、榆爱",
+        "id32": "deviceIdentityManagerSKP20260904",
+        "update_date": "2026-9-28",
+        "ban": false,
+        "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E8%AE%BE%E5%A4%87%E6%A0%87%E8%AF%86%E7%AE%A1%E7%90%86/src.zip",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E8%AE%BE%E5%A4%87%E6%A0%87%E8%AF%86%E7%AE%A1%E7%90%86/module.zip",
+        "changelog_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E8%AE%BE%E5%A4%87%E6%A0%87%E8%AF%86%E7%AE%A1%E7%90%86/changelog.txt",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "设备标识管理",
+  "latest_version": "1.0.5",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

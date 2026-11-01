@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id32": "mZ0lUavxLGTMnwCRDlnSyAZPmZUZpgI0",
+  "releases": [
+    {
+      "ver": "1.0.4",
+      "update_date": "2026-9-27",
+      "chn_name": "随机设备序列号",
+      "author": "SKRoot & 蜃 & 杨",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/mZ0lUavxLGTMnwCRDlnSyAZPmZUZpgI0/1.0.4/module.zip",
+        "sha256": "1dd19615991b48184f289a3985a7fd72ded54722e61a23fb650b409d2e681482",
+        "size": 764427
+      },
+      "source_url": "sources/8ed07655b50066c61e578cac/index.json",
+      "source_index": {
+        "path": "sources/8ed07655b50066c61e578cac/index.json",
+        "sha256": "c35dd453fdbfe9de97c1a2b41d6d4aa869027777d19d3e0838675031964ee1ce",
+        "size": 25384
+      },
+      "changelog_url": "changelogs/mZ0lUavxLGTMnwCRDlnSyAZPmZUZpgI0/1.0.4.md",
+      "upstream": {
+        "chn_name": "随机设备序列号",
+        "eng_name": "",
+        "ver": "1.0.4",
+        "desc": "随机伪装硬件序列号(ro.serialno)、内核级伪装高通serial_number，无挂载",
+        "author": "SKRoot & 蜃 & 杨",
+        "id32": "mZ0lUavxLGTMnwCRDlnSyAZPmZUZpgI0",
+        "update_date": "2026-9-27",
+        "ban": false,
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_fake_device",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_fake_device/modify_ro_serialno_module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "随机设备序列号",
+  "latest_version": "1.0.4",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

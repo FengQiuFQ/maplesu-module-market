@@ -1,0 +1,61 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_fake_thermal",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_fake_thermal",
+  "files": [
+    {
+      "path": "jni/Android.mk",
+      "size": 445,
+      "sha256": "ec13b6385c26406b7bab36a9a61321e8057be4232d6b7be8faad6d71ddd5a48a",
+      "git_blob": "81864fb671f99b342c53bef4911d0c946432ad40"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_fake_thermal.cpp",
+      "size": 1355,
+      "sha256": "82c95e5368d31ab8bd6a00fba27ad9db4f79e75a21a3925ac69333ceb268509e",
+      "git_blob": "e7b466620207191776c7b34576df808313baea4e"
+    },
+    {
+      "path": "patch_base.cpp",
+      "size": 711,
+      "sha256": "2c3d904ffa92f09cb6ff910f004e4faea0e4bf6ef121463f89b06b1c098d0bbc",
+      "git_blob": "e72728fad7ef07e3fd3d9c187ec628926dd547aa"
+    },
+    {
+      "path": "patch_base.h",
+      "size": 367,
+      "sha256": "0f1337f637934175b4798449ec486327daf677201d8ecd3501867231ec9902b3",
+      "git_blob": "9413cf75f9721796aab9e66483839f593490fb3a"
+    },
+    {
+      "path": "patch_thermal_zone_get_temp.cpp",
+      "size": 3563,
+      "sha256": "2fd412ce2ca4f5291651848828e62adc4fd6ef0b417de1a3891d061c0c1c0537",
+      "git_blob": "ef86f89436302451e689b66d8c2d78f7ab90cd3b"
+    },
+    {
+      "path": "patch_thermal_zone_get_temp.h",
+      "size": 342,
+      "sha256": "cdee3abad4836ce146bd95103c5d5bab4f0fecb0ce3b23f6ba77cd3d9c9448a7",
+      "git_blob": "85e4a4cede04b74b2c6d8b61a0b0691d0da67fec"
+    }
+  ],
+  "archive": {
+    "path": "sources/5fe7dcbb8924dd6ad7d74c93/source.zip",
+    "sha256": "9fe6ba311a0bab534c877aa560e81b01e83178b194a2c059bc5a49df12074c30",
+    "size": 4732
+  }
+}

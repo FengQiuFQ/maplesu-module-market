@@ -1,0 +1,187 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_hide_sh_exec",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_hide_sh_exec",
+  "files": [
+    {
+      "path": "cJSON.cpp",
+      "size": 78284,
+      "sha256": "c3a07f8085ec41ca9511d5a4d0ee686c0a66f5c79a6a63a1f466d1525de5b3d6",
+      "git_blob": "faa3e29743493f4846ca4dfd740b15f7ce9baaa5"
+    },
+    {
+      "path": "cJSON.h",
+      "size": 16193,
+      "sha256": "c23de3b1227c1edc312be62c21b3324563c8180ddc04a826a412bd34bac13c9d",
+      "git_blob": "2628d7637d403e6eee7478086f9a893a86634ba8"
+    },
+    {
+      "path": "idle_killer.cpp",
+      "size": 1481,
+      "sha256": "5ddd6a07e39284bcbabe3f80b2412cf478c50a333a72a6ffba9dd58f06d5c769",
+      "git_blob": "d06495d65129089b9294eeb4f56d8c3d5aa2f286"
+    },
+    {
+      "path": "idle_killer.h",
+      "size": 571,
+      "sha256": "d03799605bd4b3e1f0dc75137c9db112b02144b71824913e08e77f0973a8f09f",
+      "git_blob": "0238267d872de24353611a969f0a4d277574789a"
+    },
+    {
+      "path": "jni/Android.mk",
+      "size": 446,
+      "sha256": "10cef83d90e541a06b1d561caaa19e56850bfcc1336e126081724108d8023c0f",
+      "git_blob": "e1aa8d604847376b4588cf1e837855ac04ef8699"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "json_helper.h",
+      "size": 2044,
+      "sha256": "2ca8a33a169b767cb308add5b326d46256be80e220ca407e67dd9a97f98f48b8",
+      "git_blob": "61a80f6c752eb20ca09206777b5b1a48ca6bf0c5"
+    },
+    {
+      "path": "list_dir_helper.h",
+      "size": 5526,
+      "sha256": "3842588ff9e2bba133c5a5c895e269cd510d257ad8edcd45851e8a797b5f7994",
+      "git_blob": "dc5a1de703b365d2305710b6dc0f57392c7dee7c"
+    },
+    {
+      "path": "module_hide_sh_exec.cpp",
+      "size": 10811,
+      "sha256": "8994945454a05853738cc27b0390e22529040ddfaaa5aba33daf24781a7d365f",
+      "git_blob": "22b1d7212d37f5504267e8e1596ef822bc61d0ce"
+    },
+    {
+      "path": "quick_actions/quick_actions.cpp",
+      "size": 1484,
+      "sha256": "5525e70adce8e5d2075e5adef319c2bd109ece524316692bdb9068d978f92fcb",
+      "git_blob": "e1170f51cfdfbb737d48fa718b16d540aa3192f2"
+    },
+    {
+      "path": "quick_actions/quick_actions.h",
+      "size": 487,
+      "sha256": "90bf68a47a7c4dcd8c98fcb4fc901524a567b727d83cd7bcd6959e211e6146c5",
+      "git_blob": "ce5f012d41e341f7ab602643f6140cab528642a4"
+    },
+    {
+      "path": "simple_hash_util.h",
+      "size": 2216,
+      "sha256": "a88491c03979d57eb2968f54876701b74682ae4d571a61d13d8dae593fd61767",
+      "git_blob": "e8e213ac65d11eeb8e8f5b58a1c7f7c786b5b1ad"
+    },
+    {
+      "path": "su_interactive/isu_interactive.h",
+      "size": 1622,
+      "sha256": "ce111e71698d3d58d04fbdcfc9150d74ea08e69653f44086b0b90b3ffdfe9894",
+      "git_blob": "f51007e924b5891d6d4350ae664aff596c1c18e5"
+    },
+    {
+      "path": "su_interactive/pipe_su_interactive.cpp",
+      "size": 11273,
+      "sha256": "9cc5b36d0c8d8e837c25c4aea545204831cd855ebec03c22e99783cccdb95aac",
+      "git_blob": "745b7cd5651c0118bf8b79cd53feeda6b8731ef3"
+    },
+    {
+      "path": "su_interactive/pipe_su_interactive.h",
+      "size": 2467,
+      "sha256": "a650796373f9c4222b7856775ddc9d181dbb0385151e33b118f36a67e68ae536",
+      "git_blob": "bb7f4f7c5fb23607bb5dcd28734802102e9f5dc3"
+    },
+    {
+      "path": "su_interactive/pty_su_interactive.cpp",
+      "size": 8198,
+      "sha256": "565ec72a6a891a3d59510e331136aba67da24b9920ca69e0197acbb0148338f0",
+      "git_blob": "9d9c1a202159c0c199aa882dd1449e5b6aa05deb"
+    },
+    {
+      "path": "su_interactive/pty_su_interactive.h",
+      "size": 2002,
+      "sha256": "b05dca9f11a6a12534e5ddec55a541344a6394360269c9035c4572a801a19d1b",
+      "git_blob": "0885c58a055624965221cb454188724972280370"
+    },
+    {
+      "path": "su_interactive/su_interactive.cpp",
+      "size": 1707,
+      "sha256": "7f9d4cb6ae7dc4474ed1ca6e2caa1509a0a17ef230d137e2e1562c5440952e84",
+      "git_blob": "b94d5976005413774d192515e0ae80a657169b83"
+    },
+    {
+      "path": "su_interactive/su_interactive.h",
+      "size": 1771,
+      "sha256": "9764f24a508f646d7d25751092aa8aed09ce4426001620b691bec5f9bb3a4980",
+      "git_blob": "ffc022f8d5f470e4198e6db16d0d03f7f2f09ca4"
+    },
+    {
+      "path": "url_encode_utils.h",
+      "size": 1645,
+      "sha256": "cc42ba4872671d4d0801a0be295974c30dcafe47afd723b786568736ae952512",
+      "git_blob": "15f8808debb6f038d9ef3a45eea935da9e5e0b97"
+    },
+    {
+      "path": "webroot/file-manager.js",
+      "size": 23579,
+      "sha256": "30f68872940c8e8ca0934c4b8f4eeafd2c9d6b845fdfac6867014670a4d9a6b6",
+      "git_blob": "dacec18c975037086da13ec4a9433d754c9ce4ac"
+    },
+    {
+      "path": "webroot/index.html",
+      "size": 12972,
+      "sha256": "44c46b9c7990d10c41abc8bf5d194ca00f19a5d5e14492f2e497b886cbc1389a",
+      "git_blob": "3e314318054bd58bc0f76a61c34e3ac687f1f6d0"
+    },
+    {
+      "path": "webroot/input-simulator.js",
+      "size": 4208,
+      "sha256": "c1fcccd5b5deb6b9b7d79361b7a567a4abd202e043e46ace63115e5a5ec9efce",
+      "git_blob": "497a9aad4e9cb13abac767ab8f5319375668c368"
+    },
+    {
+      "path": "webroot/main.js",
+      "size": 7417,
+      "sha256": "7fa79c6549ed6837746184fe81bf565cf4590321497c07bf6a4f63a98a013b30",
+      "git_blob": "bb5143dd2007fd1b42e5b464923d56503ad38d42"
+    },
+    {
+      "path": "webroot/request.js",
+      "size": 3648,
+      "sha256": "6b0b3173869f1770cf2080e93940446f1143ff6911bd631d42bea4d5aeb4c037",
+      "git_blob": "101e1102d234fcee65bd401b4fae856cac98dbd7"
+    },
+    {
+      "path": "webroot/style.css",
+      "size": 28347,
+      "sha256": "228f9bd15bd1c2a992104c0a55c27a89f1d5185fcfdcfcf983e31bae0c9d8c5a",
+      "git_blob": "e38bccd1f1088df1c89a33c5bddb106c9d181142"
+    },
+    {
+      "path": "webroot/terminal-core.js",
+      "size": 5264,
+      "sha256": "0d5b4a923b2eeb4cb49f0dd258507dc9fb73b54a193fcd768deacf5c6fa1edc6",
+      "git_blob": "8f12987ca7500ad3af1f830757d2bbc069e1b59e"
+    },
+    {
+      "path": "webroot/ui-utils.js",
+      "size": 1985,
+      "sha256": "ab3a74815ad38ec200fa26f1b27938b26d2d9825e9798422a6693cdd8930a7ab",
+      "git_blob": "3064738bf085f232a69849bc36567c06f357285b"
+    }
+  ],
+  "archive": {
+    "path": "sources/dfd7835777501cb61dd01da4/source.zip",
+    "sha256": "2d7e6987993ac4444af85ff80acbf8a41dbe5870e6c1b569e4419a128919a6de",
+    "size": 68239
+  }
+}

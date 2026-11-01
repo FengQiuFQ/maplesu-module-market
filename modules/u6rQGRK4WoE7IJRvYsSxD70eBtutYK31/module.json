@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "u6rQGRK4WoE7IJRvYsSxD70eBtutYK31",
+  "releases": [
+    {
+      "ver": "1.0.1",
+      "update_date": "2026-4-12",
+      "chn_name": "Zui游戏助手-去除机型校验",
+      "author": "阿灵",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/u6rQGRK4WoE7IJRvYsSxD70eBtutYK31/1.0.1/module.zip",
+        "sha256": "c828819a4120c97a5cbcd9e75daa32401fc3c222ef3350edb5faca4e2c256b6d",
+        "size": 70362231
+      },
+      "source_url": "sources/8ed07655b50066c61e578cac/index.json",
+      "source_index": {
+        "path": "sources/8ed07655b50066c61e578cac/index.json",
+        "sha256": "c35dd453fdbfe9de97c1a2b41d6d4aa869027777d19d3e0838675031964ee1ce",
+        "size": 25384
+      },
+      "changelog_url": "changelogs/u6rQGRK4WoE7IJRvYsSxD70eBtutYK31/1.0.1.md",
+      "upstream": {
+        "chn_name": "Zui游戏助手-去除机型校验",
+        "eng_name": "",
+        "ver": "1.0.1",
+        "desc": "解决Zui系统(如联想Y700系列)，使用模拟机型模块时，无法使用游戏助手的问题，TG频道:@Whitelist520",
+        "author": "阿灵",
+        "id32": "u6rQGRK4WoE7IJRvYsSxD70eBtutYK31",
+        "update_date": "2026-4-12",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_fake_device",
+        "download_url": "https://abcz316.github.io/big-file-cdn/aling_fake_zui_module.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "Zui游戏助手-去除机型校验",
+  "latest_version": "1.0.1",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_web_ui_example",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_web_ui_example",
+  "files": [
+    {
+      "path": "jni/Android.mk",
+      "size": 417,
+      "sha256": "94672e86cd2c9efc1d0b91b66e7aad08c90039a6b6269570969088a10bc2381f",
+      "git_blob": "17c90d77a6cf075f2124224323cafa8fa51f201d"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "module_web_ui_example.cpp",
+      "size": 2512,
+      "sha256": "8ccb3bdf30d16157df4123df9ead48456de17b726b0ab9ff03bd803e9a1e9216",
+      "git_blob": "49fdaab86006c272cb7336f4161d59ba74f206fa"
+    },
+    {
+      "path": "webroot/index.html",
+      "size": 1801,
+      "sha256": "10c7218f259cd250f70a5afdc889cc7fa9cc28095e0639371e1e113ea44bad73",
+      "git_blob": "8b89f0f5d33f212112b4aff48a851a3bf7c347d3"
+    }
+  ],
+  "archive": {
+    "path": "sources/fd7290f86a4a073929f7e249/source.zip",
+    "sha256": "04cdda08955e5d3cd963caa86fd5a03c3d4943dd893f7b430e96929dec1fff87",
+    "size": 2927
+  }
+}

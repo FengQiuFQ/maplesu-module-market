@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "b7e4d333fd4689044b58b59e631a40e5",
+  "releases": [
+    {
+      "ver": "0.0.1",
+      "update_date": "2025-12-10",
+      "chn_name": "【教程】安装/卸载回调 Demo",
+      "author": "SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/b7e4d333fd4689044b58b59e631a40e5/0.0.1/module.zip",
+        "sha256": "4e9e0b2e759aeade99e1ab3a0625ea4bd57334a9ed79668ac49a1b1bada277d4",
+        "size": 377199
+      },
+      "source_url": "sources/c2b9fcf23e92ba73cba632ab/index.json",
+      "source_index": {
+        "path": "sources/c2b9fcf23e92ba73cba632ab/index.json",
+        "sha256": "5535f27cb5530871449e144babbf4cbb4d80487a72209026f326f2f9fd147c42",
+        "size": 1409
+      },
+      "changelog_url": "changelogs/b7e4d333fd4689044b58b59e631a40e5/0.0.1.md",
+      "upstream": {
+        "chn_name": "【教程】安装/卸载回调 Demo",
+        "eng_name": "",
+        "ver": "0.0.1",
+        "desc": "演示模块安装、卸载回调。",
+        "author": "SKRoot",
+        "id32": "b7e4d333fd4689044b58b59e631a40e5",
+        "update_date": "2025-12-10",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_install_uninstall_cb_demo",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_demo/module_install_uninstall_cb_demo.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "【教程】安装/卸载回调 Demo",
+  "latest_version": "0.0.1",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

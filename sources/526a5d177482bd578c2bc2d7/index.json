@@ -1,0 +1,133 @@
+{
+  "kind": "github-tree",
+  "upstream_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_repair_data_local_tmp",
+  "commit": "4b94cd64acbe07942f1c37e98f61f7e34c307495",
+  "path": "Pro(众测开放中)/src/testModule/module_repair_data_local_tmp",
+  "files": [
+    {
+      "path": "fd_guard.h",
+      "size": 635,
+      "sha256": "bf3bbd4f0cd9d5ce863aaaea7f90d7fe0cb72adde16fb7259f4e449438b15ef6",
+      "git_blob": "6da66fe1e3c9d9bfa8647ffda3e3bcb205731c32"
+    },
+    {
+      "path": "file_utils.h",
+      "size": 4019,
+      "sha256": "d5a9e0aac8c3104d26f0a133d4e49152b8a9df19b1b8f12837978d3a821db4e1",
+      "git_blob": "8c89fb36b313b09b6412aebe78659a8969f56d24"
+    },
+    {
+      "path": "jni/Android.mk",
+      "size": 591,
+      "sha256": "4e3b2b7ea82df72ec1c56bf1ffe74e29e74515500f8da98700096383a580b3a8",
+      "git_blob": "83b877321315471fafeeb439085bf27df0993473"
+    },
+    {
+      "path": "jni/Application.mk",
+      "size": 42,
+      "sha256": "df67c6b0a88c1f5e2dd5122c06d840cf66e05a01d2055b33827efccd18dbc7f6",
+      "git_blob": "2500a8a7a73428e3f2c07eff8b5248ad9b1b6f34"
+    },
+    {
+      "path": "jni/build_macros.mk",
+      "size": 424,
+      "sha256": "591df97c99b481ce3792a9dbc131bc29d58ae375cfdbac323c9f2282e59e5941",
+      "git_blob": "a6f3150139679f37c43d216fb7efece058803ddb"
+    },
+    {
+      "path": "kernel_func_executor_helper.h",
+      "size": 983,
+      "sha256": "8f7e2e42ae7e3514dcd377df8a18d04cde0d504acb33358dfef9f0ecc0dcb38e",
+      "git_blob": "3ffcb8d82ce6d16a010f2efe6c58406e7c6bae5d"
+    },
+    {
+      "path": "kernel_struct_path_helper.h",
+      "size": 2170,
+      "sha256": "b94a5b66110e6876f8e6b2af0745300557ec5966f1d5ac79131e917d3b47cab1",
+      "git_blob": "d3b4835c6a504d7887c662c3698ae17bf9877b76"
+    },
+    {
+      "path": "module_repair_data_local_tmp.cpp",
+      "size": 9471,
+      "sha256": "ca640068d4b52b47c84349ef488ba4db08a34663c7169f1d84f9f36390d201aa",
+      "git_blob": "9a3d10963346f1bc788444ec0a4e085af02e0319"
+    },
+    {
+      "path": "patch_base.cpp",
+      "size": 711,
+      "sha256": "2c3d904ffa92f09cb6ff910f004e4faea0e4bf6ef121463f89b06b1c098d0bbc",
+      "git_blob": "e72728fad7ef07e3fd3d9c187ec628926dd547aa"
+    },
+    {
+      "path": "patch_base.h",
+      "size": 367,
+      "sha256": "0f1337f637934175b4798449ec486327daf677201d8ecd3501867231ec9902b3",
+      "git_blob": "9413cf75f9721796aab9e66483839f593490fb3a"
+    },
+    {
+      "path": "patch_compat_filldir.cpp",
+      "size": 2407,
+      "sha256": "6ec6b5eabee1d3406238334d8b4787a84b6e5da14b7517d66a356f89fb44a7bd",
+      "git_blob": "745390895c72af6a0b0506b65fc5738cd637e807"
+    },
+    {
+      "path": "patch_compat_filldir.h",
+      "size": 340,
+      "sha256": "e49ddf407ad15b4e6dd9f44978039ee9893692ffe31f41943441eee1754f1725",
+      "git_blob": "1e5790a2ea88d28c4c9e9ac7794ba57eb314e89f"
+    },
+    {
+      "path": "patch_filldir64.cpp",
+      "size": 2357,
+      "sha256": "9cb1c930a0e334b9679a5294758d3d2f71af8a13c4a66f56449bcef99651f504",
+      "git_blob": "b89dcd3ebd2e9eb0cdf32592930532e5c1effd89"
+    },
+    {
+      "path": "patch_filldir64.h",
+      "size": 313,
+      "sha256": "bc01800df98a075197ad0ed370514f0f006159485ae03aa33192d29f30936965",
+      "git_blob": "8f1021138bcfb70098eaac80cd9bb46cd0c3203e"
+    },
+    {
+      "path": "patch_inode_operations_getattr.cpp",
+      "size": 2965,
+      "sha256": "ca6fafbacb05ceea1baeb1f467f6d1d70e27bfad3babba431c01ad5060e820f4",
+      "git_blob": "5d605433e5575717bc0d5d2040b6818b99fedbc1"
+    },
+    {
+      "path": "patch_inode_operations_getattr.h",
+      "size": 568,
+      "sha256": "e9e81a8faa92aabd0ad0796961ee5716e563efb797b82380834d366774d0735c",
+      "git_blob": "527c86c0914edf29359682566e7adcbb3218464a"
+    },
+    {
+      "path": "patch_iterate_dir.cpp",
+      "size": 1105,
+      "sha256": "f58386fd6fe741cc8c8ede17b04fc0bd4ad92a9e3a7b045d433ddadb1f9dc972",
+      "git_blob": "4159e2bc0b7d4cece2f9eaad563a4f76220b32d1"
+    },
+    {
+      "path": "patch_iterate_dir.h",
+      "size": 342,
+      "sha256": "6a80036131a5bdee14b67281ba00091f5e44fdd513f4940f4a3f3cf8681a2b52",
+      "git_blob": "e985ec7b071e1eec124b05f077e8b29201ae48ed"
+    },
+    {
+      "path": "patch_mtk_hbt_filldir64.cpp",
+      "size": 2395,
+      "sha256": "4ad31dc1f4581a9ec0db869e05b24f407a47486794d5287260328f7c721f749b",
+      "git_blob": "05e9f94379888a264439e53ba9726c953a4b136d"
+    },
+    {
+      "path": "patch_mtk_hbt_filldir64.h",
+      "size": 510,
+      "sha256": "0f46daff6a373d932852c33f53ad664e44ec330c0372c12617396be6808535d9",
+      "git_blob": "b3f9ddca555399a25c98dfbe9156e4038e210efd"
+    }
+  ],
+  "archive": {
+    "path": "sources/526a5d177482bd578c2bc2d7/source.zip",
+    "sha256": "c2c3d67b287f20307c2e31361fd9952a27c367f741aeec18e699a38b5045dc4d",
+    "size": 15849
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id32": "xhTxKsI5kHacgHJ04b5VhO4ffiOP4sdc",
+  "releases": [
+    {
+      "ver": "1.0.0",
+      "update_date": "2026-2-12",
+      "chn_name": "【教程】系统文件伪造 Demo",
+      "author": "SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/xhTxKsI5kHacgHJ04b5VhO4ffiOP4sdc/1.0.0/module.zip",
+        "sha256": "c4a4299bb62f8b12e51eab0382a18960e32acb46fe1e5090b6a625d6eada8a48",
+        "size": 523996
+      },
+      "source_url": "sources/9549f58a9e85a01da188263b/index.json",
+      "source_index": {
+        "path": "sources/9549f58a9e85a01da188263b/index.json",
+        "sha256": "69267088b288f6f75bb7d2939260a782d74be06ea6ac27d664ce74fb7670bcde",
+        "size": 2234
+      },
+      "changelog_url": "changelogs/xhTxKsI5kHacgHJ04b5VhO4ffiOP4sdc/1.0.0.md",
+      "upstream": {
+        "chn_name": "【教程】系统文件伪造 Demo",
+        "eng_name": "",
+        "ver": "1.0.0",
+        "desc": "内核级伪造 /system 只读文件，实现内容无痕篡改；无视任何文件校验，完美过所有侦测手段。",
+        "author": "SKRoot",
+        "id32": "xhTxKsI5kHacgHJ04b5VhO4ffiOP4sdc",
+        "update_date": "2026-2-12",
+        "source_url": "https://github.com/abcz316/SKRoot-linuxKernelRoot/tree/master/Pro(%E4%BC%97%E6%B5%8B%E5%BC%80%E6%94%BE%E4%B8%AD)/src/testModule/module_fake_system_file",
+        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_demo/module_fake_system_file.zip",
+        "changelog_url": "",
+        "download_chn_alert": "",
+        "download_eng_alert": ""
+      }
+    }
+  ],
+  "name": "【教程】系统文件伪造 Demo",
+  "latest_version": "1.0.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}
