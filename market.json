@@ -5,11 +5,11 @@
   "official_mirrors": {
     "primary": {
       "base_url": "https://fengqiufq.github.io/maplesu-module-market/",
-      "published": false
+      "published": true
     },
     "backup": {
       "base_url": "https://raw.githubusercontent.com/FengQiuFQ/maplesu-module-market/main/",
-      "published": false
+      "published": true
     }
   },
   "signature": {
