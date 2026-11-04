@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_id": "maplesu",
-  "generated_at": "2026-11-04T13:34:47Z",
+  "generated_at": "2026-11-04T13:39:58Z",
   "official_mirrors": {
     "primary": {
       "base_url": "https://fengqiufq.github.io/maplesu-module-market/",
@@ -31,13 +31,13 @@
       "ver": "6.0.12_MapleSU",
       "author": "TEESimulator-RS / MapleSU",
       "desc": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter.",
-      "id32": "tricky_store",
+      "id32": "maplesu-tee",
       "update_date": "2026-11-04",
       "origin": {
         "kind": "user-supplied-package",
         "file_name": "TEESimulator-RS_MapleSU_6.0.12_market.zip",
-        "sha256": "102a0e405dbc33341cf34bcb3785ad3bc939e2d04d6da99a40488f9df3564cbe",
-        "size": 2879064,
+        "sha256": "6b6fa66146921da583643676c33000a922e7ffbc613a043a5a23a352392c6a2f",
+        "size": 2879035,
         "payload_module_prop": {
           "id": "tricky_store",
           "name": "TEESimulator-RS_MapleSU",
@@ -47,9 +47,9 @@
           "description": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter."
         },
         "native_identity": {
-          "id32": "tricky_store",
+          "id32": "maplesu-tee",
           "member": "libmodule_TEESimulatorRS.so",
-          "sha256": "2bbad6db2d2685581bbd8426a872baf9c567a7a7c44007aaee1d2ddde798b7c8"
+          "sha256": "03da405a18b46d65f6e3c5a8533c85748dc42bf3cac2c747a171f93a25d35c81"
         },
         "release_date_basis": "date in user-supplied filename"
       },
@@ -61,19 +61,19 @@
         "normal_supported": false,
         "device_validation": "pending"
       },
-      "download_url": "packages/tricky_store/6.0.12_MapleSU/module.zip",
-      "sha256": "102a0e405dbc33341cf34bcb3785ad3bc939e2d04d6da99a40488f9df3564cbe",
-      "size": 2879064,
+      "download_url": "packages/maplesu-tee/6.0.12_MapleSU/module.zip",
+      "sha256": "6b6fa66146921da583643676c33000a922e7ffbc613a043a5a23a352392c6a2f",
+      "size": 2879035,
       "package": {
-        "path": "packages/tricky_store/6.0.12_MapleSU/module.zip",
-        "sha256": "102a0e405dbc33341cf34bcb3785ad3bc939e2d04d6da99a40488f9df3564cbe",
-        "size": 2879064
+        "path": "packages/maplesu-tee/6.0.12_MapleSU/module.zip",
+        "sha256": "6b6fa66146921da583643676c33000a922e7ffbc613a043a5a23a352392c6a2f",
+        "size": 2879035
       },
-      "source_url": "sources/ff002984f6fbde4f6b73b5e2/index.json",
-      "changelog_url": "changelogs/tricky_store/6.0.12_MapleSU.md",
+      "source_url": "sources/3e4ddf5a562d6a7490d97cb6/index.json",
+      "changelog_url": "changelogs/maplesu-tee/6.0.12_MapleSU.md",
       "mirrors": {
-        "primary": "packages/tricky_store/6.0.12_MapleSU/module.zip",
-        "backup": "packages/tricky_store/6.0.12_MapleSU/module.zip"
+        "primary": "packages/maplesu-tee/6.0.12_MapleSU/module.zip",
+        "backup": "packages/maplesu-tee/6.0.12_MapleSU/module.zip"
       },
       "upstream": {
         "chn_name": "TEESimulator-RS_MapleSU",
@@ -81,13 +81,13 @@
         "ver": "6.0.12_MapleSU",
         "author": "TEESimulator-RS / MapleSU",
         "desc": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter.",
-        "id32": "tricky_store",
+        "id32": "maplesu-tee",
         "update_date": "2026-11-04",
         "origin": {
           "kind": "user-supplied-package",
           "file_name": "TEESimulator-RS_MapleSU_6.0.12_market.zip",
-          "sha256": "102a0e405dbc33341cf34bcb3785ad3bc939e2d04d6da99a40488f9df3564cbe",
-          "size": 2879064,
+          "sha256": "6b6fa66146921da583643676c33000a922e7ffbc613a043a5a23a352392c6a2f",
+          "size": 2879035,
           "payload_module_prop": {
             "id": "tricky_store",
             "name": "TEESimulator-RS_MapleSU",
@@ -97,23 +97,23 @@
             "description": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter."
           },
           "native_identity": {
-            "id32": "tricky_store",
+            "id32": "maplesu-tee",
             "member": "libmodule_TEESimulatorRS.so",
-            "sha256": "2bbad6db2d2685581bbd8426a872baf9c567a7a7c44007aaee1d2ddde798b7c8"
+            "sha256": "03da405a18b46d65f6e3c5a8533c85748dc42bf3cac2c747a171f93a25d35c81"
           },
           "release_date_basis": "date in user-supplied filename"
         }
       },
       "archive_entry_count": 21,
       "source_index": {
-        "path": "sources/ff002984f6fbde4f6b73b5e2/index.json",
-        "sha256": "615d98366677500d5d0fab605cdb3dbe8bd1149ae9705cb20fd3e190f323442e",
-        "size": 1107
+        "path": "sources/3e4ddf5a562d6a7490d97cb6/index.json",
+        "sha256": "c0347216d96d43c4930d3470a192dfc8d8dbf25fed0a5aa79f97ef988f5486b3",
+        "size": 1106
       },
       "module_index": {
-        "path": "modules/tricky_store/module.json",
-        "sha256": "d187064fba7da28ae9d890dcf3f3fce7e4742cbe66518a37d171578ea9e19137",
-        "size": 2760
+        "path": "modules/maplesu-tee/module.json",
+        "sha256": "67cc330a3a2f898c7b957e340355980e7d14c5c557dfd32b16d522ee3a50960f",
+        "size": 2755
       }
     },
     {
@@ -1860,8 +1860,8 @@
     },
     {
       "kind": "user-supplied-package",
-      "path": "upstream/local-6e14a3cda92e9bfdcaf11e68b5a76e20a1f321214f1f83b1b70c80f354843627.json",
-      "sha256": "6e14a3cda92e9bfdcaf11e68b5a76e20a1f321214f1f83b1b70c80f354843627"
+      "path": "upstream/local-375ffd2814724398f21dd55417fb8d5bdf514b10ee7defa092919ac6999865c3.json",
+      "sha256": "375ffd2814724398f21dd55417fb8d5bdf514b10ee7defa092919ac6999865c3"
     }
   ]
 }
