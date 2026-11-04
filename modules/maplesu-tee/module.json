@@ -3,7 +3,7 @@
   "id32": "maplesu-tee",
   "releases": [
     {
-      "ver": "6.0.12_MapleSU",
+      "ver": "6.0.13_MapleSU",
       "update_date": "2026-11-04",
       "chn_name": "TEESimulator-RS_MapleSU",
       "author": "TEESimulator-RS / MapleSU",
@@ -16,42 +16,42 @@
         "device_validation": "pending"
       },
       "package": {
-        "path": "packages/maplesu-tee/6.0.12_MapleSU/module.zip",
-        "sha256": "6b6fa66146921da583643676c33000a922e7ffbc613a043a5a23a352392c6a2f",
-        "size": 2879035
+        "path": "packages/maplesu-tee/6.0.13_MapleSU/module.zip",
+        "sha256": "6083ca928913472a80ff3cee2828ea04aa6d4790e38bfed781913f52c97beeb5",
+        "size": 2878943
       },
-      "source_url": "sources/3e4ddf5a562d6a7490d97cb6/index.json",
+      "source_url": "sources/e30c697c788e6800a1f06d46/index.json",
       "source_index": {
-        "path": "sources/3e4ddf5a562d6a7490d97cb6/index.json",
-        "sha256": "c0347216d96d43c4930d3470a192dfc8d8dbf25fed0a5aa79f97ef988f5486b3",
+        "path": "sources/e30c697c788e6800a1f06d46/index.json",
+        "sha256": "2a9d99baf685b0993375c82c2e4b847ceec6b7867d842a7c48dad7689675d699",
         "size": 1106
       },
-      "changelog_url": "changelogs/maplesu-tee/6.0.12_MapleSU.md",
+      "changelog_url": "changelogs/maplesu-tee/6.0.13_MapleSU.md",
       "upstream": {
         "chn_name": "TEESimulator-RS_MapleSU",
         "eng_name": "TEESimulator-RS_MapleSU",
-        "ver": "6.0.12_MapleSU",
+        "ver": "6.0.13_MapleSU",
         "author": "TEESimulator-RS / MapleSU",
         "desc": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter.",
         "id32": "maplesu-tee",
         "update_date": "2026-11-04",
         "origin": {
           "kind": "user-supplied-package",
-          "file_name": "TEESimulator-RS_MapleSU_6.0.12_market.zip",
-          "sha256": "6b6fa66146921da583643676c33000a922e7ffbc613a043a5a23a352392c6a2f",
-          "size": 2879035,
+          "file_name": "TEESimulator-RS_MapleSU_6.0.13_market.zip",
+          "sha256": "6083ca928913472a80ff3cee2828ea04aa6d4790e38bfed781913f52c97beeb5",
+          "size": 2878943,
           "payload_module_prop": {
             "id": "tricky_store",
             "name": "TEESimulator-RS_MapleSU",
-            "version": "6.0.12_MapleSU",
-            "versionCode": "60900",
+            "version": "6.0.13_MapleSU",
+            "versionCode": "60901",
             "author": "TEESimulator-RS / MapleSU",
             "description": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter."
           },
           "native_identity": {
             "id32": "maplesu-tee",
             "member": "libmodule_TEESimulatorRS.so",
-            "sha256": "03da405a18b46d65f6e3c5a8533c85748dc42bf3cac2c747a171f93a25d35c81"
+            "sha256": "403074ce8143871f41eb13be65250a18c4d951b0bf6635b203d9353ff1f01844"
           },
           "release_date_basis": "date in user-supplied filename"
         }
@@ -59,7 +59,7 @@
     }
   ],
   "name": "TEESimulator-RS_MapleSU",
-  "latest_version": "6.0.12_MapleSU",
+  "latest_version": "6.0.13_MapleSU",
   "compatibility": {
     "modes": [
       "MapleSU_Ultra"
