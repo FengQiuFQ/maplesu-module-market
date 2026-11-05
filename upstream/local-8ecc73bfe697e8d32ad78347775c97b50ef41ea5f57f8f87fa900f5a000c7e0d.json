@@ -1,0 +1,33 @@
+{
+  "module_list": [
+    {
+      "chn_name": "TEESimulator-RS_MapleSU",
+      "eng_name": "TEESimulator-RS_MapleSU",
+      "ver": "6.0.15_MapleSU",
+      "author": "TEESimulator-RS / MapleSU",
+      "desc": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter.",
+      "id32": "maplesu-tee",
+      "update_date": "2026-11-05",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "TEESimulator-RS_MapleSU_6.0.15_market.zip",
+        "sha256": "dba45d22c7d721c6b1ea9c2ef6af981f7e1d2f98b3547875c3bd4f633fc826ef",
+        "size": 2888585,
+        "payload_module_prop": {
+          "id": "tricky_store",
+          "name": "TEESimulator-RS_MapleSU",
+          "version": "6.0.15_MapleSU",
+          "versionCode": "61500",
+          "author": "TEESimulator-RS / MapleSU",
+          "description": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter."
+        },
+        "native_identity": {
+          "id32": "maplesu-tee",
+          "member": "libmodule_TEESimulatorRS.so",
+          "sha256": "551b1523aeebb7aef431c21379e46da1d01c4db98f13d1a6dcde4303d821aa3d"
+        },
+        "release_date_basis": "date in user-supplied filename"
+      }
+    }
+  ]
+}
