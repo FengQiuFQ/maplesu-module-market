@@ -2,9 +2,9 @@
 
 独立维护的静态模块目录。客户端从 MapleSU 的主备地址读取签名清单、模块包和更新记录；运行时不请求原上游服务。
 
-当前收录 29 个模块（首个为 MapleSU Ultra 的 TEESimulator-RS_MapleSU 6.0.12）：首次完整导入上游 26 项，并加入用户提供的两个 Zygisk 包。模块 ZIP 保留完整原始字节；源码归档与来源索引分开保存。所有模块仅标注 MapleSU_Ultra 兼容类别，真机逐包验证状态保留 `pending`。
+当前收录 32 个模块。置顶顺序为 TEESimulator-RS_MapleSU 6.0.15、MapleSU Zygisk 5.1.0、LSPosed v2.1.1 (7790)、HMA-OSS Zygisk oss-173；其余模块保持原顺序。模块 ZIP 保留完整原始字节；源码归档与来源索引分开保存。兼容类别为 MapleSU_Ultra，具体安装条件见各条目说明。
 
-正式地址已配置，当前内容尚待发布验收：
+正式地址：
 
 - 主：`https://fengqiufq.github.io/maplesu-module-market/market.json`
 - 备：`https://raw.githubusercontent.com/FengQiuFQ/maplesu-module-market/main/market.json`
@@ -48,7 +48,9 @@ py -3 tools/market.py verify --allow-unsigned
 py -3 tools/market.py add-local --package PATH_TO_ZIP --native-id NATIVE_ID --native-member libmodule_NAME.so --release-date YYYY-MM-DD
 ```
 
-本地包来源索引明确标注是否附带对应源码。日期取自用户包文件名，只记录该来源日期。新增或更新清单会移除旧签名。
+普通脚本模块省略 `--native-id` 和 `--native-member`，从根目录 `module.prop` 读取真实 ID，记录为 `KERNEL_SU`；原生模块记录为 `SKROOT_PRO`。展示版本保持原值，仅静态路径将空格等字符替换为下划线。
+
+本地包来源索引明确标注是否附带对应源码；包内的 `webroot/source.zip` 会单独保存并校验。日期由维护者指定。`pinned_module_ids` 控制置顶顺序，后续导入继续保留。新增或更新清单会移除旧签名。
 
 ## 签名与发布
 

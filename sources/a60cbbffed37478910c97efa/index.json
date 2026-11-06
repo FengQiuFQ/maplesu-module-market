@@ -1,0 +1,25 @@
+{
+  "kind": "user-supplied-package",
+  "archive": null,
+  "source_available": false,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "LSPosed-device-v2.1.1.zip",
+    "sha256": "f58eb92678e9d8b982de4987b249bfa8593f7c1524aff3be9976a5cb478d3263",
+    "size": 5803220,
+    "module_prop": {
+      "id": "zygisk_lsposed",
+      "name": "LSPosed",
+      "version": "v2.1.1 (7790)",
+      "versionCode": "7790",
+      "author": "LSPosed Developers",
+      "description": "Another enhanced implementation of Xposed Framework. Supports Android 9 ~ 17. Requires Zygisk enabled.",
+      "updateJson": "https://lsposed.zip/update.json",
+      "actionIcon": "launcher.png"
+    },
+    "module_prop_path": "module.prop",
+    "release_date_basis": "maintainer-supplied release date"
+  },
+  "note": "用户提供此模块 ZIP；未提供可对应此包的源码归档。",
+  "project_url": "https://lsposed.zip/"
+}

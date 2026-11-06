@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_id": "maplesu",
-  "generated_at": "2026-11-05T13:59:47Z",
+  "generated_at": "2026-11-06T15:57:12Z",
   "official_mirrors": {
     "primary": {
       "base_url": "https://fengqiufq.github.io/maplesu-module-market/",
@@ -115,6 +115,280 @@
         "sha256": "76e879ccba76ce7a22d56713741a43a674c70970d20f231ddcaa4d2081d88438",
         "size": 2755
       }
+    },
+    {
+      "chn_name": "MapleSU Zygisk",
+      "eng_name": "MapleSU Zygisk",
+      "ver": "5.1.0",
+      "author": "MapleSU; ReZygisk contributors",
+      "desc": "MapleSU Ultra 的 Zygisk 宿主，基于 ReZygisk，支持 ARM64/ARM32、Zygisk API 1–5，提供 WebUI。安装后重启。",
+      "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
+      "update_date": "2026-11-06",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "MapleSU-Zygisk-5.1.0-Ultra.zip",
+        "sha256": "5d8bc97b60a022ed29f10ce96dac25144585f1bcb1ec07c7af4aae313e082388",
+        "size": 2756652,
+        "payload_module_prop": {
+          "id": "maplesu_zygisk",
+          "name": "MapleSU Zygisk",
+          "version": "5.1.0",
+          "versionCode": "50100",
+          "author": "MapleSU; ReZygisk contributors",
+          "description": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32."
+        },
+        "module_prop_path": "payload/module.prop",
+        "release_date_basis": "maintainer-supplied release date",
+        "native_identity": {
+          "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
+          "member": "libmodule_maplesu_zygisk.so",
+          "sha256": "ba7b105315f2f6a9a9f640fd1935ffa2e31121138346bee4b27c2e529c784097"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.0/module.zip",
+      "sha256": "5d8bc97b60a022ed29f10ce96dac25144585f1bcb1ec07c7af4aae313e082388",
+      "size": 2756652,
+      "package": {
+        "path": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.0/module.zip",
+        "sha256": "5d8bc97b60a022ed29f10ce96dac25144585f1bcb1ec07c7af4aae313e082388",
+        "size": 2756652
+      },
+      "source_url": "sources/4503bce68dd5f168625425b5/index.json",
+      "changelog_url": "changelogs/c45e8a7390b24987a4b01d6e2c5f9143/5.1.0.md",
+      "mirrors": {
+        "primary": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.0/module.zip",
+        "backup": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.0/module.zip"
+      },
+      "upstream": {
+        "chn_name": "MapleSU Zygisk",
+        "eng_name": "MapleSU Zygisk",
+        "ver": "5.1.0",
+        "author": "MapleSU; ReZygisk contributors",
+        "desc": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32.",
+        "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
+        "update_date": "2026-11-06",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "MapleSU-Zygisk-5.1.0-Ultra.zip",
+          "sha256": "5d8bc97b60a022ed29f10ce96dac25144585f1bcb1ec07c7af4aae313e082388",
+          "size": 2756652,
+          "payload_module_prop": {
+            "id": "maplesu_zygisk",
+            "name": "MapleSU Zygisk",
+            "version": "5.1.0",
+            "versionCode": "50100",
+            "author": "MapleSU; ReZygisk contributors",
+            "description": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32."
+          },
+          "module_prop_path": "payload/module.prop",
+          "release_date_basis": "maintainer-supplied release date",
+          "native_identity": {
+            "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
+            "member": "libmodule_maplesu_zygisk.so",
+            "sha256": "ba7b105315f2f6a9a9f640fd1935ffa2e31121138346bee4b27c2e529c784097"
+          }
+        }
+      },
+      "archive_entry_count": 29,
+      "source_index": {
+        "path": "sources/4503bce68dd5f168625425b5/index.json",
+        "sha256": "d68e7ef5eacaf22090596696c380e8e8aab0ded9daec66dcc708c1694581c063",
+        "size": 1201
+      },
+      "module_index": {
+        "path": "modules/c45e8a7390b24987a4b01d6e2c5f9143/module.json",
+        "sha256": "c9cadc33ebf923eee4caf2b2b736546291fb5aac36a96d41323d18c7fdf07096",
+        "size": 2538
+      },
+      "download_chn_alert": "仅用于 Ultra。请先停用其他 Zygisk 宿主，安装后重启。"
+    },
+    {
+      "chn_name": "LSPosed",
+      "eng_name": "LSPosed",
+      "ver": "v2.1.1 (7790)",
+      "author": "LSPosed Developers",
+      "desc": "Xposed 框架，支持 Android 9–17。需先安装并启用 Zygisk；安装后重启，在 LSPosed 管理器中启用模块并设置作用域。",
+      "id32": "zygisk_lsposed",
+      "update_date": "2026-11-06",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "LSPosed-device-v2.1.1.zip",
+        "sha256": "f58eb92678e9d8b982de4987b249bfa8593f7c1524aff3be9976a5cb478d3263",
+        "size": 5803220,
+        "module_prop": {
+          "id": "zygisk_lsposed",
+          "name": "LSPosed",
+          "version": "v2.1.1 (7790)",
+          "versionCode": "7790",
+          "author": "LSPosed Developers",
+          "description": "Another enhanced implementation of Xposed Framework. Supports Android 9 ~ 17. Requires Zygisk enabled.",
+          "updateJson": "https://lsposed.zip/update.json",
+          "actionIcon": "launcher.png"
+        },
+        "module_prop_path": "module.prop",
+        "release_date_basis": "maintainer-supplied release date"
+      },
+      "type": "KERNEL_SU",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/zygisk_lsposed/v2.1.1_7790/module.zip",
+      "sha256": "f58eb92678e9d8b982de4987b249bfa8593f7c1524aff3be9976a5cb478d3263",
+      "size": 5803220,
+      "package": {
+        "path": "packages/zygisk_lsposed/v2.1.1_7790/module.zip",
+        "sha256": "f58eb92678e9d8b982de4987b249bfa8593f7c1524aff3be9976a5cb478d3263",
+        "size": 5803220
+      },
+      "source_url": "sources/a60cbbffed37478910c97efa/index.json",
+      "changelog_url": "changelogs/zygisk_lsposed/v2.1.1_7790.md",
+      "mirrors": {
+        "primary": "packages/zygisk_lsposed/v2.1.1_7790/module.zip",
+        "backup": "packages/zygisk_lsposed/v2.1.1_7790/module.zip"
+      },
+      "upstream": {
+        "chn_name": "LSPosed",
+        "eng_name": "LSPosed",
+        "ver": "v2.1.1 (7790)",
+        "author": "LSPosed Developers",
+        "desc": "Another enhanced implementation of Xposed Framework. Supports Android 9 ~ 17. Requires Zygisk enabled.",
+        "id32": "zygisk_lsposed",
+        "update_date": "2026-11-06",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "LSPosed-device-v2.1.1.zip",
+          "sha256": "f58eb92678e9d8b982de4987b249bfa8593f7c1524aff3be9976a5cb478d3263",
+          "size": 5803220,
+          "module_prop": {
+            "id": "zygisk_lsposed",
+            "name": "LSPosed",
+            "version": "v2.1.1 (7790)",
+            "versionCode": "7790",
+            "author": "LSPosed Developers",
+            "description": "Another enhanced implementation of Xposed Framework. Supports Android 9 ~ 17. Requires Zygisk enabled.",
+            "updateJson": "https://lsposed.zip/update.json",
+            "actionIcon": "launcher.png"
+          },
+          "module_prop_path": "module.prop",
+          "release_date_basis": "maintainer-supplied release date"
+        }
+      },
+      "archive_entry_count": 80,
+      "source_index": {
+        "path": "sources/a60cbbffed37478910c97efa/index.json",
+        "sha256": "b9bdc0732b040996e62035da50a933bb8ec5c0408d3cac753542de5acb0698c0",
+        "size": 917
+      },
+      "module_index": {
+        "path": "modules/zygisk_lsposed/module.json",
+        "sha256": "87cb68ea792190a47c25b3e1c1daa6e4c7ed32d23f395369b4d48f6ef589deda",
+        "size": 2312
+      },
+      "download_chn_alert": "请先安装 MapleSU Zygisk 并重启，再安装 LSPosed。保留原包的安装与许可流程，安装后再次重启。"
+    },
+    {
+      "chn_name": "HMA-OSS Zygisk",
+      "eng_name": "HMA-OSS Zygisk",
+      "ver": "oss-173",
+      "author": "frknkrc44",
+      "desc": "HMA-OSS 的 Zygisk 后端，用于应用列表与包查询过滤。需先启用 Zygisk，并在 HMA-OSS 管理器中配置作用域与规则。",
+      "id32": "hma_oss_zygisk",
+      "update_date": "2026-11-06",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "HMA-OSS-ZYGISK-oss-173-release.zip",
+        "sha256": "be364502b3d34510c856a742bbb67d91560ec033dcaef06e431991a1ba3a98ec",
+        "size": 2743824,
+        "module_prop": {
+          "version": "oss-173",
+          "versionCode": "7304656",
+          "minSdkVersion": "29",
+          "id": "hma_oss_zygisk",
+          "name": "HMA-OSS Zygisk",
+          "author": "frknkrc44",
+          "description": "A Zygisk backend for HMA-OSS",
+          "entrypoint": "org.frknkrc44.hma_oss.zygote.ZygoteEntry",
+          "updateJson": "https://furkank.net/hma_oss_update_checker.json",
+          "attachNativeLibs": "false"
+        },
+        "module_prop_path": "module.prop",
+        "release_date_basis": "maintainer-supplied release date"
+      },
+      "type": "KERNEL_SU",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/hma_oss_zygisk/oss-173/module.zip",
+      "sha256": "be364502b3d34510c856a742bbb67d91560ec033dcaef06e431991a1ba3a98ec",
+      "size": 2743824,
+      "package": {
+        "path": "packages/hma_oss_zygisk/oss-173/module.zip",
+        "sha256": "be364502b3d34510c856a742bbb67d91560ec033dcaef06e431991a1ba3a98ec",
+        "size": 2743824
+      },
+      "source_url": "sources/a64daf4bed5e17783982fc3f/index.json",
+      "changelog_url": "changelogs/hma_oss_zygisk/oss-173.md",
+      "mirrors": {
+        "primary": "packages/hma_oss_zygisk/oss-173/module.zip",
+        "backup": "packages/hma_oss_zygisk/oss-173/module.zip"
+      },
+      "upstream": {
+        "chn_name": "HMA-OSS Zygisk",
+        "eng_name": "HMA-OSS Zygisk",
+        "ver": "oss-173",
+        "author": "frknkrc44",
+        "desc": "A Zygisk backend for HMA-OSS",
+        "id32": "hma_oss_zygisk",
+        "update_date": "2026-11-06",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "HMA-OSS-ZYGISK-oss-173-release.zip",
+          "sha256": "be364502b3d34510c856a742bbb67d91560ec033dcaef06e431991a1ba3a98ec",
+          "size": 2743824,
+          "module_prop": {
+            "version": "oss-173",
+            "versionCode": "7304656",
+            "minSdkVersion": "29",
+            "id": "hma_oss_zygisk",
+            "name": "HMA-OSS Zygisk",
+            "author": "frknkrc44",
+            "description": "A Zygisk backend for HMA-OSS",
+            "entrypoint": "org.frknkrc44.hma_oss.zygote.ZygoteEntry",
+            "updateJson": "https://furkank.net/hma_oss_update_checker.json",
+            "attachNativeLibs": "false"
+          },
+          "module_prop_path": "module.prop",
+          "release_date_basis": "maintainer-supplied release date"
+        }
+      },
+      "archive_entry_count": 35,
+      "source_index": {
+        "path": "sources/a64daf4bed5e17783982fc3f/index.json",
+        "sha256": "c77480ceb61007481d030c1b484dd1e03d27b998ac02b1a67e57795d35ad2fad",
+        "size": 1062
+      },
+      "module_index": {
+        "path": "modules/hma_oss_zygisk/module.json",
+        "sha256": "982e76f9e2b08c907793936cde1e3c443f1950048f19b0b55a9e5580a7d14f98",
+        "size": 2273
+      },
+      "download_chn_alert": "请先安装 MapleSU Zygisk 并重启。HMA-OSS 管理器需另行安装并配置作用域；安装模块后重启。"
     },
     {
       "chn_name": "隐藏/data目录",
@@ -1862,6 +2136,27 @@
       "kind": "user-supplied-package",
       "path": "upstream/local-8ecc73bfe697e8d32ad78347775c97b50ef41ea5f57f8f87fa900f5a000c7e0d.json",
       "sha256": "8ecc73bfe697e8d32ad78347775c97b50ef41ea5f57f8f87fa900f5a000c7e0d"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-e016ed97a37300c0013d67a8bf4337c78e991c7ed6cf3f78fda217c024c5390f.json",
+      "sha256": "e016ed97a37300c0013d67a8bf4337c78e991c7ed6cf3f78fda217c024c5390f"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-c66f9a8eade7f22fa1eee61a42b4eb64284ea183b301e3b433b47b60e4f23ff9.json",
+      "sha256": "c66f9a8eade7f22fa1eee61a42b4eb64284ea183b301e3b433b47b60e4f23ff9"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-3a8692cdcac3669abdf28c48a9d1eb0051c62cb3ceeade43e3d6bd2ca891a2f4.json",
+      "sha256": "3a8692cdcac3669abdf28c48a9d1eb0051c62cb3ceeade43e3d6bd2ca891a2f4"
     }
+  ],
+  "pinned_module_ids": [
+    "maplesu-tee",
+    "c45e8a7390b24987a4b01d6e2c5f9143",
+    "zygisk_lsposed",
+    "hma_oss_zygisk"
   ]
 }

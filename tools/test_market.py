@@ -166,6 +166,47 @@ class MarketTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "same module id/version"):
             market.add_local(self.root, path, "local-module", "libmodule_local.so", "2026-11-01")
 
+    def test_script_package_preserves_identity_version_and_original_bytes(self):
+        output = io.BytesIO()
+        with zipfile.ZipFile(output, "w") as archive:
+            archive.writestr("module.prop", "id=zygisk_lsposed\nname=LSPosed\nversion=v2.1.1 (7790)\nauthor=LSPosed Developers\n")
+        path = self.root / "script.zip"
+        path.write_bytes(output.getvalue())
+        market.add_local(self.root, path, None, None, "2026-11-06")
+        catalog = json.loads((self.root / "market.json").read_bytes())
+        module = catalog["module_list"][-1]
+        self.assertEqual("KERNEL_SU", module["type"])
+        self.assertEqual("zygisk_lsposed", module["id32"])
+        self.assertEqual("v2.1.1 (7790)", module["ver"])
+        self.assertEqual(path.read_bytes(), (self.root / module["package"]["path"]).read_bytes())
+        self.signature()
+        self.assertEqual(2, market.verify(self.root, self.public_key)["modules_verified"])
+
+    def test_bundled_corresponding_source_is_exported_and_authenticated(self):
+        path = self.local_package()
+        source = io.BytesIO()
+        with zipfile.ZipFile(source, "w") as archive:
+            archive.writestr("src/main.c", "/* Corresponding source fixture. */")
+        with zipfile.ZipFile(path, "a") as archive:
+            archive.writestr("webroot/source.zip", source.getvalue())
+        market.add_local(self.root, path, "local-module", "libmodule_local.so", "2026-11-06")
+        catalog = json.loads((self.root / "market.json").read_bytes())
+        index = json.loads((self.root / catalog["module_list"][-1]["source_url"]).read_bytes())
+        self.assertTrue(index["source_available"])
+        self.assertEqual(source.getvalue(), (self.root / index["archive"]["path"]).read_bytes())
+        self.signature()
+        self.assertEqual(2, market.verify(self.root, self.public_key)["modules_verified"])
+
+    def test_pinned_order_survives_index_refresh_and_keeps_other_order(self):
+        path = self.local_package()
+        market.add_local(self.root, path, "local-module", "libmodule_local.so", "2026-11-06")
+        catalog = json.loads((self.root / "market.json").read_bytes())
+        catalog["pinned_module_ids"] = ["local-module", "sample"]
+        market.refresh_module_indexes(self.root, catalog)
+        self.assertEqual(["local-module", "sample"], [module["id32"] for module in catalog["module_list"]])
+        market.refresh_module_indexes(self.root, catalog)
+        self.assertEqual(["local-module", "sample"], [module["id32"] for module in catalog["module_list"]])
+
     def test_static_export_preserves_catalog_and_signature_bytes(self):
         market.refresh_module_indexes(self.root, self.catalog)
         market.dump(self.root / "market.json", self.catalog)

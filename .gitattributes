@@ -1,0 +1,4 @@
+# Catalog signatures and indexed metadata cover their exact original bytes.
+*.json -text
+*.sig -text
+*.zip -text

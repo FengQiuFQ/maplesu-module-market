@@ -1,0 +1,33 @@
+{
+  "module_list": [
+    {
+      "chn_name": "HMA-OSS Zygisk",
+      "eng_name": "HMA-OSS Zygisk",
+      "ver": "oss-173",
+      "author": "frknkrc44",
+      "desc": "A Zygisk backend for HMA-OSS",
+      "id32": "hma_oss_zygisk",
+      "update_date": "2026-11-06",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "HMA-OSS-ZYGISK-oss-173-release.zip",
+        "sha256": "be364502b3d34510c856a742bbb67d91560ec033dcaef06e431991a1ba3a98ec",
+        "size": 2743824,
+        "module_prop": {
+          "version": "oss-173",
+          "versionCode": "7304656",
+          "minSdkVersion": "29",
+          "id": "hma_oss_zygisk",
+          "name": "HMA-OSS Zygisk",
+          "author": "frknkrc44",
+          "description": "A Zygisk backend for HMA-OSS",
+          "entrypoint": "org.frknkrc44.hma_oss.zygote.ZygoteEntry",
+          "updateJson": "https://furkank.net/hma_oss_update_checker.json",
+          "attachNativeLibs": "false"
+        },
+        "module_prop_path": "module.prop",
+        "release_date_basis": "maintainer-supplied release date"
+      }
+    }
+  ]
+}

@@ -11,7 +11,7 @@ import check_publish_tree
 import market
 
 DIRECTORIES = {"packages", "sources", "changelogs", "upstream", "modules", "tools", "trust", ".github"}
-FILES = {"market.json", "market.json.sig", "README.md", "SCHEMA.md", "PUBLISH.md", "requirements.txt", ".gitignore", "upstream-overrides.json"}
+FILES = {"market.json", "market.json.sig", "README.md", "SCHEMA.md", "PUBLISH.md", "requirements.txt", ".gitignore", ".gitattributes", "upstream-overrides.json"}
 
 
 def prepare(root: Path, output: Path) -> dict:

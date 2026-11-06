@@ -1,0 +1,32 @@
+{
+  "kind": "user-supplied-package",
+  "archive": {
+    "path": "sources/4503bce68dd5f168625425b5/source.zip",
+    "sha256": "5a0c82c947f78705b65219147ee601be5fac713e5d8799d8604c879f3e0f876b",
+    "size": 1573731
+  },
+  "source_available": true,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "MapleSU-Zygisk-5.1.0-Ultra.zip",
+    "sha256": "5d8bc97b60a022ed29f10ce96dac25144585f1bcb1ec07c7af4aae313e082388",
+    "size": 2756652,
+    "payload_module_prop": {
+      "id": "maplesu_zygisk",
+      "name": "MapleSU Zygisk",
+      "version": "5.1.0",
+      "versionCode": "50100",
+      "author": "MapleSU; ReZygisk contributors",
+      "description": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32."
+    },
+    "module_prop_path": "payload/module.prop",
+    "release_date_basis": "maintainer-supplied release date",
+    "native_identity": {
+      "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
+      "member": "libmodule_maplesu_zygisk.so",
+      "sha256": "ba7b105315f2f6a9a9f640fd1935ffa2e31121138346bee4b27c2e529c784097"
+    }
+  },
+  "note": "对应源码随原始模块包提供。",
+  "project_url": "https://github.com/PerformanC/ReZygisk"
+}

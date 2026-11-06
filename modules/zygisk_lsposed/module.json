@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id32": "zygisk_lsposed",
+  "releases": [
+    {
+      "ver": "v2.1.1 (7790)",
+      "update_date": "2026-11-06",
+      "chn_name": "LSPosed",
+      "author": "LSPosed Developers",
+      "type": "KERNEL_SU",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/zygisk_lsposed/v2.1.1_7790/module.zip",
+        "sha256": "f58eb92678e9d8b982de4987b249bfa8593f7c1524aff3be9976a5cb478d3263",
+        "size": 5803220
+      },
+      "source_url": "sources/a60cbbffed37478910c97efa/index.json",
+      "source_index": {
+        "path": "sources/a60cbbffed37478910c97efa/index.json",
+        "sha256": "b9bdc0732b040996e62035da50a933bb8ec5c0408d3cac753542de5acb0698c0",
+        "size": 917
+      },
+      "changelog_url": "changelogs/zygisk_lsposed/v2.1.1_7790.md",
+      "upstream": {
+        "chn_name": "LSPosed",
+        "eng_name": "LSPosed",
+        "ver": "v2.1.1 (7790)",
+        "author": "LSPosed Developers",
+        "desc": "Another enhanced implementation of Xposed Framework. Supports Android 9 ~ 17. Requires Zygisk enabled.",
+        "id32": "zygisk_lsposed",
+        "update_date": "2026-11-06",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "LSPosed-device-v2.1.1.zip",
+          "sha256": "f58eb92678e9d8b982de4987b249bfa8593f7c1524aff3be9976a5cb478d3263",
+          "size": 5803220,
+          "module_prop": {
+            "id": "zygisk_lsposed",
+            "name": "LSPosed",
+            "version": "v2.1.1 (7790)",
+            "versionCode": "7790",
+            "author": "LSPosed Developers",
+            "description": "Another enhanced implementation of Xposed Framework. Supports Android 9 ~ 17. Requires Zygisk enabled.",
+            "updateJson": "https://lsposed.zip/update.json",
+            "actionIcon": "launcher.png"
+          },
+          "module_prop_path": "module.prop",
+          "release_date_basis": "maintainer-supplied release date"
+        }
+      }
+    }
+  ],
+  "name": "LSPosed",
+  "latest_version": "v2.1.1 (7790)",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

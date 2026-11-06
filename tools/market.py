@@ -117,6 +117,8 @@ def module_release(module: dict) -> dict:
 
 
 def refresh_module_indexes(root: Path, catalog: dict) -> None:
+    pinned = {identity: position for position, identity in enumerate(catalog.get("pinned_module_ids", []))}
+    catalog["module_list"].sort(key=lambda module: pinned.get(module["id32"], len(pinned)))
     for module in catalog["module_list"]:
         source_bytes = path_for(root, module["source_url"]).read_bytes()
         module["source_index"] = {"path": module["source_url"], "sha256": digest(source_bytes), "size": len(source_bytes)}
@@ -139,23 +141,28 @@ def refresh_module_indexes(root: Path, catalog: dict) -> None:
         module["module_index"] = {"path": relative, "sha256": digest(payload), "size": len(payload)}
 
 
-def add_local(root: Path, package_path: Path, native_id: str, native_member: str, release_date: str) -> dict:
-    safe_component(native_id)
+def add_local(root: Path, package_path: Path, native_id: str | None, native_member: str | None, release_date: str) -> dict:
+    if bool(native_id) != bool(native_member):
+        raise ValueError("native id and library member must be supplied together")
     datetime.strptime(release_date, "%Y-%m-%d")
     package = package_path.read_bytes()
     members = inspect_zip(package)
     with zipfile.ZipFile(io.BytesIO(package)) as archive:
-        native = archive.read(native_member)
-        if native_id.encode("ascii") + b"\0" not in native:
+        native = archive.read(native_member) if native_member else None
+        if native is not None and native_id.encode("ascii") + b"\0" not in native:
             raise ValueError("native module identity not present in selected library")
-        prop_bytes = archive.read("payload/module.prop")
+        prop_path = "payload/module.prop" if native_member else "module.prop"
+        prop_bytes = archive.read(prop_path)
         prop_text = prop_bytes.decode("utf-8-sig")
+        source = archive.read("webroot/source.zip") if "webroot/source.zip" in members else None
     props = dict(line.split("=", 1) for line in prop_text.splitlines() if "=" in line and not line.startswith("#"))
     for required in ("name", "version", "author"):
         if not props.get(required):
             raise ValueError(f"module.prop missing {required}")
-    version = safe_component(props["version"])
-    relative = f"packages/{native_id}/{version}/module.zip"
+    native_id = safe_component(native_id or props.get("id", ""))
+    version = props["version"]
+    version_path = safe_component(re.sub(r"[^A-Za-z0-9._+-]+", "_", version).strip("_"))
+    relative = f"packages/{native_id}/{version_path}/module.zip"
     destination = path_for(root, relative)
     if destination.exists() and destination.read_bytes() != package:
         raise ValueError("same module id/version already has different ZIP bytes")
@@ -164,9 +171,11 @@ def add_local(root: Path, package_path: Path, native_id: str, native_member: str
     if existing and existing["ver"] != version:
         raise ValueError("existing module has another version; archive it and explicitly select latest before importing")
     origin = {"kind": "user-supplied-package", "file_name": package_path.name,
-              "sha256": digest(package), "size": len(package), "payload_module_prop": props,
-              "native_identity": {"id32": native_id, "member": native_member, "sha256": digest(native)},
-              "release_date_basis": "date in user-supplied filename"}
+              "sha256": digest(package), "size": len(package),
+              "payload_module_prop" if native_member else "module_prop": props,
+              "module_prop_path": prop_path, "release_date_basis": "maintainer-supplied release date"}
+    if native is not None:
+        origin["native_identity"] = {"id32": native_id, "member": native_member, "sha256": digest(native)}
     original = {"chn_name": props["name"], "eng_name": props["name"], "ver": version,
                 "author": props["author"], "desc": props.get("description", ""), "id32": native_id,
                 "update_date": release_date, "origin": origin}
@@ -179,16 +188,23 @@ def add_local(root: Path, package_path: Path, native_id: str, native_member: str
         snapshots.append(snapshot)
     source_id = digest(("user-supplied-package:" + digest(package)).encode())[:24]
     source_url = f"sources/{source_id}/index.json"
-    dump(root / source_url, {"kind": "user-supplied-package", "archive": None,
-                            "source_available": False, "origin": origin,
-                            "note": "用户提供此模块 ZIP；未提供可对应此包的源码归档。"})
-    changelog_url = f"changelogs/{native_id}/{version}.md"
+    source_archive = None
+    if source is not None:
+        inspect_zip(source)
+        source_path = f"sources/{source_id}/source.zip"
+        write(root / source_path, source)
+        source_archive = {"path": source_path, "sha256": digest(source), "size": len(source)}
+    dump(root / source_url, {"kind": "user-supplied-package", "archive": source_archive,
+                            "source_available": source is not None, "origin": origin,
+                            "note": "对应源码随原始模块包提供。" if source is not None else
+                                    "用户提供此模块 ZIP；未提供可对应此包的源码归档。"})
+    changelog_url = f"changelogs/{native_id}/{version_path}.md"
     write(root / changelog_url, (f"# {props['name']} {version}\n\n作者：{props['author']}\n\n"
                                f"来源：用户提供 `{package_path.name}`。\n\n"
-                               f"日期：{release_date}（取自文件名）。\n\n"
+                               f"收录日期：{release_date}。\n\n"
                                "本条仅记录用户提供版本，未附独立实现变更说明。\n").encode())
     write(destination, package)
-    item = {**original, "type": "SKROOT_PRO",
+    item = {**original, "type": "SKROOT_PRO" if native_member else "KERNEL_SU",
             "compatibility": {"modes": ["MapleSU_Ultra"], "normal_supported": False, "device_validation": "pending"},
             "download_url": relative, "sha256": digest(package), "size": len(package),
             "package": {"path": relative, "sha256": digest(package), "size": len(package)},
@@ -363,6 +379,8 @@ def import_upstream(root: Path, url: str, report_path: Path) -> dict:
     catalog["module_list"].extend(local_modules)
     if previous.get("additional_snapshots"):
         catalog["additional_snapshots"] = previous["additional_snapshots"]
+    if previous.get("pinned_module_ids"):
+        catalog["pinned_module_ids"] = previous["pinned_module_ids"]
     refresh_module_indexes(root, catalog)
     dump(root / "market.json", catalog)
     # A changed import always invalidates an old release signature.
@@ -445,7 +463,7 @@ def verify(root: Path, public_key: Path | None = None, allow_unsigned: bool = Fa
         for mirror_path in module["mirrors"].values():
             if mirror_path != package["path"]:
                 raise ValueError(f"mirror package mismatch: {identity}")
-        if module["type"] != "SKROOT_PRO" or module["compatibility"]["modes"] != ["MapleSU_Ultra"]:
+        if module["type"] not in ("SKROOT_PRO", "KERNEL_SU") or module["compatibility"]["modes"] != ["MapleSU_Ultra"]:
             raise ValueError(f"unexpected imported module compatibility: {identity}")
     snapshot = catalog["upstream_snapshot"]
     snapshot_bytes = path_for(root, snapshot["path"]).read_bytes()
@@ -539,8 +557,8 @@ def main() -> int:
     importer.add_argument("--report", type=Path, default=ROOT / "import-report.json")
     local = commands.add_parser("add-local")
     local.add_argument("--package", type=Path, required=True)
-    local.add_argument("--native-id", required=True)
-    local.add_argument("--native-member", required=True)
+    local.add_argument("--native-id")
+    local.add_argument("--native-member")
     local.add_argument("--release-date", required=True)
     validator = commands.add_parser("verify")
     validator.add_argument("--public-key", type=Path)
