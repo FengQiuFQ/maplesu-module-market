@@ -136,10 +136,10 @@ class MarketTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "source index digest/size"):
             market.verify(self.root, self.public_key)
 
-    def local_package(self, *, native_id="local-module", suffix=b""):
+    def local_package(self, *, native_id="local-module", suffix=b"", version="1.0.0"):
         output = io.BytesIO()
         with zipfile.ZipFile(output, "w") as archive:
-            archive.writestr("payload/module.prop", "id=payload-id\nname=Local\nversion=1.0.0\nauthor=Tester\n")
+            archive.writestr("payload/module.prop", f"id=payload-id\nname=Local\nversion={version}\nauthor=Tester\n")
             archive.writestr("libmodule_local.so", b"metadata fixture\0" + native_id.encode() + b"\0" + suffix)
         path = self.root / "input.zip"
         path.write_bytes(output.getvalue())
@@ -159,12 +159,84 @@ class MarketTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "native module identity"):
             market.add_local(self.root, path, "wrong-id", "libmodule_local.so", "2026-11-01")
 
+    def test_native_descriptor_identity_takes_precedence_over_incidental_string(self):
+        begin = b"b33dcddd88c07d079a8e0e9ec6ab976f15f2edba46cab91a61234cfbb982111c"
+        end = b"3020d9a6c07a30e2649dd29a72d7e57121f0c0ca457b6d21dca5a69acbe6c2c4"
+        path = self.local_package(native_id="maplesu-tee", suffix=begin + b"teesimulator601skpro202607210000" + end)
+        with self.assertRaisesRegex(ValueError, "native descriptor identity"):
+            market.add_local(self.root, path, "maplesu-tee", "libmodule_local.so", "2026-11-07")
+
     def test_existing_release_bytes_cannot_be_silently_replaced(self):
         path = self.local_package()
         market.add_local(self.root, path, "local-module", "libmodule_local.so", "2026-11-01")
         path = self.local_package(suffix=b"changed bytes")
         with self.assertRaisesRegex(ValueError, "same module id/version"):
             market.add_local(self.root, path, "local-module", "libmodule_local.so", "2026-11-01")
+
+    def test_new_local_version_requires_explicit_latest_selection(self):
+        market.add_local(self.root, self.local_package(), "local-module", "libmodule_local.so", "2026-11-01")
+        before = (self.root / "market.json").read_bytes()
+        path = self.local_package(version="1.0.1")
+        with self.assertRaisesRegex(ValueError, "select latest"):
+            market.add_local(self.root, path, "local-module", "libmodule_local.so", "2026-11-07")
+        self.assertEqual(before, (self.root / "market.json").read_bytes())
+
+    def test_selecting_new_local_version_preserves_and_verifies_history(self):
+        path = self.local_package()
+        old_bytes = path.read_bytes()
+        market.add_local(self.root, path, "local-module", "libmodule_local.so", "2026-11-01")
+        path = self.local_package(version="1.0.1")
+        market.add_local(self.root, path, "local-module", "libmodule_local.so", "2026-11-07", select_latest=True)
+        catalog = json.loads((self.root / "market.json").read_bytes())
+        module = next(item for item in catalog["module_list"] if item["id32"] == "local-module")
+        index = json.loads((self.root / module["module_index"]["path"]).read_bytes())
+        self.assertEqual("1.0.1", index["latest_version"])
+        self.assertEqual(["1.0.0", "1.0.1"], [item["ver"] for item in index["releases"]])
+        self.assertEqual(old_bytes, (self.root / index["releases"][0]["package"]["path"]).read_bytes())
+        self.assertEqual(2, len(catalog["additional_snapshots"]))
+        self.signature()
+        self.assertEqual(2, market.verify(self.root, self.public_key)["modules_verified"])
+
+    def test_historical_upstream_metadata_is_checked_after_update(self):
+        market.add_local(self.root, self.local_package(), "local-module", "libmodule_local.so", "2026-11-01")
+        market.add_local(self.root, self.local_package(version="1.0.1"), "local-module", "libmodule_local.so", "2026-11-07", select_latest=True)
+        catalog = json.loads((self.root / "market.json").read_bytes())
+        snapshot = catalog["additional_snapshots"][0]
+        path = self.root / snapshot["path"]
+        original = json.loads(path.read_bytes())
+        original["module_list"][0]["chn_name"] = "changed historical origin"
+        market.dump(path, original)
+        snapshot["sha256"] = market.digest(path.read_bytes())
+        market.dump(self.root / "market.json", catalog)
+        self.signature()
+        with self.assertRaisesRegex(ValueError, "upstream metadata changed"):
+            market.verify(self.root, self.public_key)
+
+    def test_historical_release_requires_its_original_snapshot(self):
+        market.add_local(self.root, self.local_package(), "local-module", "libmodule_local.so", "2026-11-01")
+        market.add_local(self.root, self.local_package(version="1.0.1"), "local-module", "libmodule_local.so", "2026-11-07", select_latest=True)
+        catalog = json.loads((self.root / "market.json").read_bytes())
+        catalog["additional_snapshots"].pop(0)
+        market.dump(self.root / "market.json", catalog)
+        self.signature()
+        with self.assertRaisesRegex(ValueError, "upstream metadata changed"):
+            market.verify(self.root, self.public_key)
+
+    def test_historical_release_cannot_borrow_another_version_origin(self):
+        market.add_local(self.root, self.local_package(), "local-module", "libmodule_local.so", "2026-11-01")
+        market.add_local(self.root, self.local_package(version="1.0.1"), "local-module", "libmodule_local.so", "2026-11-07", select_latest=True)
+        catalog = json.loads((self.root / "market.json").read_bytes())
+        module = next(item for item in catalog["module_list"] if item["id32"] == "local-module")
+        index_path = self.root / module["module_index"]["path"]
+        index = json.loads(index_path.read_bytes())
+        index["releases"][0]["upstream"] = module["upstream"]
+        market.dump(index_path, index)
+        module["module_index"].update(sha256=market.digest(index_path.read_bytes()), size=index_path.stat().st_size)
+        catalog["additional_snapshots"].pop(0)
+        market.dump(self.root / "market.json", catalog)
+        self.signature()
+        with self.assertRaisesRegex(ValueError, "release origin identity/version mismatch"):
+            market.verify(self.root, self.public_key)
 
     def test_script_package_preserves_identity_version_and_original_bytes(self):
         output = io.BytesIO()

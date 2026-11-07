@@ -141,7 +141,7 @@ def refresh_module_indexes(root: Path, catalog: dict) -> None:
         module["module_index"] = {"path": relative, "sha256": digest(payload), "size": len(payload)}
 
 
-def add_local(root: Path, package_path: Path, native_id: str | None, native_member: str | None, release_date: str) -> dict:
+def add_local(root: Path, package_path: Path, native_id: str | None, native_member: str | None, release_date: str, *, select_latest: bool = False) -> dict:
     if bool(native_id) != bool(native_member):
         raise ValueError("native id and library member must be supplied together")
     datetime.strptime(release_date, "%Y-%m-%d")
@@ -149,8 +149,15 @@ def add_local(root: Path, package_path: Path, native_id: str | None, native_memb
     members = inspect_zip(package)
     with zipfile.ZipFile(io.BytesIO(package)) as archive:
         native = archive.read(native_member) if native_member else None
-        if native is not None and native_id.encode("ascii") + b"\0" not in native:
-            raise ValueError("native module identity not present in selected library")
+        if native is not None:
+            begin = b"b33dcddd88c07d079a8e0e9ec6ab976f15f2edba46cab91a61234cfbb982111c"
+            end = b"3020d9a6c07a30e2649dd29a72d7e57121f0c0ca457b6d21dca5a69acbe6c2c4"
+            if begin in native:
+                descriptor_id, marker, _ = native.split(begin, 1)[1].partition(end)
+                if not marker or not re.fullmatch(rb"[A-Za-z0-9]{32}", descriptor_id) or descriptor_id != native_id.encode("ascii"):
+                    raise ValueError("native descriptor identity differs from the catalog identity")
+            elif native_id.encode("ascii") + b"\0" not in native:
+                raise ValueError("native module identity not present in selected library")
         prop_path = "payload/module.prop" if native_member else "module.prop"
         prop_bytes = archive.read(prop_path)
         prop_text = prop_bytes.decode("utf-8-sig")
@@ -168,8 +175,8 @@ def add_local(root: Path, package_path: Path, native_id: str | None, native_memb
         raise ValueError("same module id/version already has different ZIP bytes")
     catalog = json.loads((root / "market.json").read_bytes())
     existing = next((module for module in catalog["module_list"] if module["id32"] == native_id), None)
-    if existing and existing["ver"] != version:
-        raise ValueError("existing module has another version; archive it and explicitly select latest before importing")
+    if existing and existing["ver"] != version and not select_latest:
+        raise ValueError("existing module has another version; explicitly select latest with --select-latest")
     origin = {"kind": "user-supplied-package", "file_name": package_path.name,
               "sha256": digest(package), "size": len(package),
               "payload_module_prop" if native_member else "module_prop": props,
@@ -212,6 +219,8 @@ def add_local(root: Path, package_path: Path, native_id: str | None, native_memb
             "mirrors": {"primary": relative, "backup": relative}, "upstream": original,
             "archive_entry_count": len(members)}
     if existing:
+        if existing["ver"] != version:
+            refresh_module_indexes(root, catalog)
         catalog["module_list"][catalog["module_list"].index(existing)] = item
     else:
         catalog["module_list"].append(item)
@@ -411,8 +420,11 @@ def verify(root: Path, public_key: Path | None = None, allow_unsigned: bool = Fa
     elif not allow_unsigned:
         raise ValueError("trusted --public-key required; use --allow-unsigned only for local import checks")
     seen, checked_sources = set(), set()
+    release_origins = {}
 
     def verify_release(release: dict, identity: str) -> None:
+        if release["upstream"]["id32"] != identity or release["upstream"]["ver"] != release["ver"]:
+            raise ValueError(f"release origin identity/version mismatch: {identity}")
         package = release["package"]
         data = path_for(root, package["path"]).read_bytes()
         if len(data) != package["size"] or digest(data) != package["sha256"]:
@@ -439,6 +451,7 @@ def verify(root: Path, public_key: Path | None = None, allow_unsigned: bool = Fa
         if identity in seen:
             raise ValueError(f"duplicate id32: {identity}")
         seen.add(identity)
+        release_origins[identity] = [module["upstream"]]
         package = module["package"]
         verify_release(module, identity)
         if module["sha256"] != package["sha256"] or module["size"] != package["size"] or module["download_url"] != package["path"]:
@@ -457,6 +470,7 @@ def verify(root: Path, public_key: Path | None = None, allow_unsigned: bool = Fa
                     raise ValueError(f"duplicate release version: {identity}")
                 versions.add(release["ver"])
                 verify_release(release, identity)
+                release_origins[identity].append(release["upstream"])
             current = next((release for release in index["releases"] if release["ver"] == module["ver"]), None)
             if current != module_release(module):
                 raise ValueError(f"module index latest release mismatch: {identity}")
@@ -478,9 +492,11 @@ def verify(root: Path, public_key: Path | None = None, allow_unsigned: bool = Fa
     if {module["id32"] for module in original_modules} != seen:
         raise ValueError("imported module set differs from complete upstream snapshot")
     for original in original_modules:
-        imported = next(module for module in catalog["module_list"] if module["id32"] == original["id32"])
-        if imported["upstream"] != original:
+        if original not in release_origins[original["id32"]]:
             raise ValueError(f"upstream metadata changed: {original['id32']}")
+    for identity, originals in release_origins.items():
+        if any(original not in original_modules for original in originals):
+            raise ValueError(f"upstream metadata changed: {identity}")
     return {"modules_verified": len(seen), "sources_verified": len(checked_sources), "catalog_signature_verified": public_key is not None}
 
 
@@ -560,6 +576,7 @@ def main() -> int:
     local.add_argument("--native-id")
     local.add_argument("--native-member")
     local.add_argument("--release-date", required=True)
+    local.add_argument("--select-latest", action="store_true", help="select this version as latest while preserving previous releases")
     validator = commands.add_parser("verify")
     validator.add_argument("--public-key", type=Path)
     validator.add_argument("--allow-unsigned", action="store_true")
@@ -586,7 +603,7 @@ def main() -> int:
     if args.command == "import":
         result = import_upstream(root, args.upstream, args.report)
     elif args.command == "add-local":
-        result = add_local(root, args.package, args.native_id, args.native_member, args.release_date)
+        result = add_local(root, args.package, args.native_id, args.native_member, args.release_date, select_latest=args.select_latest)
     elif args.command == "verify":
         result = verify(root, args.public_key, args.allow_unsigned)
     elif args.command == "sign":

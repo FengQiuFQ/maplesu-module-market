@@ -2,7 +2,7 @@
 
 独立维护的静态模块目录。客户端从 MapleSU 的主备地址读取签名清单、模块包和更新记录；运行时不请求原上游服务。
 
-当前收录 32 个模块。置顶顺序为 TEESimulator-RS_MapleSU 6.0.15、MapleSU Zygisk 5.1.0、LSPosed v2.1.1 (7790)、HMA-OSS Zygisk oss-173；其余模块保持原顺序。模块 ZIP 保留完整原始字节；源码归档与来源索引分开保存。兼容类别为 MapleSU_Ultra，具体安装条件见各条目说明。
+当前收录 32 个模块。置顶顺序为 TEESimulator-RS_MapleSU 6.0.16、MapleSU Zygisk 5.1.2、LSPosed v2.1.1 (7790)、HMA-OSS Zygisk oss-173；其余模块保持原顺序。模块 ZIP 保留完整原始字节；源码归档与来源索引分开保存。兼容类别为 MapleSU_Ultra，具体安装条件见各条目说明。
 
 正式地址：
 
