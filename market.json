@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_id": "maplesu",
-  "generated_at": "2026-11-07T16:51:54Z",
+  "generated_at": "2026-11-09T14:19:52Z",
   "official_mirrors": {
     "primary": {
       "base_url": "https://fengqiufq.github.io/maplesu-module-market/",
@@ -123,7 +123,7 @@
       "eng_name": "MapleSU Zygisk",
       "ver": "5.1.2",
       "author": "MapleSU; ReZygisk contributors",
-      "desc": "MapleSU Ultra 的 Zygisk 宿主，基于 ReZygisk，支持 ARM64/ARM32、Zygisk API 1–5，提供 WebUI。安装后重启。",
+      "desc": "MapleSU Ultra 的 Zygisk 宿主，基于 ReZygisk，支持 ARM64/ARM32、Zygisk API 1–5，提供 WebUI。安装后重启。\n\nMapleSU_Ultra采用零挂载且几乎无策略修改的方式，无需Zygisk进行环境修复，如您无特殊需求建议不安装此模块，优化版但仍可能对环境造成部分影响，请知悉",
       "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
       "update_date": "2026-11-07",
       "origin": {
