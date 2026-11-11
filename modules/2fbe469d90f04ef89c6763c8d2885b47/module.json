@@ -41,10 +41,64 @@
         "download_chn_alert": "",
         "download_eng_alert": ""
       }
+    },
+    {
+      "ver": "4.6.1",
+      "update_date": "2026-11-11",
+      "chn_name": "隐蔽终端PLUS",
+      "author": "斓梦语、SKRoot",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.6.1/module.zip",
+        "sha256": "f9ed2795997de53c15de3ffe5118065ad7a90d4e4c6009849cdff4f440bba44c",
+        "size": 1497960
+      },
+      "source_url": "sources/049bb5ee5f8e4e30e4f00bfd/index.json",
+      "source_index": {
+        "path": "sources/049bb5ee5f8e4e30e4f00bfd/index.json",
+        "sha256": "89f20b8112de8ade070702ee1b3daadce08a288b7d5a858b153cb1b7879dd951",
+        "size": 920
+      },
+      "changelog_url": "changelogs/2fbe469d90f04ef89c6763c8d2885b47/4.6.1.md",
+      "upstream": {
+        "chn_name": "隐蔽终端PLUS",
+        "eng_name": "隐蔽终端PLUS",
+        "ver": "4.6.1",
+        "author": "斓梦语、SKRoot",
+        "desc": "提供终端、自动化和双栏文件管理。",
+        "id32": "2fbe469d90f04ef89c6763c8d2885b47",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "隐蔽终端PLUS-4.6.1-arm64.zip",
+          "sha256": "f9ed2795997de53c15de3ffe5118065ad7a90d4e4c6009849cdff4f440bba44c",
+          "size": 1497960,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "2fbe469d90f04ef89c6763c8d2885b47",
+            "member": "libmodule_hidden_terminal_plus.so",
+            "sha256": "4a0463bc4b3a39d155852eb457444501dfca9ed683fabf52fcbfa54261d228cd"
+          },
+          "native_descriptor": {
+            "name": "隐蔽终端PLUS",
+            "version": "4.6.1",
+            "description": "提供终端、自动化和双栏文件管理。",
+            "author": "斓梦语、SKRoot",
+            "id": "2fbe469d90f04ef89c6763c8d2885b47"
+          }
+        }
+      }
     }
   ],
   "name": "隐蔽终端PLUS",
-  "latest_version": "4.3.0",
+  "latest_version": "4.6.1",
   "compatibility": {
     "modes": [
       "MapleSU_Ultra"

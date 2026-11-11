@@ -1,0 +1,32 @@
+{
+  "module_list": [
+    {
+      "chn_name": "全局机型伪装-荣耀30S",
+      "eng_name": "全局机型伪装-荣耀30S",
+      "ver": "1.0.0",
+      "author": "榆爱",
+      "desc": "全局机型伪装为荣耀30S + 麒麟820 (内核级)",
+      "id32": "phoneSpoofHonor30SKirin820000000",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "荣耀30S_麒麟820-带风扇-原版-v1.0.0.zip",
+        "sha256": "90914ac5ef52fad21e2345dd016f55750d6a6560f8b48b6d973e3fe3dd509a82",
+        "size": 780885,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "phoneSpoofHonor30SKirin820000000",
+          "member": "libmodule_phone_spoof.so",
+          "sha256": "3313fc92645296cc3920ac550bdcdabc3e5793371b54d35d10e3c23f341f367e"
+        },
+        "native_descriptor": {
+          "name": "全局机型伪装-荣耀30S",
+          "version": "1.0.0",
+          "description": "全局机型伪装为荣耀30S + 麒麟820 (内核级)",
+          "author": "榆爱",
+          "id": "phoneSpoofHonor30SKirin820000000"
+        }
+      }
+    }
+  ]
+}

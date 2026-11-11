@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id32": "xmtThermalSkproYuai3330000000000",
+  "releases": [
+    {
+      "ver": "1.0",
+      "update_date": "2026-11-11",
+      "chn_name": "@去温控+调度小改+自动线程",
+      "author": "榆爱",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/xmtThermalSkproYuai3330000000000/1.0/module.zip",
+        "sha256": "da1acb86b3d5ecaa0acd8c8ce428282ca63b97398ef8dc8805ba41e01e0ae993",
+        "size": 641249
+      },
+      "source_url": "sources/3e8f91b8e43f3c23977add73/index.json",
+      "source_index": {
+        "path": "sources/3e8f91b8e43f3c23977add73/index.json",
+        "sha256": "59586ef4edff6b1a0327c2aa4976a915528d4cfba5f6f722ddc0a90d093242ee",
+        "size": 923
+      },
+      "changelog_url": "changelogs/xmtThermalSkproYuai3330000000000/1.0.md",
+      "upstream": {
+        "chn_name": "@去温控+调度小改+自动线程",
+        "eng_name": "@去温控+调度小改+自动线程",
+        "ver": "1.0",
+        "author": "榆爱",
+        "desc": "去温控 动态调节 自动线程分配 v1.0",
+        "id32": "xmtThermalSkproYuai3330000000000",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "小米去温控+调度小改+自动线程.zip",
+          "sha256": "da1acb86b3d5ecaa0acd8c8ce428282ca63b97398ef8dc8805ba41e01e0ae993",
+          "size": 641249,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "xmtThermalSkproYuai3330000000000",
+            "member": "libmodule_thermal.so",
+            "sha256": "a6b99a3c7b6159434c8d050c9974bccf10aa2099b0ca38adbaf30a0de33e7985"
+          },
+          "native_descriptor": {
+            "name": "@去温控+调度小改+自动线程",
+            "version": "1.0",
+            "description": "去温控 动态调节 自动线程分配 v1.0",
+            "author": "榆爱",
+            "id": "xmtThermalSkproYuai3330000000000"
+          }
+        }
+      }
+    }
+  ],
+  "name": "@去温控+调度小改+自动线程",
+  "latest_version": "1.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

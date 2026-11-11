@@ -1,0 +1,30 @@
+{
+  "module_list": [
+    {
+      "chn_name": "线程优化",
+      "eng_name": "线程优化",
+      "ver": "2.2.3",
+      "author": "Suto",
+      "desc": "一个支持自定义规则的安卓应用线程CPU亲和性优化程序",
+      "id32": "AppOpt",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "线程优化v2.2.3.zip",
+        "sha256": "3869c3ecd689b11232404f1fd96a8b838c3625bef379b936ec87bec8800bbd71",
+        "size": 901511,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "module_prop_path": "module.prop",
+        "module_prop": {
+          "id": "AppOpt",
+          "name": "线程优化",
+          "version": "2.2.3",
+          "versionCode": "188",
+          "author": "Suto",
+          "description": "一个支持自定义规则的安卓应用线程CPU亲和性优化程序",
+          "updateJson": "https://gitee.com/sutoliu/AppOptR/raw/master/modules_update/AppOpt.json"
+        }
+      }
+    }
+  ]
+}

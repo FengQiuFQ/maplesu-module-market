@@ -1,0 +1,32 @@
+{
+  "module_list": [
+    {
+      "chn_name": "@去温控+调度小改+自动线程",
+      "eng_name": "@去温控+调度小改+自动线程",
+      "ver": "1.0",
+      "author": "榆爱",
+      "desc": "去温控 动态调节 自动线程分配 v1.0",
+      "id32": "xmtThermalSkproYuai3330000000000",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "小米去温控+调度小改+自动线程.zip",
+        "sha256": "da1acb86b3d5ecaa0acd8c8ce428282ca63b97398ef8dc8805ba41e01e0ae993",
+        "size": 641249,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "xmtThermalSkproYuai3330000000000",
+          "member": "libmodule_thermal.so",
+          "sha256": "a6b99a3c7b6159434c8d050c9974bccf10aa2099b0ca38adbaf30a0de33e7985"
+        },
+        "native_descriptor": {
+          "name": "@去温控+调度小改+自动线程",
+          "version": "1.0",
+          "description": "去温控 动态调节 自动线程分配 v1.0",
+          "author": "榆爱",
+          "id": "xmtThermalSkproYuai3330000000000"
+        }
+      }
+    }
+  ]
+}

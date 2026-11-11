@@ -1,0 +1,30 @@
+{
+  "module_list": [
+    {
+      "chn_name": "伪装DrmID",
+      "eng_name": "伪装DrmID",
+      "ver": "v1.0.0",
+      "author": "@time_pd",
+      "desc": "在系统 DRM 服务内改写 Widevine deviceUniqueId，不依赖 Zygisk。",
+      "id32": "drmid_spoof",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "drmid_spoof.zip",
+        "sha256": "e3fb544858048851164f18001aacde0227e6d1925acddcc5fbef4f333fcac3c0",
+        "size": 29844,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "module_prop_path": "module.prop",
+        "module_prop": {
+          "id": "drmid_spoof",
+          "name": "伪装DrmID",
+          "version": "v1.0.0",
+          "versionCode": "10000",
+          "author": "@time_pd",
+          "description": "在系统 DRM 服务内改写 Widevine deviceUniqueId，不依赖 Zygisk。",
+          "updateJson": ""
+        }
+      }
+    }
+  ]
+}

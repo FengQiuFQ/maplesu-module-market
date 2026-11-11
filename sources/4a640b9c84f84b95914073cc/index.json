@@ -1,0 +1,25 @@
+{
+  "kind": "user-supplied-package",
+  "archive": null,
+  "source_available": false,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "应用自动隐藏-1.8.5-arm64.zip",
+    "sha256": "c205ae4bed3c2022ef61bd5b9906fc57e2f904ef8eb73e230bbd0a60ebe4b98e",
+    "size": 636262,
+    "release_date_basis": "maintainer-supplied package intake date",
+    "native_identity": {
+      "id32": "cd08ae9eef7bb885c06f80ef3aea1d5c",
+      "member": "libmodule_app_auto_hider.so",
+      "sha256": "71f6dbb85f3085c0131a80f3727575ccf162054e7ba02ccd7d4a094eada68f4f"
+    },
+    "native_descriptor": {
+      "name": "应用自动隐藏",
+      "version": "1.8.5",
+      "description": "【应用自动隐藏】检测触发应用进入前台时自动隐藏指定应用，离开后恢复。三重隐藏：pm hide应用层 + 内核filldir64目录层 + am force-stop进程层，对抗内核层枚举扫描；并在内核/proc层隐藏模块自身守护进程。支持后台保持、仅前台模式、多用户、一键救回。作者：榆爱",
+      "author": "榆爱",
+      "id": "cd08ae9eef7bb885c06f80ef3aea1d5c"
+    }
+  },
+  "note": "用户提供此模块 ZIP；未提供可对应此包的源码归档。"
+}

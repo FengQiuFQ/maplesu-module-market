@@ -1,0 +1,25 @@
+{
+  "kind": "user-supplied-package",
+  "archive": null,
+  "source_available": false,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "skp伪卸载模块.zip",
+    "sha256": "0d969bdeb41973f8fcfd18f9d05dd60d2afafffa6d1377709ed216bd41207a5e",
+    "size": 449493,
+    "release_date_basis": "maintainer-supplied package intake date",
+    "native_identity": {
+      "id32": "aah20260516auto_hider_module_v34",
+      "member": "libmodule_app_auto_hider.so",
+      "sha256": "2a091018c5ec12289c4571ad99bae2226a1a76cf0a5c1e51ba6508e5bcf985fb"
+    },
+    "native_descriptor": {
+      "name": "应用自动隐藏",
+      "version": "20260516-bg-hold-v34",
+      "description": "游戏进入前台时自动隐藏指定应用，离开后恢复。支持后台保持、多用户、内存压力保护，内核级隐匿运行。",
+      "author": "SKRoot",
+      "id": "aah20260516auto_hider_module_v34"
+    }
+  },
+  "note": "用户提供此模块 ZIP；未提供可对应此包的源码归档。"
+}

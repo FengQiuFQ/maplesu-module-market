@@ -1,0 +1,41 @@
+{
+  "module_list": [
+    {
+      "chn_name": "文件系统隐藏 SUSFS",
+      "eng_name": "文件系统隐藏 SUSFS",
+      "ver": "0.3.11",
+      "author": "斓梦语、SUSFS4KSU-LKM",
+      "desc": "提供文件隐藏、状态伪装、重定向，以及内核版本伪装、启动信息修改、内核模块隐藏、AVC 日志伪装等 SUSFS 功能。在原 SUSFS 项目基础上优化，支持规则独立作用域调整、按域豁免，并提供可视化 WebUI 配置。",
+      "id32": "fa362333cf458e832cd032fda9a9f3c6",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "0.3.11-6.6-6.12-文件系统隐藏SUSFS-SCS兼容-arm64.zip",
+        "sha256": "a3e6ed22ff9b352e71d712a5d7523c8cc5628b8f48edd8a3eaaf71313752aea3",
+        "size": 4463450,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "fa362333cf458e832cd032fda9a9f3c6",
+          "member": "libsusfs4skp.so",
+          "sha256": "6cea4e56b2e37f5aa382ed140be1be63af4b9fb03486d9ed8b6edac2a3a7af17"
+        },
+        "native_descriptor": {
+          "name": "文件系统隐藏 SUSFS",
+          "version": "0.3.11",
+          "description": "提供文件隐藏、状态伪装、重定向，以及内核版本伪装、启动信息修改、内核模块隐藏、AVC 日志伪装等 SUSFS 功能。在原 SUSFS 项目基础上优化，支持规则独立作用域调整、按域豁免，并提供可视化 WebUI 配置。",
+          "author": "斓梦语、SUSFS4KSU-LKM",
+          "id": "fa362333cf458e832cd032fda9a9f3c6"
+        },
+        "module_prop_path": "module.prop",
+        "module_prop": {
+          "id": "fa362333cf458e832cd032fda9a9f3c6",
+          "name": "文件系统隐藏 SUSFS",
+          "version": "0.3.11",
+          "versionCode": "16",
+          "author": "斓梦语、SUSFS4KSU-LKM",
+          "description": "提供文件隐藏、状态伪装、重定向，以及内核版本伪装、启动信息修改、内核模块隐藏、AVC 日志伪装等 SUSFS 功能。在原 SUSFS 项目基础上优化，支持规则独立作用域调整、按域豁免，并提供可视化 WebUI 配置。"
+        }
+      }
+    }
+  ]
+}

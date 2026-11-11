@@ -1,0 +1,22 @@
+{
+  "kind": "user-supplied-package",
+  "archive": null,
+  "source_available": false,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "dfm_sf_sepolicy-v1.0.0.zip",
+    "sha256": "3608c0b284400edfd836e3e112030a979b01d8c44008a977100108029dfceeea",
+    "size": 870,
+    "release_date_basis": "maintainer-supplied package intake date",
+    "module_prop_path": "module.prop",
+    "module_prop": {
+      "id": "dfm_sf_sepolicy",
+      "name": "DFM SF SELinux Policy",
+      "version": "v1.0.0",
+      "versionCode": "1",
+      "author": "DFM Plus",
+      "description": "SELinux rules used by the DFM Plus SurfaceFlinger build. Policy only; no binaries, boot scripts, system mounts, or permissive mode. Reboot after installation."
+    }
+  },
+  "note": "用户提供此模块 ZIP；未提供可对应此包的源码归档。"
+}

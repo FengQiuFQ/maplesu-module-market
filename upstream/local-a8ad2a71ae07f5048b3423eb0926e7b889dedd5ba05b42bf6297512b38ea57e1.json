@@ -1,0 +1,32 @@
+{
+  "module_list": [
+    {
+      "chn_name": "华为Mate90ProMax内核级伪装",
+      "eng_name": "华为Mate90ProMax内核级伪装",
+      "ver": "4.2.0",
+      "author": "榆爱",
+      "desc": "华为Mate 90 Pro Max 内核级伪装（麒麟9050 Pro + Maleoon 955）",
+      "id32": "multiModelSpoofKernel20241000000",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "华为Mate90ProMax_v4.2.0_防卡开机版.zip",
+        "sha256": "aab7b4b2917e299928a2b709e113e240cd4967f9b447d81d2d34ab582d56a7b8",
+        "size": 786347,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "multiModelSpoofKernel20241000000",
+          "member": "libmodule_phone_spoof.so",
+          "sha256": "92b4fd69b972fb1f4cfc5e1ca79703ed90185f039b97800c2ae1a748e35afa4a"
+        },
+        "native_descriptor": {
+          "name": "华为Mate90ProMax内核级伪装",
+          "version": "4.2.0",
+          "description": "华为Mate 90 Pro Max 内核级伪装（麒麟9050 Pro + Maleoon 955）",
+          "author": "榆爱",
+          "id": "multiModelSpoofKernel20241000000"
+        }
+      }
+    }
+  ]
+}

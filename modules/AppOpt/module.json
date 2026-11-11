@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id32": "AppOpt",
+  "releases": [
+    {
+      "ver": "2.2.3",
+      "update_date": "2026-11-11",
+      "chn_name": "线程优化",
+      "author": "Suto",
+      "type": "KERNEL_SU",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/AppOpt/2.2.3/module.zip",
+        "sha256": "3869c3ecd689b11232404f1fd96a8b838c3625bef379b936ec87bec8800bbd71",
+        "size": 901511
+      },
+      "source_url": "sources/b7a36f68ec3b662502e57a78/index.json",
+      "source_index": {
+        "path": "sources/b7a36f68ec3b662502e57a78/index.json",
+        "sha256": "0a014af7662233036338280aca5c3104a417ccee06423af040f5948d785e2236",
+        "size": 827
+      },
+      "changelog_url": "changelogs/AppOpt/2.2.3.md",
+      "upstream": {
+        "chn_name": "线程优化",
+        "eng_name": "线程优化",
+        "ver": "2.2.3",
+        "author": "Suto",
+        "desc": "一个支持自定义规则的安卓应用线程CPU亲和性优化程序",
+        "id32": "AppOpt",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "线程优化v2.2.3.zip",
+          "sha256": "3869c3ecd689b11232404f1fd96a8b838c3625bef379b936ec87bec8800bbd71",
+          "size": 901511,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "module_prop_path": "module.prop",
+          "module_prop": {
+            "id": "AppOpt",
+            "name": "线程优化",
+            "version": "2.2.3",
+            "versionCode": "188",
+            "author": "Suto",
+            "description": "一个支持自定义规则的安卓应用线程CPU亲和性优化程序",
+            "updateJson": "https://gitee.com/sutoliu/AppOptR/raw/master/modules_update/AppOpt.json"
+          }
+        }
+      }
+    }
+  ],
+  "name": "线程优化",
+  "latest_version": "2.2.3",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

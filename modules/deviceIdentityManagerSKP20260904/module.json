@@ -42,10 +42,64 @@
         "download_chn_alert": "",
         "download_eng_alert": ""
       }
+    },
+    {
+      "ver": "1.1.0",
+      "update_date": "2026-11-11",
+      "chn_name": "设备标识管理",
+      "author": "斓梦语、蜃、榆爱",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/deviceIdentityManagerSKP20260904/1.1.0/module.zip",
+        "sha256": "8f2e94f5366cdef8dd8176f6011e561cff4ff4ef910ee440efc895a85c2960af",
+        "size": 1409874
+      },
+      "source_url": "sources/3b77bd58c1cf498f9822e76b/index.json",
+      "source_index": {
+        "path": "sources/3b77bd58c1cf498f9822e76b/index.json",
+        "sha256": "af9e6bb0a4b1602593ba8be6efbc81870bd0a8f154059551f7d1ad030f9ba21f",
+        "size": 941
+      },
+      "changelog_url": "changelogs/deviceIdentityManagerSKP20260904/1.1.0.md",
+      "upstream": {
+        "chn_name": "设备标识管理",
+        "eng_name": "设备标识管理",
+        "ver": "1.1.0",
+        "author": "斓梦语、蜃、榆爱",
+        "desc": "统一管理设备标识、SSAID、OAID 与 Widevine DRM ID",
+        "id32": "deviceIdentityManagerSKP20260904",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "设备标识管理-1.1.0(2).zip",
+          "sha256": "8f2e94f5366cdef8dd8176f6011e561cff4ff4ef910ee440efc895a85c2960af",
+          "size": 1409874,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "deviceIdentityManagerSKP20260904",
+            "member": "libmodule_device_identity_manager.so",
+            "sha256": "b287244c30d024d91a6f2e46e29c91a45b544dcb4d8a62bd700d39e7f9e770f9"
+          },
+          "native_descriptor": {
+            "name": "设备标识管理",
+            "version": "1.1.0",
+            "description": "统一管理设备标识、SSAID、OAID 与 Widevine DRM ID",
+            "author": "斓梦语、蜃、榆爱",
+            "id": "deviceIdentityManagerSKP20260904"
+          }
+        }
+      }
     }
   ],
   "name": "设备标识管理",
-  "latest_version": "1.0.5",
+  "latest_version": "1.1.0",
   "compatibility": {
     "modes": [
       "MapleSU_Ultra"

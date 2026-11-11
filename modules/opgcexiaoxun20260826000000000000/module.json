@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id32": "opgcexiaoxun20260826000000000000",
+  "releases": [
+    {
+      "ver": "2.5.1",
+      "update_date": "2026-11-11",
+      "chn_name": "OPGCE 游戏优化",
+      "author": "芙里芙气-xiaoxun",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/opgcexiaoxun20260826000000000000/2.5.1/module.zip",
+        "sha256": "7dc0eaf886d1bd43e7374865eb2351c7a23cb376c62d19ec7f03e973815e8702",
+        "size": 4152306
+      },
+      "source_url": "sources/5ea7efa768f065d69c3cc6a2/index.json",
+      "source_index": {
+        "path": "sources/5ea7efa768f065d69c3cc6a2/index.json",
+        "sha256": "7c56360376e451d506d2a1356e5be5ac30dab281462fe75b673609b87b774dbb",
+        "size": 945
+      },
+      "changelog_url": "changelogs/opgcexiaoxun20260826000000000000/2.5.1.md",
+      "upstream": {
+        "chn_name": "OPGCE 游戏优化",
+        "eng_name": "OPGCE 游戏优化",
+        "ver": "2.5.1",
+        "author": "芙里芙气-xiaoxun",
+        "desc": "OPPO游戏空间策略注入 游戏性能优化 功耗控制 设备信息x风格WebUI CPU频率修复",
+        "id32": "opgcexiaoxun20260826000000000000",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "OPGCE 风驰增强.zip",
+          "sha256": "7dc0eaf886d1bd43e7374865eb2351c7a23cb376c62d19ec7f03e973815e8702",
+          "size": 4152306,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "opgcexiaoxun20260826000000000000",
+            "member": "libopgce.so",
+            "sha256": "a4b29de29029edd4319a0ade864de7b4d32a0c64302cd6dd914a8580bc29bfef"
+          },
+          "native_descriptor": {
+            "name": "OPGCE 游戏优化",
+            "version": "2.5.1",
+            "description": "OPPO游戏空间策略注入 游戏性能优化 功耗控制 设备信息x风格WebUI CPU频率修复",
+            "author": "芙里芙气-xiaoxun",
+            "id": "opgcexiaoxun20260826000000000000"
+          }
+        }
+      }
+    }
+  ],
+  "name": "OPGCE 游戏优化",
+  "latest_version": "2.5.1",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

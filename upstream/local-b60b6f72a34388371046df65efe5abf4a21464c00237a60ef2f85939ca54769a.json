@@ -1,0 +1,32 @@
+{
+  "module_list": [
+    {
+      "chn_name": "OhMyKeymint移植版",
+      "eng_name": "OhMyKeymint移植版",
+      "ver": "0.2.7",
+      "author": "榆爱",
+      "desc": "OhMyKeymint 移植到 SKRoot Pro（作者：榆爱）",
+      "id32": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "【模块】OhMyKeymint移植版-SKRootPro-v1.8.zip",
+        "sha256": "f2121b3dbc9ef9fa4aee746b3acba964d12aa6f3a8fb82fa096a9850afa67daf",
+        "size": 8664103,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+          "member": "omk_port.so",
+          "sha256": "f0b01b6fc9b365da40bc6c4c1b4ceafebc722f0584b8045e708433a83095114e"
+        },
+        "native_descriptor": {
+          "name": "OhMyKeymint移植版",
+          "version": "0.2.7",
+          "description": "OhMyKeymint 移植到 SKRoot Pro（作者：榆爱）",
+          "author": "榆爱",
+          "id": "a1b2c3d4e5f60718293a4b5c6d7e8f90"
+        }
+      }
+    }
+  ]
+}

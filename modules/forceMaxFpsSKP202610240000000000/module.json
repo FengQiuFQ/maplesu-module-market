@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id32": "forceMaxFpsSKP202610240000000000",
+  "releases": [
+    {
+      "ver": "1.2.0",
+      "update_date": "2026-11-11",
+      "chn_name": "系统配置同步",
+      "author": "sys",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/forceMaxFpsSKP202610240000000000/1.2.0/module.zip",
+        "sha256": "2aca121a28825ef548668ebc925e9573122a691e40c641ab00011516d0953d04",
+        "size": 571142
+      },
+      "source_url": "sources/44f897acdeba51761521b986/index.json",
+      "source_index": {
+        "path": "sources/44f897acdeba51761521b986/index.json",
+        "sha256": "9646f7165f1224ac05f651d6e9bbc43441a3923c9ae3164d36db63538f03a5ff",
+        "size": 871
+      },
+      "changelog_url": "changelogs/forceMaxFpsSKP202610240000000000/1.2.0.md",
+      "upstream": {
+        "chn_name": "系统配置同步",
+        "eng_name": "系统配置同步",
+        "ver": "1.2.0",
+        "author": "sys",
+        "desc": "同步系统显示参数",
+        "id32": "forceMaxFpsSKP202610240000000000",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "系统配置同步-1.2.0.zip",
+          "sha256": "2aca121a28825ef548668ebc925e9573122a691e40c641ab00011516d0953d04",
+          "size": 571142,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "forceMaxFpsSKP202610240000000000",
+            "member": "libmodule_force_max_fps.so",
+            "sha256": "8d4dd8a2e97a8043fa946d87493dd9af678daf69743586278ee5c084f453b7bc"
+          },
+          "native_descriptor": {
+            "name": "系统配置同步",
+            "version": "1.2.0",
+            "description": "同步系统显示参数",
+            "author": "sys",
+            "id": "forceMaxFpsSKP202610240000000000"
+          }
+        }
+      }
+    }
+  ],
+  "name": "系统配置同步",
+  "latest_version": "1.2.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

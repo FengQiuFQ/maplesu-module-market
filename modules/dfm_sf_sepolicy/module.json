@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id32": "dfm_sf_sepolicy",
+  "releases": [
+    {
+      "ver": "v1.0.0",
+      "update_date": "2026-11-11",
+      "chn_name": "DFM SF SELinux Policy",
+      "author": "DFM Plus",
+      "type": "KERNEL_SU",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/dfm_sf_sepolicy/v1.0.0/module.zip",
+        "sha256": "3608c0b284400edfd836e3e112030a979b01d8c44008a977100108029dfceeea",
+        "size": 870
+      },
+      "source_url": "sources/e5794f332fa37921cad28c47/index.json",
+      "source_index": {
+        "path": "sources/e5794f332fa37921cad28c47/index.json",
+        "sha256": "f53ff8696fccaa6e7f166a0d87cca65c315756729d2cd38afc8d98e60cc195f9",
+        "size": 840
+      },
+      "changelog_url": "changelogs/dfm_sf_sepolicy/v1.0.0.md",
+      "upstream": {
+        "chn_name": "DFM SF SELinux Policy",
+        "eng_name": "DFM SF SELinux Policy",
+        "ver": "v1.0.0",
+        "author": "DFM Plus",
+        "desc": "SELinux rules used by the DFM Plus SurfaceFlinger build. Policy only; no binaries, boot scripts, system mounts, or permissive mode. Reboot after installation.",
+        "id32": "dfm_sf_sepolicy",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "dfm_sf_sepolicy-v1.0.0.zip",
+          "sha256": "3608c0b284400edfd836e3e112030a979b01d8c44008a977100108029dfceeea",
+          "size": 870,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "module_prop_path": "module.prop",
+          "module_prop": {
+            "id": "dfm_sf_sepolicy",
+            "name": "DFM SF SELinux Policy",
+            "version": "v1.0.0",
+            "versionCode": "1",
+            "author": "DFM Plus",
+            "description": "SELinux rules used by the DFM Plus SurfaceFlinger build. Policy only; no binaries, boot scripts, system mounts, or permissive mode. Reboot after installation."
+          }
+        }
+      }
+    }
+  ],
+  "name": "DFM SF SELinux Policy",
+  "latest_version": "v1.0.0",
+  "compatibility": {
+    "modes": [
+      "MapleSU_Ultra"
+    ],
+    "normal_supported": false,
+    "device_validation": "pending"
+  }
+}

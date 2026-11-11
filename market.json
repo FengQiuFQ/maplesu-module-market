@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_id": "maplesu",
-  "generated_at": "2026-11-09T14:19:52Z",
+  "generated_at": "2026-11-11T14:12:46Z",
   "official_mirrors": {
     "primary": {
       "base_url": "https://fengqiufq.github.io/maplesu-module-market/",
@@ -393,6 +393,1541 @@
       "download_chn_alert": "请先安装 MapleSU Zygisk 并重启。HMA-OSS 管理器需另行安装并配置作用域；安装模块后重启。"
     },
     {
+      "chn_name": "华为Mate90ProMax内核级伪装",
+      "eng_name": "华为Mate90ProMax内核级伪装",
+      "ver": "4.2.0",
+      "author": "榆爱",
+      "desc": "华为Mate 90 Pro Max 内核级伪装（麒麟9050 Pro + Maleoon 955）\n\n此模块来自用户上传",
+      "id32": "multiModelSpoofKernel20241000000",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "华为Mate90ProMax_v4.2.0_防卡开机版.zip",
+        "sha256": "aab7b4b2917e299928a2b709e113e240cd4967f9b447d81d2d34ab582d56a7b8",
+        "size": 786347,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "multiModelSpoofKernel20241000000",
+          "member": "libmodule_phone_spoof.so",
+          "sha256": "92b4fd69b972fb1f4cfc5e1ca79703ed90185f039b97800c2ae1a748e35afa4a"
+        },
+        "native_descriptor": {
+          "name": "华为Mate90ProMax内核级伪装",
+          "version": "4.2.0",
+          "description": "华为Mate 90 Pro Max 内核级伪装（麒麟9050 Pro + Maleoon 955）",
+          "author": "榆爱",
+          "id": "multiModelSpoofKernel20241000000"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/multiModelSpoofKernel20241000000/4.2.0/module.zip",
+      "sha256": "aab7b4b2917e299928a2b709e113e240cd4967f9b447d81d2d34ab582d56a7b8",
+      "size": 786347,
+      "package": {
+        "path": "packages/multiModelSpoofKernel20241000000/4.2.0/module.zip",
+        "sha256": "aab7b4b2917e299928a2b709e113e240cd4967f9b447d81d2d34ab582d56a7b8",
+        "size": 786347
+      },
+      "source_url": "sources/325ec54b2f571d5199b3986f/index.json",
+      "changelog_url": "changelogs/multiModelSpoofKernel20241000000/4.2.0.md",
+      "mirrors": {
+        "primary": "packages/multiModelSpoofKernel20241000000/4.2.0/module.zip",
+        "backup": "packages/multiModelSpoofKernel20241000000/4.2.0/module.zip"
+      },
+      "upstream": {
+        "chn_name": "华为Mate90ProMax内核级伪装",
+        "eng_name": "华为Mate90ProMax内核级伪装",
+        "ver": "4.2.0",
+        "author": "榆爱",
+        "desc": "华为Mate 90 Pro Max 内核级伪装（麒麟9050 Pro + Maleoon 955）",
+        "id32": "multiModelSpoofKernel20241000000",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "华为Mate90ProMax_v4.2.0_防卡开机版.zip",
+          "sha256": "aab7b4b2917e299928a2b709e113e240cd4967f9b447d81d2d34ab582d56a7b8",
+          "size": 786347,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "multiModelSpoofKernel20241000000",
+            "member": "libmodule_phone_spoof.so",
+            "sha256": "92b4fd69b972fb1f4cfc5e1ca79703ed90185f039b97800c2ae1a748e35afa4a"
+          },
+          "native_descriptor": {
+            "name": "华为Mate90ProMax内核级伪装",
+            "version": "4.2.0",
+            "description": "华为Mate 90 Pro Max 内核级伪装（麒麟9050 Pro + Maleoon 955）",
+            "author": "榆爱",
+            "id": "multiModelSpoofKernel20241000000"
+          }
+        }
+      },
+      "archive_entry_count": 13,
+      "source_index": {
+        "path": "sources/325ec54b2f571d5199b3986f/index.json",
+        "sha256": "f6d7cf3a2176006d0a1fc6f177b386b05e81ced952a3e03bb115d6ee3a118a48",
+        "size": 951
+      },
+      "module_index": {
+        "path": "modules/multiModelSpoofKernel20241000000/module.json",
+        "sha256": "8ee1099da153201afb2839c95a8e533a4a660eb5d78b3709f6f46f9f7c8dce4d",
+        "size": 2478
+      }
+    },
+    {
+      "chn_name": "@去温控+调度小改+自动线程",
+      "eng_name": "@去温控+调度小改+自动线程",
+      "ver": "1.0",
+      "author": "榆爱",
+      "desc": "去温控 动态调节 自动线程分配 v1.0\n\n此模块来自用户上传",
+      "id32": "xmtThermalSkproYuai3330000000000",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "小米去温控+调度小改+自动线程.zip",
+        "sha256": "da1acb86b3d5ecaa0acd8c8ce428282ca63b97398ef8dc8805ba41e01e0ae993",
+        "size": 641249,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "xmtThermalSkproYuai3330000000000",
+          "member": "libmodule_thermal.so",
+          "sha256": "a6b99a3c7b6159434c8d050c9974bccf10aa2099b0ca38adbaf30a0de33e7985"
+        },
+        "native_descriptor": {
+          "name": "@去温控+调度小改+自动线程",
+          "version": "1.0",
+          "description": "去温控 动态调节 自动线程分配 v1.0",
+          "author": "榆爱",
+          "id": "xmtThermalSkproYuai3330000000000"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/xmtThermalSkproYuai3330000000000/1.0/module.zip",
+      "sha256": "da1acb86b3d5ecaa0acd8c8ce428282ca63b97398ef8dc8805ba41e01e0ae993",
+      "size": 641249,
+      "package": {
+        "path": "packages/xmtThermalSkproYuai3330000000000/1.0/module.zip",
+        "sha256": "da1acb86b3d5ecaa0acd8c8ce428282ca63b97398ef8dc8805ba41e01e0ae993",
+        "size": 641249
+      },
+      "source_url": "sources/3e8f91b8e43f3c23977add73/index.json",
+      "changelog_url": "changelogs/xmtThermalSkproYuai3330000000000/1.0.md",
+      "mirrors": {
+        "primary": "packages/xmtThermalSkproYuai3330000000000/1.0/module.zip",
+        "backup": "packages/xmtThermalSkproYuai3330000000000/1.0/module.zip"
+      },
+      "upstream": {
+        "chn_name": "@去温控+调度小改+自动线程",
+        "eng_name": "@去温控+调度小改+自动线程",
+        "ver": "1.0",
+        "author": "榆爱",
+        "desc": "去温控 动态调节 自动线程分配 v1.0",
+        "id32": "xmtThermalSkproYuai3330000000000",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "小米去温控+调度小改+自动线程.zip",
+          "sha256": "da1acb86b3d5ecaa0acd8c8ce428282ca63b97398ef8dc8805ba41e01e0ae993",
+          "size": 641249,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "xmtThermalSkproYuai3330000000000",
+            "member": "libmodule_thermal.so",
+            "sha256": "a6b99a3c7b6159434c8d050c9974bccf10aa2099b0ca38adbaf30a0de33e7985"
+          },
+          "native_descriptor": {
+            "name": "@去温控+调度小改+自动线程",
+            "version": "1.0",
+            "description": "去温控 动态调节 自动线程分配 v1.0",
+            "author": "榆爱",
+            "id": "xmtThermalSkproYuai3330000000000"
+          }
+        }
+      },
+      "archive_entry_count": 8,
+      "source_index": {
+        "path": "sources/3e8f91b8e43f3c23977add73/index.json",
+        "sha256": "59586ef4edff6b1a0327c2aa4976a915528d4cfba5f6f722ddc0a90d093242ee",
+        "size": 923
+      },
+      "module_index": {
+        "path": "modules/xmtThermalSkproYuai3330000000000/module.json",
+        "sha256": "11c3b86adb726f4673901d8c05d9888274435a0a494f8b0fc808f8361c2adca8",
+        "size": 2427
+      }
+    },
+    {
+      "chn_name": "应用自动隐藏",
+      "eng_name": "应用自动隐藏",
+      "ver": "1.8.5",
+      "author": "榆爱",
+      "desc": "【应用自动隐藏】检测触发应用进入前台时自动隐藏指定应用，离开后恢复。三重隐藏：pm hide应用层 + 内核filldir64目录层 + am force-stop进程层，对抗内核层枚举扫描；并在内核/proc层隐藏模块自身守护进程。支持后台保持、仅前台模式、多用户、一键救回。作者：榆爱\n\n此模块来自用户上传",
+      "id32": "cd08ae9eef7bb885c06f80ef3aea1d5c",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "应用自动隐藏-1.8.5-arm64.zip",
+        "sha256": "c205ae4bed3c2022ef61bd5b9906fc57e2f904ef8eb73e230bbd0a60ebe4b98e",
+        "size": 636262,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "cd08ae9eef7bb885c06f80ef3aea1d5c",
+          "member": "libmodule_app_auto_hider.so",
+          "sha256": "71f6dbb85f3085c0131a80f3727575ccf162054e7ba02ccd7d4a094eada68f4f"
+        },
+        "native_descriptor": {
+          "name": "应用自动隐藏",
+          "version": "1.8.5",
+          "description": "【应用自动隐藏】检测触发应用进入前台时自动隐藏指定应用，离开后恢复。三重隐藏：pm hide应用层 + 内核filldir64目录层 + am force-stop进程层，对抗内核层枚举扫描；并在内核/proc层隐藏模块自身守护进程。支持后台保持、仅前台模式、多用户、一键救回。作者：榆爱",
+          "author": "榆爱",
+          "id": "cd08ae9eef7bb885c06f80ef3aea1d5c"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/cd08ae9eef7bb885c06f80ef3aea1d5c/1.8.5/module.zip",
+      "sha256": "c205ae4bed3c2022ef61bd5b9906fc57e2f904ef8eb73e230bbd0a60ebe4b98e",
+      "size": 636262,
+      "package": {
+        "path": "packages/cd08ae9eef7bb885c06f80ef3aea1d5c/1.8.5/module.zip",
+        "sha256": "c205ae4bed3c2022ef61bd5b9906fc57e2f904ef8eb73e230bbd0a60ebe4b98e",
+        "size": 636262
+      },
+      "source_url": "sources/4a640b9c84f84b95914073cc/index.json",
+      "changelog_url": "changelogs/cd08ae9eef7bb885c06f80ef3aea1d5c/1.8.5.md",
+      "mirrors": {
+        "primary": "packages/cd08ae9eef7bb885c06f80ef3aea1d5c/1.8.5/module.zip",
+        "backup": "packages/cd08ae9eef7bb885c06f80ef3aea1d5c/1.8.5/module.zip"
+      },
+      "upstream": {
+        "chn_name": "应用自动隐藏",
+        "eng_name": "应用自动隐藏",
+        "ver": "1.8.5",
+        "author": "榆爱",
+        "desc": "【应用自动隐藏】检测触发应用进入前台时自动隐藏指定应用，离开后恢复。三重隐藏：pm hide应用层 + 内核filldir64目录层 + am force-stop进程层，对抗内核层枚举扫描；并在内核/proc层隐藏模块自身守护进程。支持后台保持、仅前台模式、多用户、一键救回。作者：榆爱",
+        "id32": "cd08ae9eef7bb885c06f80ef3aea1d5c",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "应用自动隐藏-1.8.5-arm64.zip",
+          "sha256": "c205ae4bed3c2022ef61bd5b9906fc57e2f904ef8eb73e230bbd0a60ebe4b98e",
+          "size": 636262,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "cd08ae9eef7bb885c06f80ef3aea1d5c",
+            "member": "libmodule_app_auto_hider.so",
+            "sha256": "71f6dbb85f3085c0131a80f3727575ccf162054e7ba02ccd7d4a094eada68f4f"
+          },
+          "native_descriptor": {
+            "name": "应用自动隐藏",
+            "version": "1.8.5",
+            "description": "【应用自动隐藏】检测触发应用进入前台时自动隐藏指定应用，离开后恢复。三重隐藏：pm hide应用层 + 内核filldir64目录层 + am force-stop进程层，对抗内核层枚举扫描；并在内核/proc层隐藏模块自身守护进程。支持后台保持、仅前台模式、多用户、一键救回。作者：榆爱",
+            "author": "榆爱",
+            "id": "cd08ae9eef7bb885c06f80ef3aea1d5c"
+          }
+        }
+      },
+      "archive_entry_count": 5,
+      "source_index": {
+        "path": "sources/4a640b9c84f84b95914073cc/index.json",
+        "sha256": "92522cb44138ea84d2a40e25a2e0162fe3ffa2e87ab6ba7a8f1c9885a7925230",
+        "size": 1209
+      },
+      "module_index": {
+        "path": "modules/cd08ae9eef7bb885c06f80ef3aea1d5c/module.json",
+        "sha256": "cac99315e6eb8b6dcd01fb14252a4fddb5d9463f53f8e1dd3bf769c9b599ed54",
+        "size": 5021
+      }
+    },
+    {
+      "chn_name": "系统配置同步",
+      "eng_name": "系统配置同步",
+      "ver": "1.2.0",
+      "author": "sys",
+      "desc": "同步系统显示参数\n\n此模块来自用户上传",
+      "id32": "forceMaxFpsSKP202610240000000000",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "系统配置同步-1.2.0.zip",
+        "sha256": "2aca121a28825ef548668ebc925e9573122a691e40c641ab00011516d0953d04",
+        "size": 571142,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "forceMaxFpsSKP202610240000000000",
+          "member": "libmodule_force_max_fps.so",
+          "sha256": "8d4dd8a2e97a8043fa946d87493dd9af678daf69743586278ee5c084f453b7bc"
+        },
+        "native_descriptor": {
+          "name": "系统配置同步",
+          "version": "1.2.0",
+          "description": "同步系统显示参数",
+          "author": "sys",
+          "id": "forceMaxFpsSKP202610240000000000"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/forceMaxFpsSKP202610240000000000/1.2.0/module.zip",
+      "sha256": "2aca121a28825ef548668ebc925e9573122a691e40c641ab00011516d0953d04",
+      "size": 571142,
+      "package": {
+        "path": "packages/forceMaxFpsSKP202610240000000000/1.2.0/module.zip",
+        "sha256": "2aca121a28825ef548668ebc925e9573122a691e40c641ab00011516d0953d04",
+        "size": 571142
+      },
+      "source_url": "sources/44f897acdeba51761521b986/index.json",
+      "changelog_url": "changelogs/forceMaxFpsSKP202610240000000000/1.2.0.md",
+      "mirrors": {
+        "primary": "packages/forceMaxFpsSKP202610240000000000/1.2.0/module.zip",
+        "backup": "packages/forceMaxFpsSKP202610240000000000/1.2.0/module.zip"
+      },
+      "upstream": {
+        "chn_name": "系统配置同步",
+        "eng_name": "系统配置同步",
+        "ver": "1.2.0",
+        "author": "sys",
+        "desc": "同步系统显示参数",
+        "id32": "forceMaxFpsSKP202610240000000000",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "系统配置同步-1.2.0.zip",
+          "sha256": "2aca121a28825ef548668ebc925e9573122a691e40c641ab00011516d0953d04",
+          "size": 571142,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "forceMaxFpsSKP202610240000000000",
+            "member": "libmodule_force_max_fps.so",
+            "sha256": "8d4dd8a2e97a8043fa946d87493dd9af678daf69743586278ee5c084f453b7bc"
+          },
+          "native_descriptor": {
+            "name": "系统配置同步",
+            "version": "1.2.0",
+            "description": "同步系统显示参数",
+            "author": "sys",
+            "id": "forceMaxFpsSKP202610240000000000"
+          }
+        }
+      },
+      "archive_entry_count": 1,
+      "source_index": {
+        "path": "sources/44f897acdeba51761521b986/index.json",
+        "sha256": "9646f7165f1224ac05f651d6e9bbc43441a3923c9ae3164d36db63538f03a5ff",
+        "size": 871
+      },
+      "module_index": {
+        "path": "modules/forceMaxFpsSKP202610240000000000/module.json",
+        "sha256": "0b5cd440955201fddcf98ec07fbdd79f2f0ce6f55c1903fc7d44bf8ba935bbfb",
+        "size": 2285
+      }
+    },
+    {
+      "chn_name": "线程优化",
+      "eng_name": "线程优化",
+      "ver": "2.2.3",
+      "author": "Suto",
+      "desc": "一个支持自定义规则的安卓应用线程CPU亲和性优化程序\n\n此模块来自用户上传",
+      "id32": "AppOpt",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "线程优化v2.2.3.zip",
+        "sha256": "3869c3ecd689b11232404f1fd96a8b838c3625bef379b936ec87bec8800bbd71",
+        "size": 901511,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "module_prop_path": "module.prop",
+        "module_prop": {
+          "id": "AppOpt",
+          "name": "线程优化",
+          "version": "2.2.3",
+          "versionCode": "188",
+          "author": "Suto",
+          "description": "一个支持自定义规则的安卓应用线程CPU亲和性优化程序",
+          "updateJson": "https://gitee.com/sutoliu/AppOptR/raw/master/modules_update/AppOpt.json"
+        }
+      },
+      "type": "KERNEL_SU",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/AppOpt/2.2.3/module.zip",
+      "sha256": "3869c3ecd689b11232404f1fd96a8b838c3625bef379b936ec87bec8800bbd71",
+      "size": 901511,
+      "package": {
+        "path": "packages/AppOpt/2.2.3/module.zip",
+        "sha256": "3869c3ecd689b11232404f1fd96a8b838c3625bef379b936ec87bec8800bbd71",
+        "size": 901511
+      },
+      "source_url": "sources/b7a36f68ec3b662502e57a78/index.json",
+      "changelog_url": "changelogs/AppOpt/2.2.3.md",
+      "mirrors": {
+        "primary": "packages/AppOpt/2.2.3/module.zip",
+        "backup": "packages/AppOpt/2.2.3/module.zip"
+      },
+      "upstream": {
+        "chn_name": "线程优化",
+        "eng_name": "线程优化",
+        "ver": "2.2.3",
+        "author": "Suto",
+        "desc": "一个支持自定义规则的安卓应用线程CPU亲和性优化程序",
+        "id32": "AppOpt",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "线程优化v2.2.3.zip",
+          "sha256": "3869c3ecd689b11232404f1fd96a8b838c3625bef379b936ec87bec8800bbd71",
+          "size": 901511,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "module_prop_path": "module.prop",
+          "module_prop": {
+            "id": "AppOpt",
+            "name": "线程优化",
+            "version": "2.2.3",
+            "versionCode": "188",
+            "author": "Suto",
+            "description": "一个支持自定义规则的安卓应用线程CPU亲和性优化程序",
+            "updateJson": "https://gitee.com/sutoliu/AppOptR/raw/master/modules_update/AppOpt.json"
+          }
+        }
+      },
+      "archive_entry_count": 19,
+      "source_index": {
+        "path": "sources/b7a36f68ec3b662502e57a78/index.json",
+        "sha256": "0a014af7662233036338280aca5c3104a417ccee06423af040f5948d785e2236",
+        "size": 827
+      },
+      "module_index": {
+        "path": "modules/AppOpt/module.json",
+        "sha256": "d8800bcba8de4ea65fe4e4ecacd8406b2826e6c1bc3e9c49ef976d1350d9fbea",
+        "size": 2150
+      }
+    },
+    {
+      "chn_name": "全局机型伪装-荣耀30S",
+      "eng_name": "全局机型伪装-荣耀30S",
+      "ver": "1.0.0",
+      "author": "榆爱",
+      "desc": "全局机型伪装为荣耀30S + 麒麟820 (内核级)\n\n此模块来自用户上传",
+      "id32": "phoneSpoofHonor30SKirin820000000",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "荣耀30S_麒麟820-带风扇-原版-v1.0.0.zip",
+        "sha256": "90914ac5ef52fad21e2345dd016f55750d6a6560f8b48b6d973e3fe3dd509a82",
+        "size": 780885,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "phoneSpoofHonor30SKirin820000000",
+          "member": "libmodule_phone_spoof.so",
+          "sha256": "3313fc92645296cc3920ac550bdcdabc3e5793371b54d35d10e3c23f341f367e"
+        },
+        "native_descriptor": {
+          "name": "全局机型伪装-荣耀30S",
+          "version": "1.0.0",
+          "description": "全局机型伪装为荣耀30S + 麒麟820 (内核级)",
+          "author": "榆爱",
+          "id": "phoneSpoofHonor30SKirin820000000"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/phoneSpoofHonor30SKirin820000000/1.0.0/module.zip",
+      "sha256": "90914ac5ef52fad21e2345dd016f55750d6a6560f8b48b6d973e3fe3dd509a82",
+      "size": 780885,
+      "package": {
+        "path": "packages/phoneSpoofHonor30SKirin820000000/1.0.0/module.zip",
+        "sha256": "90914ac5ef52fad21e2345dd016f55750d6a6560f8b48b6d973e3fe3dd509a82",
+        "size": 780885
+      },
+      "source_url": "sources/62d511cd74758d3887f44389/index.json",
+      "changelog_url": "changelogs/phoneSpoofHonor30SKirin820000000/1.0.0.md",
+      "mirrors": {
+        "primary": "packages/phoneSpoofHonor30SKirin820000000/1.0.0/module.zip",
+        "backup": "packages/phoneSpoofHonor30SKirin820000000/1.0.0/module.zip"
+      },
+      "upstream": {
+        "chn_name": "全局机型伪装-荣耀30S",
+        "eng_name": "全局机型伪装-荣耀30S",
+        "ver": "1.0.0",
+        "author": "榆爱",
+        "desc": "全局机型伪装为荣耀30S + 麒麟820 (内核级)",
+        "id32": "phoneSpoofHonor30SKirin820000000",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "荣耀30S_麒麟820-带风扇-原版-v1.0.0.zip",
+          "sha256": "90914ac5ef52fad21e2345dd016f55750d6a6560f8b48b6d973e3fe3dd509a82",
+          "size": 780885,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "phoneSpoofHonor30SKirin820000000",
+            "member": "libmodule_phone_spoof.so",
+            "sha256": "3313fc92645296cc3920ac550bdcdabc3e5793371b54d35d10e3c23f341f367e"
+          },
+          "native_descriptor": {
+            "name": "全局机型伪装-荣耀30S",
+            "version": "1.0.0",
+            "description": "全局机型伪装为荣耀30S + 麒麟820 (内核级)",
+            "author": "榆爱",
+            "id": "phoneSpoofHonor30SKirin820000000"
+          }
+        }
+      },
+      "archive_entry_count": 6,
+      "source_index": {
+        "path": "sources/62d511cd74758d3887f44389/index.json",
+        "sha256": "a5931fc4cc44306cc74651a826e892d0a283ba5b7e70bb246f90d08b000113c4",
+        "size": 931
+      },
+      "module_index": {
+        "path": "modules/phoneSpoofHonor30SKirin820000000/module.json",
+        "sha256": "b3245ee0d04114d92cde96f7cc9f3249bde9aa055029b4762f59da33c35a0890",
+        "size": 2421
+      }
+    },
+    {
+      "chn_name": "设备标识管理",
+      "eng_name": "设备标识管理",
+      "ver": "1.1.0",
+      "author": "斓梦语、蜃、榆爱",
+      "desc": "统一管理设备标识、SSAID、OAID 与 Widevine DRM ID\n\n此模块来自用户上传",
+      "id32": "deviceIdentityManagerSKP20260904",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "设备标识管理-1.1.0(2).zip",
+        "sha256": "8f2e94f5366cdef8dd8176f6011e561cff4ff4ef910ee440efc895a85c2960af",
+        "size": 1409874,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "deviceIdentityManagerSKP20260904",
+          "member": "libmodule_device_identity_manager.so",
+          "sha256": "b287244c30d024d91a6f2e46e29c91a45b544dcb4d8a62bd700d39e7f9e770f9"
+        },
+        "native_descriptor": {
+          "name": "设备标识管理",
+          "version": "1.1.0",
+          "description": "统一管理设备标识、SSAID、OAID 与 Widevine DRM ID",
+          "author": "斓梦语、蜃、榆爱",
+          "id": "deviceIdentityManagerSKP20260904"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/deviceIdentityManagerSKP20260904/1.1.0/module.zip",
+      "sha256": "8f2e94f5366cdef8dd8176f6011e561cff4ff4ef910ee440efc895a85c2960af",
+      "size": 1409874,
+      "package": {
+        "path": "packages/deviceIdentityManagerSKP20260904/1.1.0/module.zip",
+        "sha256": "8f2e94f5366cdef8dd8176f6011e561cff4ff4ef910ee440efc895a85c2960af",
+        "size": 1409874
+      },
+      "source_url": "sources/3b77bd58c1cf498f9822e76b/index.json",
+      "changelog_url": "changelogs/deviceIdentityManagerSKP20260904/1.1.0.md",
+      "mirrors": {
+        "primary": "packages/deviceIdentityManagerSKP20260904/1.1.0/module.zip",
+        "backup": "packages/deviceIdentityManagerSKP20260904/1.1.0/module.zip"
+      },
+      "upstream": {
+        "chn_name": "设备标识管理",
+        "eng_name": "设备标识管理",
+        "ver": "1.1.0",
+        "author": "斓梦语、蜃、榆爱",
+        "desc": "统一管理设备标识、SSAID、OAID 与 Widevine DRM ID",
+        "id32": "deviceIdentityManagerSKP20260904",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "设备标识管理-1.1.0(2).zip",
+          "sha256": "8f2e94f5366cdef8dd8176f6011e561cff4ff4ef910ee440efc895a85c2960af",
+          "size": 1409874,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "deviceIdentityManagerSKP20260904",
+            "member": "libmodule_device_identity_manager.so",
+            "sha256": "b287244c30d024d91a6f2e46e29c91a45b544dcb4d8a62bd700d39e7f9e770f9"
+          },
+          "native_descriptor": {
+            "name": "设备标识管理",
+            "version": "1.1.0",
+            "description": "统一管理设备标识、SSAID、OAID 与 Widevine DRM ID",
+            "author": "斓梦语、蜃、榆爱",
+            "id": "deviceIdentityManagerSKP20260904"
+          }
+        }
+      },
+      "archive_entry_count": 7,
+      "source_index": {
+        "path": "sources/3b77bd58c1cf498f9822e76b/index.json",
+        "sha256": "af9e6bb0a4b1602593ba8be6efbc81870bd0a8f154059551f7d1ad030f9ba21f",
+        "size": 941
+      },
+      "module_index": {
+        "path": "modules/deviceIdentityManagerSKP20260904/module.json",
+        "sha256": "0b5436fdda1e250166dde5e3bc8142e6680304064dc40a9c5267bdcb0f7276c5",
+        "size": 4226
+      }
+    },
+    {
+      "chn_name": "隐蔽终端PLUS",
+      "eng_name": "隐蔽终端PLUS",
+      "ver": "4.6.1",
+      "author": "斓梦语、SKRoot",
+      "desc": "提供终端、自动化和双栏文件管理。\n\n此模块来自用户上传",
+      "id32": "2fbe469d90f04ef89c6763c8d2885b47",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "隐蔽终端PLUS-4.6.1-arm64.zip",
+        "sha256": "f9ed2795997de53c15de3ffe5118065ad7a90d4e4c6009849cdff4f440bba44c",
+        "size": 1497960,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "2fbe469d90f04ef89c6763c8d2885b47",
+          "member": "libmodule_hidden_terminal_plus.so",
+          "sha256": "4a0463bc4b3a39d155852eb457444501dfca9ed683fabf52fcbfa54261d228cd"
+        },
+        "native_descriptor": {
+          "name": "隐蔽终端PLUS",
+          "version": "4.6.1",
+          "description": "提供终端、自动化和双栏文件管理。",
+          "author": "斓梦语、SKRoot",
+          "id": "2fbe469d90f04ef89c6763c8d2885b47"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.6.1/module.zip",
+      "sha256": "f9ed2795997de53c15de3ffe5118065ad7a90d4e4c6009849cdff4f440bba44c",
+      "size": 1497960,
+      "package": {
+        "path": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.6.1/module.zip",
+        "sha256": "f9ed2795997de53c15de3ffe5118065ad7a90d4e4c6009849cdff4f440bba44c",
+        "size": 1497960
+      },
+      "source_url": "sources/049bb5ee5f8e4e30e4f00bfd/index.json",
+      "changelog_url": "changelogs/2fbe469d90f04ef89c6763c8d2885b47/4.6.1.md",
+      "mirrors": {
+        "primary": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.6.1/module.zip",
+        "backup": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.6.1/module.zip"
+      },
+      "upstream": {
+        "chn_name": "隐蔽终端PLUS",
+        "eng_name": "隐蔽终端PLUS",
+        "ver": "4.6.1",
+        "author": "斓梦语、SKRoot",
+        "desc": "提供终端、自动化和双栏文件管理。",
+        "id32": "2fbe469d90f04ef89c6763c8d2885b47",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "隐蔽终端PLUS-4.6.1-arm64.zip",
+          "sha256": "f9ed2795997de53c15de3ffe5118065ad7a90d4e4c6009849cdff4f440bba44c",
+          "size": 1497960,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "2fbe469d90f04ef89c6763c8d2885b47",
+            "member": "libmodule_hidden_terminal_plus.so",
+            "sha256": "4a0463bc4b3a39d155852eb457444501dfca9ed683fabf52fcbfa54261d228cd"
+          },
+          "native_descriptor": {
+            "name": "隐蔽终端PLUS",
+            "version": "4.6.1",
+            "description": "提供终端、自动化和双栏文件管理。",
+            "author": "斓梦语、SKRoot",
+            "id": "2fbe469d90f04ef89c6763c8d2885b47"
+          }
+        }
+      },
+      "archive_entry_count": 23,
+      "source_index": {
+        "path": "sources/049bb5ee5f8e4e30e4f00bfd/index.json",
+        "sha256": "89f20b8112de8ade070702ee1b3daadce08a288b7d5a858b153cb1b7879dd951",
+        "size": 920
+      },
+      "module_index": {
+        "path": "modules/2fbe469d90f04ef89c6763c8d2885b47/module.json",
+        "sha256": "cdedbb7327fb65a71052141e6890394a3b77ee5791f5c456ef2f9da26e9461a8",
+        "size": 4053
+      }
+    },
+    {
+      "chn_name": "OhMyKeymint移植版",
+      "eng_name": "OhMyKeymint移植版",
+      "ver": "0.2.7",
+      "author": "榆爱",
+      "desc": "OhMyKeymint 移植到 SKRoot Pro（作者：榆爱）\n\n此模块来自用户上传",
+      "id32": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "【模块】OhMyKeymint移植版-SKRootPro-v1.8.zip",
+        "sha256": "f2121b3dbc9ef9fa4aee746b3acba964d12aa6f3a8fb82fa096a9850afa67daf",
+        "size": 8664103,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+          "member": "omk_port.so",
+          "sha256": "f0b01b6fc9b365da40bc6c4c1b4ceafebc722f0584b8045e708433a83095114e"
+        },
+        "native_descriptor": {
+          "name": "OhMyKeymint移植版",
+          "version": "0.2.7",
+          "description": "OhMyKeymint 移植到 SKRoot Pro（作者：榆爱）",
+          "author": "榆爱",
+          "id": "a1b2c3d4e5f60718293a4b5c6d7e8f90"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/a1b2c3d4e5f60718293a4b5c6d7e8f90/0.2.7/module.zip",
+      "sha256": "f2121b3dbc9ef9fa4aee746b3acba964d12aa6f3a8fb82fa096a9850afa67daf",
+      "size": 8664103,
+      "package": {
+        "path": "packages/a1b2c3d4e5f60718293a4b5c6d7e8f90/0.2.7/module.zip",
+        "sha256": "f2121b3dbc9ef9fa4aee746b3acba964d12aa6f3a8fb82fa096a9850afa67daf",
+        "size": 8664103
+      },
+      "source_url": "sources/ff6bfa1212aa697d482bbfae/index.json",
+      "changelog_url": "changelogs/a1b2c3d4e5f60718293a4b5c6d7e8f90/0.2.7.md",
+      "mirrors": {
+        "primary": "packages/a1b2c3d4e5f60718293a4b5c6d7e8f90/0.2.7/module.zip",
+        "backup": "packages/a1b2c3d4e5f60718293a4b5c6d7e8f90/0.2.7/module.zip"
+      },
+      "upstream": {
+        "chn_name": "OhMyKeymint移植版",
+        "eng_name": "OhMyKeymint移植版",
+        "ver": "0.2.7",
+        "author": "榆爱",
+        "desc": "OhMyKeymint 移植到 SKRoot Pro（作者：榆爱）",
+        "id32": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "【模块】OhMyKeymint移植版-SKRootPro-v1.8.zip",
+          "sha256": "f2121b3dbc9ef9fa4aee746b3acba964d12aa6f3a8fb82fa096a9850afa67daf",
+          "size": 8664103,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+            "member": "omk_port.so",
+            "sha256": "f0b01b6fc9b365da40bc6c4c1b4ceafebc722f0584b8045e708433a83095114e"
+          },
+          "native_descriptor": {
+            "name": "OhMyKeymint移植版",
+            "version": "0.2.7",
+            "description": "OhMyKeymint 移植到 SKRoot Pro（作者：榆爱）",
+            "author": "榆爱",
+            "id": "a1b2c3d4e5f60718293a4b5c6d7e8f90"
+          }
+        }
+      },
+      "archive_entry_count": 46,
+      "source_index": {
+        "path": "sources/ff6bfa1212aa697d482bbfae/index.json",
+        "sha256": "b4589055bbea6be352e32a19ec286825133c9cd3e42f426f7ad27c656b56a798",
+        "size": 914
+      },
+      "module_index": {
+        "path": "modules/a1b2c3d4e5f60718293a4b5c6d7e8f90/module.json",
+        "sha256": "f02b79330b65b5cfcfe4b970bf2b3bcd826edc08a2fc99b711d2e7c0e644bd89",
+        "size": 2372
+      }
+    },
+    {
+      "chn_name": "文件系统隐藏 SUSFS",
+      "eng_name": "文件系统隐藏 SUSFS",
+      "ver": "0.3.11",
+      "author": "斓梦语、SUSFS4KSU-LKM",
+      "desc": "提供文件隐藏、状态伪装、重定向，以及内核版本伪装、启动信息修改、内核模块隐藏、AVC 日志伪装等 SUSFS 功能。在原 SUSFS 项目基础上优化，支持规则独立作用域调整、按域豁免，并提供可视化 WebUI 配置。\n\n此模块来自用户上传",
+      "id32": "fa362333cf458e832cd032fda9a9f3c6",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "0.3.11-6.6-6.12-文件系统隐藏SUSFS-SCS兼容-arm64.zip",
+        "sha256": "a3e6ed22ff9b352e71d712a5d7523c8cc5628b8f48edd8a3eaaf71313752aea3",
+        "size": 4463450,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "fa362333cf458e832cd032fda9a9f3c6",
+          "member": "libsusfs4skp.so",
+          "sha256": "6cea4e56b2e37f5aa382ed140be1be63af4b9fb03486d9ed8b6edac2a3a7af17"
+        },
+        "native_descriptor": {
+          "name": "文件系统隐藏 SUSFS",
+          "version": "0.3.11",
+          "description": "提供文件隐藏、状态伪装、重定向，以及内核版本伪装、启动信息修改、内核模块隐藏、AVC 日志伪装等 SUSFS 功能。在原 SUSFS 项目基础上优化，支持规则独立作用域调整、按域豁免，并提供可视化 WebUI 配置。",
+          "author": "斓梦语、SUSFS4KSU-LKM",
+          "id": "fa362333cf458e832cd032fda9a9f3c6"
+        },
+        "module_prop_path": "module.prop",
+        "module_prop": {
+          "id": "fa362333cf458e832cd032fda9a9f3c6",
+          "name": "文件系统隐藏 SUSFS",
+          "version": "0.3.11",
+          "versionCode": "16",
+          "author": "斓梦语、SUSFS4KSU-LKM",
+          "description": "提供文件隐藏、状态伪装、重定向，以及内核版本伪装、启动信息修改、内核模块隐藏、AVC 日志伪装等 SUSFS 功能。在原 SUSFS 项目基础上优化，支持规则独立作用域调整、按域豁免，并提供可视化 WebUI 配置。"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/fa362333cf458e832cd032fda9a9f3c6/0.3.11/module.zip",
+      "sha256": "a3e6ed22ff9b352e71d712a5d7523c8cc5628b8f48edd8a3eaaf71313752aea3",
+      "size": 4463450,
+      "package": {
+        "path": "packages/fa362333cf458e832cd032fda9a9f3c6/0.3.11/module.zip",
+        "sha256": "a3e6ed22ff9b352e71d712a5d7523c8cc5628b8f48edd8a3eaaf71313752aea3",
+        "size": 4463450
+      },
+      "source_url": "sources/387aeb65437b14511195fe31/index.json",
+      "changelog_url": "changelogs/fa362333cf458e832cd032fda9a9f3c6/0.3.11.md",
+      "mirrors": {
+        "primary": "packages/fa362333cf458e832cd032fda9a9f3c6/0.3.11/module.zip",
+        "backup": "packages/fa362333cf458e832cd032fda9a9f3c6/0.3.11/module.zip"
+      },
+      "upstream": {
+        "chn_name": "文件系统隐藏 SUSFS",
+        "eng_name": "文件系统隐藏 SUSFS",
+        "ver": "0.3.11",
+        "author": "斓梦语、SUSFS4KSU-LKM",
+        "desc": "提供文件隐藏、状态伪装、重定向，以及内核版本伪装、启动信息修改、内核模块隐藏、AVC 日志伪装等 SUSFS 功能。在原 SUSFS 项目基础上优化，支持规则独立作用域调整、按域豁免，并提供可视化 WebUI 配置。",
+        "id32": "fa362333cf458e832cd032fda9a9f3c6",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "0.3.11-6.6-6.12-文件系统隐藏SUSFS-SCS兼容-arm64.zip",
+          "sha256": "a3e6ed22ff9b352e71d712a5d7523c8cc5628b8f48edd8a3eaaf71313752aea3",
+          "size": 4463450,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "fa362333cf458e832cd032fda9a9f3c6",
+            "member": "libsusfs4skp.so",
+            "sha256": "6cea4e56b2e37f5aa382ed140be1be63af4b9fb03486d9ed8b6edac2a3a7af17"
+          },
+          "native_descriptor": {
+            "name": "文件系统隐藏 SUSFS",
+            "version": "0.3.11",
+            "description": "提供文件隐藏、状态伪装、重定向，以及内核版本伪装、启动信息修改、内核模块隐藏、AVC 日志伪装等 SUSFS 功能。在原 SUSFS 项目基础上优化，支持规则独立作用域调整、按域豁免，并提供可视化 WebUI 配置。",
+            "author": "斓梦语、SUSFS4KSU-LKM",
+            "id": "fa362333cf458e832cd032fda9a9f3c6"
+          },
+          "module_prop_path": "module.prop",
+          "module_prop": {
+            "id": "fa362333cf458e832cd032fda9a9f3c6",
+            "name": "文件系统隐藏 SUSFS",
+            "version": "0.3.11",
+            "versionCode": "16",
+            "author": "斓梦语、SUSFS4KSU-LKM",
+            "description": "提供文件隐藏、状态伪装、重定向，以及内核版本伪装、启动信息修改、内核模块隐藏、AVC 日志伪装等 SUSFS 功能。在原 SUSFS 项目基础上优化，支持规则独立作用域调整、按域豁免，并提供可视化 WebUI 配置。"
+          }
+        }
+      },
+      "archive_entry_count": 37,
+      "source_index": {
+        "path": "sources/387aeb65437b14511195fe31/index.json",
+        "sha256": "4ce566878a2ea480288ed645748e7626a3459b566d9adb12e33cc0418da3d8fc",
+        "size": 1725
+      },
+      "module_index": {
+        "path": "modules/fa362333cf458e832cd032fda9a9f3c6/module.json",
+        "sha256": "72690927181f769e6855a4ac83abe290de2f5f276695193cf40fce34e50a4999",
+        "size": 3518
+      }
+    },
+    {
+      "chn_name": "Auto Trigger",
+      "eng_name": "Auto Trigger",
+      "ver": "2.1.0",
+      "author": "微微微",
+      "desc": "自动任务流处理模块 | 网页界面(127.0.0.1:2222) | 任务流执行/文件管理/交互终端/模块管理 | 自定义配置\n\n此模块来自用户上传",
+      "id32": "autotrigger20261024skrootpro0001",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "Auto_Trigger-v2.1.0-skroot-pro.zip",
+        "sha256": "f0208fc4ebd6086fe6babc111633f0aa6c6de8553abfc8a48016bee4f554f94d",
+        "size": 2805687,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "autotrigger20261024skrootpro0001",
+          "member": "libautotrigger_skroot.so",
+          "sha256": "294aa8f7ef826bc018846df7a6f6a748fb4b89b8c9a02785e4596f75dc46039e"
+        },
+        "native_descriptor": {
+          "name": "Auto Trigger",
+          "version": "2.1.0",
+          "description": "自动任务流处理模块 | 网页界面(127.0.0.1:2222) | 任务流执行/文件管理/交互终端/模块管理 | 自定义配置",
+          "author": "微微微",
+          "id": "autotrigger20261024skrootpro0001"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/autotrigger20261024skrootpro0001/2.1.0/module.zip",
+      "sha256": "f0208fc4ebd6086fe6babc111633f0aa6c6de8553abfc8a48016bee4f554f94d",
+      "size": 2805687,
+      "package": {
+        "path": "packages/autotrigger20261024skrootpro0001/2.1.0/module.zip",
+        "sha256": "f0208fc4ebd6086fe6babc111633f0aa6c6de8553abfc8a48016bee4f554f94d",
+        "size": 2805687
+      },
+      "source_url": "sources/4eb86fe07ff9d888bb1e3d36/index.json",
+      "changelog_url": "changelogs/autotrigger20261024skrootpro0001/2.1.0.md",
+      "mirrors": {
+        "primary": "packages/autotrigger20261024skrootpro0001/2.1.0/module.zip",
+        "backup": "packages/autotrigger20261024skrootpro0001/2.1.0/module.zip"
+      },
+      "upstream": {
+        "chn_name": "Auto Trigger",
+        "eng_name": "Auto Trigger",
+        "ver": "2.1.0",
+        "author": "微微微",
+        "desc": "自动任务流处理模块 | 网页界面(127.0.0.1:2222) | 任务流执行/文件管理/交互终端/模块管理 | 自定义配置",
+        "id32": "autotrigger20261024skrootpro0001",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "Auto_Trigger-v2.1.0-skroot-pro.zip",
+          "sha256": "f0208fc4ebd6086fe6babc111633f0aa6c6de8553abfc8a48016bee4f554f94d",
+          "size": 2805687,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "autotrigger20261024skrootpro0001",
+            "member": "libautotrigger_skroot.so",
+            "sha256": "294aa8f7ef826bc018846df7a6f6a748fb4b89b8c9a02785e4596f75dc46039e"
+          },
+          "native_descriptor": {
+            "name": "Auto Trigger",
+            "version": "2.1.0",
+            "description": "自动任务流处理模块 | 网页界面(127.0.0.1:2222) | 任务流执行/文件管理/交互终端/模块管理 | 自定义配置",
+            "author": "微微微",
+            "id": "autotrigger20261024skrootpro0001"
+          }
+        }
+      },
+      "archive_entry_count": 5,
+      "source_index": {
+        "path": "sources/4eb86fe07ff9d888bb1e3d36/index.json",
+        "sha256": "81a7fa4597ac25c1766e187171ce60979463e6284472466e984c6b9bcded87ba",
+        "size": 985
+      },
+      "module_index": {
+        "path": "modules/autotrigger20261024skrootpro0001/module.json",
+        "sha256": "260aee0b2c0e04582ce031e08ebf5c0e50fbcfd834ae18cadd0162beae0b92db",
+        "size": 2497
+      }
+    },
+    {
+      "chn_name": "DFM SF SELinux Policy",
+      "eng_name": "DFM SF SELinux Policy",
+      "ver": "v1.0.0",
+      "author": "DFM Plus",
+      "desc": "SELinux rules used by the DFM Plus SurfaceFlinger build. Policy only; no binaries, boot scripts, system mounts, or permissive mode. Reboot after installation.\n\n此模块来自用户上传",
+      "id32": "dfm_sf_sepolicy",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "dfm_sf_sepolicy-v1.0.0.zip",
+        "sha256": "3608c0b284400edfd836e3e112030a979b01d8c44008a977100108029dfceeea",
+        "size": 870,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "module_prop_path": "module.prop",
+        "module_prop": {
+          "id": "dfm_sf_sepolicy",
+          "name": "DFM SF SELinux Policy",
+          "version": "v1.0.0",
+          "versionCode": "1",
+          "author": "DFM Plus",
+          "description": "SELinux rules used by the DFM Plus SurfaceFlinger build. Policy only; no binaries, boot scripts, system mounts, or permissive mode. Reboot after installation."
+        }
+      },
+      "type": "KERNEL_SU",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/dfm_sf_sepolicy/v1.0.0/module.zip",
+      "sha256": "3608c0b284400edfd836e3e112030a979b01d8c44008a977100108029dfceeea",
+      "size": 870,
+      "package": {
+        "path": "packages/dfm_sf_sepolicy/v1.0.0/module.zip",
+        "sha256": "3608c0b284400edfd836e3e112030a979b01d8c44008a977100108029dfceeea",
+        "size": 870
+      },
+      "source_url": "sources/e5794f332fa37921cad28c47/index.json",
+      "changelog_url": "changelogs/dfm_sf_sepolicy/v1.0.0.md",
+      "mirrors": {
+        "primary": "packages/dfm_sf_sepolicy/v1.0.0/module.zip",
+        "backup": "packages/dfm_sf_sepolicy/v1.0.0/module.zip"
+      },
+      "upstream": {
+        "chn_name": "DFM SF SELinux Policy",
+        "eng_name": "DFM SF SELinux Policy",
+        "ver": "v1.0.0",
+        "author": "DFM Plus",
+        "desc": "SELinux rules used by the DFM Plus SurfaceFlinger build. Policy only; no binaries, boot scripts, system mounts, or permissive mode. Reboot after installation.",
+        "id32": "dfm_sf_sepolicy",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "dfm_sf_sepolicy-v1.0.0.zip",
+          "sha256": "3608c0b284400edfd836e3e112030a979b01d8c44008a977100108029dfceeea",
+          "size": 870,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "module_prop_path": "module.prop",
+          "module_prop": {
+            "id": "dfm_sf_sepolicy",
+            "name": "DFM SF SELinux Policy",
+            "version": "v1.0.0",
+            "versionCode": "1",
+            "author": "DFM Plus",
+            "description": "SELinux rules used by the DFM Plus SurfaceFlinger build. Policy only; no binaries, boot scripts, system mounts, or permissive mode. Reboot after installation."
+          }
+        }
+      },
+      "archive_entry_count": 3,
+      "source_index": {
+        "path": "sources/e5794f332fa37921cad28c47/index.json",
+        "sha256": "f53ff8696fccaa6e7f166a0d87cca65c315756729d2cd38afc8d98e60cc195f9",
+        "size": 840
+      },
+      "module_index": {
+        "path": "modules/dfm_sf_sepolicy/module.json",
+        "sha256": "1f7a2184cf45f92825ece8eb451ca2da76706194eb042ee08c0168427772ebad",
+        "size": 2325
+      }
+    },
+    {
+      "chn_name": "伪装DrmID",
+      "eng_name": "伪装DrmID",
+      "ver": "v1.0.0",
+      "author": "@time_pd",
+      "desc": "在系统 DRM 服务内改写 Widevine deviceUniqueId，不依赖 Zygisk。\n\n此模块来自用户上传",
+      "id32": "drmid_spoof",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "drmid_spoof.zip",
+        "sha256": "e3fb544858048851164f18001aacde0227e6d1925acddcc5fbef4f333fcac3c0",
+        "size": 29844,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "module_prop_path": "module.prop",
+        "module_prop": {
+          "id": "drmid_spoof",
+          "name": "伪装DrmID",
+          "version": "v1.0.0",
+          "versionCode": "10000",
+          "author": "@time_pd",
+          "description": "在系统 DRM 服务内改写 Widevine deviceUniqueId，不依赖 Zygisk。",
+          "updateJson": ""
+        }
+      },
+      "type": "KERNEL_SU",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/drmid_spoof/v1.0.0/module.zip",
+      "sha256": "e3fb544858048851164f18001aacde0227e6d1925acddcc5fbef4f333fcac3c0",
+      "size": 29844,
+      "package": {
+        "path": "packages/drmid_spoof/v1.0.0/module.zip",
+        "sha256": "e3fb544858048851164f18001aacde0227e6d1925acddcc5fbef4f333fcac3c0",
+        "size": 29844
+      },
+      "source_url": "sources/098eea7c00379b3e3598afd7/index.json",
+      "changelog_url": "changelogs/drmid_spoof/v1.0.0.md",
+      "mirrors": {
+        "primary": "packages/drmid_spoof/v1.0.0/module.zip",
+        "backup": "packages/drmid_spoof/v1.0.0/module.zip"
+      },
+      "upstream": {
+        "chn_name": "伪装DrmID",
+        "eng_name": "伪装DrmID",
+        "ver": "v1.0.0",
+        "author": "@time_pd",
+        "desc": "在系统 DRM 服务内改写 Widevine deviceUniqueId，不依赖 Zygisk。",
+        "id32": "drmid_spoof",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "drmid_spoof.zip",
+          "sha256": "e3fb544858048851164f18001aacde0227e6d1925acddcc5fbef4f333fcac3c0",
+          "size": 29844,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "module_prop_path": "module.prop",
+          "module_prop": {
+            "id": "drmid_spoof",
+            "name": "伪装DrmID",
+            "version": "v1.0.0",
+            "versionCode": "10000",
+            "author": "@time_pd",
+            "description": "在系统 DRM 服务内改写 Widevine deviceUniqueId，不依赖 Zygisk。",
+            "updateJson": ""
+          }
+        }
+      },
+      "archive_entry_count": 10,
+      "source_index": {
+        "path": "sources/098eea7c00379b3e3598afd7/index.json",
+        "sha256": "8256d13a3a0fe2817c5d393f6fc264790a688aa5221acb0b628e50ab86d3b30b",
+        "size": 762
+      },
+      "module_index": {
+        "path": "modules/drmid_spoof/module.json",
+        "sha256": "43e0ee8526e5d5212e32e5b3dbaf964e5fbe950924945f49cba0bb245f901361",
+        "size": 2116
+      }
+    },
+    {
+      "chn_name": "OPGCE 游戏优化",
+      "eng_name": "OPGCE 游戏优化",
+      "ver": "2.5.1",
+      "author": "芙里芙气-xiaoxun",
+      "desc": "OPPO游戏空间策略注入 游戏性能优化 功耗控制 设备信息x风格WebUI CPU频率修复\n\n此模块来自用户上传",
+      "id32": "opgcexiaoxun20260826000000000000",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "OPGCE 风驰增强.zip",
+        "sha256": "7dc0eaf886d1bd43e7374865eb2351c7a23cb376c62d19ec7f03e973815e8702",
+        "size": 4152306,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "opgcexiaoxun20260826000000000000",
+          "member": "libopgce.so",
+          "sha256": "a4b29de29029edd4319a0ade864de7b4d32a0c64302cd6dd914a8580bc29bfef"
+        },
+        "native_descriptor": {
+          "name": "OPGCE 游戏优化",
+          "version": "2.5.1",
+          "description": "OPPO游戏空间策略注入 游戏性能优化 功耗控制 设备信息x风格WebUI CPU频率修复",
+          "author": "芙里芙气-xiaoxun",
+          "id": "opgcexiaoxun20260826000000000000"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/opgcexiaoxun20260826000000000000/2.5.1/module.zip",
+      "sha256": "7dc0eaf886d1bd43e7374865eb2351c7a23cb376c62d19ec7f03e973815e8702",
+      "size": 4152306,
+      "package": {
+        "path": "packages/opgcexiaoxun20260826000000000000/2.5.1/module.zip",
+        "sha256": "7dc0eaf886d1bd43e7374865eb2351c7a23cb376c62d19ec7f03e973815e8702",
+        "size": 4152306
+      },
+      "source_url": "sources/5ea7efa768f065d69c3cc6a2/index.json",
+      "changelog_url": "changelogs/opgcexiaoxun20260826000000000000/2.5.1.md",
+      "mirrors": {
+        "primary": "packages/opgcexiaoxun20260826000000000000/2.5.1/module.zip",
+        "backup": "packages/opgcexiaoxun20260826000000000000/2.5.1/module.zip"
+      },
+      "upstream": {
+        "chn_name": "OPGCE 游戏优化",
+        "eng_name": "OPGCE 游戏优化",
+        "ver": "2.5.1",
+        "author": "芙里芙气-xiaoxun",
+        "desc": "OPPO游戏空间策略注入 游戏性能优化 功耗控制 设备信息x风格WebUI CPU频率修复",
+        "id32": "opgcexiaoxun20260826000000000000",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "OPGCE 风驰增强.zip",
+          "sha256": "7dc0eaf886d1bd43e7374865eb2351c7a23cb376c62d19ec7f03e973815e8702",
+          "size": 4152306,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "opgcexiaoxun20260826000000000000",
+            "member": "libopgce.so",
+            "sha256": "a4b29de29029edd4319a0ade864de7b4d32a0c64302cd6dd914a8580bc29bfef"
+          },
+          "native_descriptor": {
+            "name": "OPGCE 游戏优化",
+            "version": "2.5.1",
+            "description": "OPPO游戏空间策略注入 游戏性能优化 功耗控制 设备信息x风格WebUI CPU频率修复",
+            "author": "芙里芙气-xiaoxun",
+            "id": "opgcexiaoxun20260826000000000000"
+          }
+        }
+      },
+      "archive_entry_count": 219,
+      "source_index": {
+        "path": "sources/5ea7efa768f065d69c3cc6a2/index.json",
+        "sha256": "7c56360376e451d506d2a1356e5be5ac30dab281462fe75b673609b87b774dbb",
+        "size": 945
+      },
+      "module_index": {
+        "path": "modules/opgcexiaoxun20260826000000000000/module.json",
+        "sha256": "ae0062e552f0f9943a33e47d89174cbd126dcfef87978c7d5db8ffcecee33d5c",
+        "size": 2471
+      }
+    },
+    {
+      "chn_name": "应用自动隐藏",
+      "eng_name": "应用自动隐藏",
+      "ver": "20260516-bg-hold-v34",
+      "author": "SKRoot",
+      "desc": "游戏进入前台时自动隐藏指定应用，离开后恢复。支持后台保持、多用户、内存压力保护，内核级隐匿运行。\n\n此模块来自用户上传",
+      "id32": "aah20260516auto_hider_module_v34",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "skp伪卸载模块.zip",
+        "sha256": "0d969bdeb41973f8fcfd18f9d05dd60d2afafffa6d1377709ed216bd41207a5e",
+        "size": 449493,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "aah20260516auto_hider_module_v34",
+          "member": "libmodule_app_auto_hider.so",
+          "sha256": "2a091018c5ec12289c4571ad99bae2226a1a76cf0a5c1e51ba6508e5bcf985fb"
+        },
+        "native_descriptor": {
+          "name": "应用自动隐藏",
+          "version": "20260516-bg-hold-v34",
+          "description": "游戏进入前台时自动隐藏指定应用，离开后恢复。支持后台保持、多用户、内存压力保护，内核级隐匿运行。",
+          "author": "SKRoot",
+          "id": "aah20260516auto_hider_module_v34"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/aah20260516auto_hider_module_v34/20260516-bg-hold-v34/module.zip",
+      "sha256": "0d969bdeb41973f8fcfd18f9d05dd60d2afafffa6d1377709ed216bd41207a5e",
+      "size": 449493,
+      "package": {
+        "path": "packages/aah20260516auto_hider_module_v34/20260516-bg-hold-v34/module.zip",
+        "sha256": "0d969bdeb41973f8fcfd18f9d05dd60d2afafffa6d1377709ed216bd41207a5e",
+        "size": 449493
+      },
+      "source_url": "sources/474469dabad2572b68266d19/index.json",
+      "changelog_url": "changelogs/aah20260516auto_hider_module_v34/20260516-bg-hold-v34.md",
+      "mirrors": {
+        "primary": "packages/aah20260516auto_hider_module_v34/20260516-bg-hold-v34/module.zip",
+        "backup": "packages/aah20260516auto_hider_module_v34/20260516-bg-hold-v34/module.zip"
+      },
+      "upstream": {
+        "chn_name": "应用自动隐藏",
+        "eng_name": "应用自动隐藏",
+        "ver": "20260516-bg-hold-v34",
+        "author": "SKRoot",
+        "desc": "游戏进入前台时自动隐藏指定应用，离开后恢复。支持后台保持、多用户、内存压力保护，内核级隐匿运行。",
+        "id32": "aah20260516auto_hider_module_v34",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "skp伪卸载模块.zip",
+          "sha256": "0d969bdeb41973f8fcfd18f9d05dd60d2afafffa6d1377709ed216bd41207a5e",
+          "size": 449493,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "aah20260516auto_hider_module_v34",
+            "member": "libmodule_app_auto_hider.so",
+            "sha256": "2a091018c5ec12289c4571ad99bae2226a1a76cf0a5c1e51ba6508e5bcf985fb"
+          },
+          "native_descriptor": {
+            "name": "应用自动隐藏",
+            "version": "20260516-bg-hold-v34",
+            "description": "游戏进入前台时自动隐藏指定应用，离开后恢复。支持后台保持、多用户、内存压力保护，内核级隐匿运行。",
+            "author": "SKRoot",
+            "id": "aah20260516auto_hider_module_v34"
+          }
+        }
+      },
+      "archive_entry_count": 9,
+      "source_index": {
+        "path": "sources/474469dabad2572b68266d19/index.json",
+        "sha256": "2c4818e72d05af83ad6033dcb24f4eba80aa7d9218298ae017a1f61e68bc1b51",
+        "size": 1004
+      },
+      "module_index": {
+        "path": "modules/aah20260516auto_hider_module_v34/module.json",
+        "sha256": "a56c3a07be857bb0b6b6fd1812f540c853d63eca4662974e8e60819ed1e31fb0",
+        "size": 2620
+      }
+    },
+    {
+      "chn_name": "SUSFS Guard (LKM) SKRoot版",
+      "eng_name": "SUSFS Guard (LKM) SKRoot版",
+      "ver": "v2.3.2-r18.2",
+      "author": "inforcqb (susfs4ksu-lkm) · SKRoot port",
+      "desc": "susfs4ksu-lkm SUSFS Guard SKRoot 移植版 v2：开机自动按内核版本匹配并加载对应 .ko(8 个 arm64 KMI 全覆盖 5.10-6.18)，加载后自动重放已保存的 susfs 规则(内核规则重启即失，由本模块持久化与重放)。WebUI 管理：sus_path 路径隐藏 / SKRoot 模块扫描与按模块隐藏 / sus_kstat stat伪装 / sus_map maps隐藏 / uname 伪装 / bootconfig 伪装 / open_redirect 重定向 / 隐藏内核模块 / 隐藏挂载前缀+总开关 / 日志与AVC开关 / 一键SKRoot预设 / SUSFS版本与特性查看(supercall ABI 与 sidex15/susfs4ksu-module 互通)，规则改动即时生效。内核不匹配的机型拒绝安装。\n\n此模块来自用户上传",
+      "id32": "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "SUSFS_Guard_LKM_2.3.2_SKRoot.zip",
+        "sha256": "a3b20425e77a9a234956646f82c39ae4b90b71d2a19be69aa8a278be04d763c1",
+        "size": 10075320,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d",
+          "member": "libsusfs_guard_lkm.so",
+          "sha256": "e415699a907ee7795f9989a51f69b7fbaee1b22f66ce5ed1097f75335718366d"
+        },
+        "native_descriptor": {
+          "name": "SUSFS Guard (LKM) SKRoot版",
+          "version": "v2.3.2-r18.2",
+          "description": "susfs4ksu-lkm SUSFS Guard SKRoot 移植版 v2：开机自动按内核版本匹配并加载对应 .ko(8 个 arm64 KMI 全覆盖 5.10-6.18)，加载后自动重放已保存的 susfs 规则(内核规则重启即失，由本模块持久化与重放)。WebUI 管理：sus_path 路径隐藏 / SKRoot 模块扫描与按模块隐藏 / sus_kstat stat伪装 / sus_map maps隐藏 / uname 伪装 / bootconfig 伪装 / open_redirect 重定向 / 隐藏内核模块 / 隐藏挂载前缀+总开关 / 日志与AVC开关 / 一键SKRoot预设 / SUSFS版本与特性查看(supercall ABI 与 sidex15/susfs4ksu-module 互通)，规则改动即时生效。内核不匹配的机型拒绝安装。",
+          "author": "inforcqb (susfs4ksu-lkm) · SKRoot port",
+          "id": "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d/v2.3.2-r18.2/module.zip",
+      "sha256": "a3b20425e77a9a234956646f82c39ae4b90b71d2a19be69aa8a278be04d763c1",
+      "size": 10075320,
+      "package": {
+        "path": "packages/s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d/v2.3.2-r18.2/module.zip",
+        "sha256": "a3b20425e77a9a234956646f82c39ae4b90b71d2a19be69aa8a278be04d763c1",
+        "size": 10075320
+      },
+      "source_url": "sources/71558a2aa386bf3850acd2a9/index.json",
+      "changelog_url": "changelogs/s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d/v2.3.2-r18.2.md",
+      "mirrors": {
+        "primary": "packages/s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d/v2.3.2-r18.2/module.zip",
+        "backup": "packages/s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d/v2.3.2-r18.2/module.zip"
+      },
+      "upstream": {
+        "chn_name": "SUSFS Guard (LKM) SKRoot版",
+        "eng_name": "SUSFS Guard (LKM) SKRoot版",
+        "ver": "v2.3.2-r18.2",
+        "author": "inforcqb (susfs4ksu-lkm) · SKRoot port",
+        "desc": "susfs4ksu-lkm SUSFS Guard SKRoot 移植版 v2：开机自动按内核版本匹配并加载对应 .ko(8 个 arm64 KMI 全覆盖 5.10-6.18)，加载后自动重放已保存的 susfs 规则(内核规则重启即失，由本模块持久化与重放)。WebUI 管理：sus_path 路径隐藏 / SKRoot 模块扫描与按模块隐藏 / sus_kstat stat伪装 / sus_map maps隐藏 / uname 伪装 / bootconfig 伪装 / open_redirect 重定向 / 隐藏内核模块 / 隐藏挂载前缀+总开关 / 日志与AVC开关 / 一键SKRoot预设 / SUSFS版本与特性查看(supercall ABI 与 sidex15/susfs4ksu-module 互通)，规则改动即时生效。内核不匹配的机型拒绝安装。",
+        "id32": "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "SUSFS_Guard_LKM_2.3.2_SKRoot.zip",
+          "sha256": "a3b20425e77a9a234956646f82c39ae4b90b71d2a19be69aa8a278be04d763c1",
+          "size": 10075320,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d",
+            "member": "libsusfs_guard_lkm.so",
+            "sha256": "e415699a907ee7795f9989a51f69b7fbaee1b22f66ce5ed1097f75335718366d"
+          },
+          "native_descriptor": {
+            "name": "SUSFS Guard (LKM) SKRoot版",
+            "version": "v2.3.2-r18.2",
+            "description": "susfs4ksu-lkm SUSFS Guard SKRoot 移植版 v2：开机自动按内核版本匹配并加载对应 .ko(8 个 arm64 KMI 全覆盖 5.10-6.18)，加载后自动重放已保存的 susfs 规则(内核规则重启即失，由本模块持久化与重放)。WebUI 管理：sus_path 路径隐藏 / SKRoot 模块扫描与按模块隐藏 / sus_kstat stat伪装 / sus_map maps隐藏 / uname 伪装 / bootconfig 伪装 / open_redirect 重定向 / 隐藏内核模块 / 隐藏挂载前缀+总开关 / 日志与AVC开关 / 一键SKRoot预设 / SUSFS版本与特性查看(supercall ABI 与 sidex15/susfs4ksu-module 互通)，规则改动即时生效。内核不匹配的机型拒绝安装。",
+            "author": "inforcqb (susfs4ksu-lkm) · SKRoot port",
+            "id": "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d"
+          }
+        }
+      },
+      "archive_entry_count": 17,
+      "source_index": {
+        "path": "sources/71558a2aa386bf3850acd2a9/index.json",
+        "sha256": "4f050b837897febb76ba32ec021c594e4f1c435312985b56b641aba8d0ffd94d",
+        "size": 1572
+      },
+      "module_index": {
+        "path": "modules/s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d/module.json",
+        "sha256": "c69294d44f16fbfbb7b2eeeb6552b294c4eb9cef44e986a3219fb5a1c58120bb",
+        "size": 3780
+      }
+    },
+    {
+      "chn_name": "内核拦截",
+      "eng_name": "内核拦截",
+      "ver": "2.1.1-offline.1",
+      "author": "榆爱",
+      "desc": "内核级拦截设备标记目录，支持自定义目录和目标应用，实时显示拦截日志。采用inode_permission hook（LSM之前，更底层） + inode_operations替换双重拦截，不改目录权限。\n\n此模块来自用户上传",
+      "id32": "6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "内核拦截-v2.1.1-完全剔除.zip",
+        "sha256": "40283b95a433b1020e74ab6cf53902a96835b6400907548e5eb957185daf5cdf",
+        "size": 661590,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT",
+          "member": "libmodule_anti_device_flag.so",
+          "sha256": "5bd8c430d1b616f918f32935b1c1e523864d869c2d7e8bab5e041520bc7da258"
+        },
+        "native_descriptor": {
+          "name": "内核拦截",
+          "version": "2.1.1-offline.1",
+          "description": "内核级拦截设备标记目录，支持自定义目录和目标应用，实时显示拦截日志。采用inode_permission hook（LSM之前，更底层） + inode_operations替换双重拦截，不改目录权限。",
+          "author": "榆爱",
+          "id": "6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT"
+        },
+        "module_prop_path": "module.prop",
+        "module_prop": {
+          "id": "kernel_intercept",
+          "name": "内核拦截",
+          "version": "v2.1.1-offline.1",
+          "versionCode": "21101",
+          "author": "榆爱",
+          "description": "【本地版·无卡密·无守护校验】内核级拦截设备标记目录，采用inode_permission hook（LSM之前，更底层），返回ENOENT更隐蔽。新增smaps隐藏、自动识别设备平台、隐藏状态可视化、日志过滤、深色模式、一键诊断。支持自定义目录和目标应用，实时显示拦截日志。"
+        }
+      },
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "download_url": "packages/6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT/2.1.1-offline.1/module.zip",
+      "sha256": "40283b95a433b1020e74ab6cf53902a96835b6400907548e5eb957185daf5cdf",
+      "size": 661590,
+      "package": {
+        "path": "packages/6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT/2.1.1-offline.1/module.zip",
+        "sha256": "40283b95a433b1020e74ab6cf53902a96835b6400907548e5eb957185daf5cdf",
+        "size": 661590
+      },
+      "source_url": "sources/e3d200671f5a769be0376ed4/index.json",
+      "changelog_url": "changelogs/6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT/2.1.1-offline.1.md",
+      "mirrors": {
+        "primary": "packages/6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT/2.1.1-offline.1/module.zip",
+        "backup": "packages/6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT/2.1.1-offline.1/module.zip"
+      },
+      "upstream": {
+        "chn_name": "内核拦截",
+        "eng_name": "内核拦截",
+        "ver": "2.1.1-offline.1",
+        "author": "榆爱",
+        "desc": "内核级拦截设备标记目录，支持自定义目录和目标应用，实时显示拦截日志。采用inode_permission hook（LSM之前，更底层） + inode_operations替换双重拦截，不改目录权限。",
+        "id32": "6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT",
+        "update_date": "2026-11-11",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "内核拦截-v2.1.1-完全剔除.zip",
+          "sha256": "40283b95a433b1020e74ab6cf53902a96835b6400907548e5eb957185daf5cdf",
+          "size": 661590,
+          "release_date_basis": "maintainer-supplied package intake date",
+          "native_identity": {
+            "id32": "6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT",
+            "member": "libmodule_anti_device_flag.so",
+            "sha256": "5bd8c430d1b616f918f32935b1c1e523864d869c2d7e8bab5e041520bc7da258"
+          },
+          "native_descriptor": {
+            "name": "内核拦截",
+            "version": "2.1.1-offline.1",
+            "description": "内核级拦截设备标记目录，支持自定义目录和目标应用，实时显示拦截日志。采用inode_permission hook（LSM之前，更底层） + inode_operations替换双重拦截，不改目录权限。",
+            "author": "榆爱",
+            "id": "6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT"
+          },
+          "module_prop_path": "module.prop",
+          "module_prop": {
+            "id": "kernel_intercept",
+            "name": "内核拦截",
+            "version": "v2.1.1-offline.1",
+            "versionCode": "21101",
+            "author": "榆爱",
+            "description": "【本地版·无卡密·无守护校验】内核级拦截设备标记目录，采用inode_permission hook（LSM之前，更底层），返回ENOENT更隐蔽。新增smaps隐藏、自动识别设备平台、隐藏状态可视化、日志过滤、深色模式、一键诊断。支持自定义目录和目标应用，实时显示拦截日志。"
+          }
+        }
+      },
+      "archive_entry_count": 3,
+      "source_index": {
+        "path": "sources/e3d200671f5a769be0376ed4/index.json",
+        "sha256": "60cea1ec3fe44a53542f167e716eb7e338189d1240cb89b400295fd0ba6404f0",
+        "size": 1670
+      },
+      "module_index": {
+        "path": "modules/6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT/module.json",
+        "sha256": "a2f029cb37e6d0ec4280d4da8e520e9d6c0d8cd74bb885927636da92eb519ec0",
+        "size": 3364
+      }
+    },
+    {
       "chn_name": "隐藏/data目录",
       "eng_name": "",
       "ver": "2.0.6",
@@ -564,64 +2099,6 @@
         "path": "sources/dfd7835777501cb61dd01da4/index.json",
         "sha256": "129bb8bc171595d7091107de2a59101f3cc19e8151d34efe7e108f46a0d9c6b4",
         "size": 6849
-      }
-    },
-    {
-      "chn_name": "隐蔽终端PLUS",
-      "eng_name": "",
-      "ver": "4.3.0",
-      "desc": "提供隐蔽的sh执行通道、自动化，以及功能完善的双栏文件管理(类MT风格)功能。避免类似App带来的特征暴露风险。",
-      "author": "斓梦语",
-      "id32": "2fbe469d90f04ef89c6763c8d2885b47",
-      "update_date": "2026-10-16",
-      "source_url": "sources/51a577346e529b78f0cf459b/index.json",
-      "download_url": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.3.0/module.zip",
-      "changelog_url": "changelogs/2fbe469d90f04ef89c6763c8d2885b47/4.3.0.md",
-      "download_chn_alert": "",
-      "download_eng_alert": "",
-      "type": "SKROOT_PRO",
-      "compatibility": {
-        "modes": [
-          "MapleSU_Ultra"
-        ],
-        "normal_supported": false,
-        "device_validation": "pending"
-      },
-      "sha256": "95beb48973e795f23442ffa018aac9b2ec4c6270301ed677db8f4d341f2a42c2",
-      "size": 1399288,
-      "package": {
-        "path": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.3.0/module.zip",
-        "sha256": "95beb48973e795f23442ffa018aac9b2ec4c6270301ed677db8f4d341f2a42c2",
-        "size": 1399288
-      },
-      "mirrors": {
-        "primary": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.3.0/module.zip",
-        "backup": "packages/2fbe469d90f04ef89c6763c8d2885b47/4.3.0/module.zip"
-      },
-      "upstream": {
-        "chn_name": "隐蔽终端PLUS",
-        "eng_name": "",
-        "ver": "4.3.0",
-        "desc": "提供隐蔽的sh执行通道、自动化，以及功能完善的双栏文件管理(类MT风格)功能。避免类似App带来的特征暴露风险。",
-        "author": "斓梦语",
-        "id32": "2fbe469d90f04ef89c6763c8d2885b47",
-        "update_date": "2026-10-16",
-        "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E9%9A%90%E8%94%BD%E7%BB%88%E7%AB%AFPLUS/src.zip",
-        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E9%9A%90%E8%94%BD%E7%BB%88%E7%AB%AFPLUS/module.zip",
-        "changelog_url": "",
-        "download_chn_alert": "",
-        "download_eng_alert": ""
-      },
-      "archive_entry_count": 19,
-      "module_index": {
-        "path": "modules/2fbe469d90f04ef89c6763c8d2885b47/module.json",
-        "sha256": "cb7944089869ce21306e7a181b4b5de9ce7b12b32aed4f318b8187bd04fd32e0",
-        "size": 1959
-      },
-      "source_index": {
-        "path": "sources/51a577346e529b78f0cf459b/index.json",
-        "sha256": "fe654034217f26e07c063681b5406845e63f378877ffa86a38d2998cc8025255",
-        "size": 346
       }
     },
     {
@@ -1210,126 +2687,6 @@
         "path": "sources/8ed07655b50066c61e578cac/index.json",
         "sha256": "c35dd453fdbfe9de97c1a2b41d6d4aa869027777d19d3e0838675031964ee1ce",
         "size": 25384
-      }
-    },
-    {
-      "chn_name": "设备标识管理",
-      "eng_name": "",
-      "ver": "1.0.5",
-      "desc": "统一管理设备标识、SSAID、OAID 与 Widevine DRM ID",
-      "author": "斓梦语、蜃、榆爱",
-      "id32": "deviceIdentityManagerSKP20260904",
-      "update_date": "2026-9-28",
-      "ban": false,
-      "source_url": "sources/17e8bbd88d96aef0cc057163/index.json",
-      "download_url": "packages/deviceIdentityManagerSKP20260904/1.0.5/module.zip",
-      "changelog_url": "changelogs/deviceIdentityManagerSKP20260904/1.0.5.md",
-      "download_chn_alert": "",
-      "download_eng_alert": "",
-      "type": "SKROOT_PRO",
-      "compatibility": {
-        "modes": [
-          "MapleSU_Ultra"
-        ],
-        "normal_supported": false,
-        "device_validation": "pending"
-      },
-      "sha256": "20a934d13f2517dd61cb690445199664fea5f1e92a754bc50dd419fa65872346",
-      "size": 1397884,
-      "package": {
-        "path": "packages/deviceIdentityManagerSKP20260904/1.0.5/module.zip",
-        "sha256": "20a934d13f2517dd61cb690445199664fea5f1e92a754bc50dd419fa65872346",
-        "size": 1397884
-      },
-      "mirrors": {
-        "primary": "packages/deviceIdentityManagerSKP20260904/1.0.5/module.zip",
-        "backup": "packages/deviceIdentityManagerSKP20260904/1.0.5/module.zip"
-      },
-      "upstream": {
-        "chn_name": "设备标识管理",
-        "eng_name": "",
-        "ver": "1.0.5",
-        "desc": "统一管理设备标识、SSAID、OAID 与 Widevine DRM ID",
-        "author": "斓梦语、蜃、榆爱",
-        "id32": "deviceIdentityManagerSKP20260904",
-        "update_date": "2026-9-28",
-        "ban": false,
-        "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E8%AE%BE%E5%A4%87%E6%A0%87%E8%AF%86%E7%AE%A1%E7%90%86/src.zip",
-        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E8%AE%BE%E5%A4%87%E6%A0%87%E8%AF%86%E7%AE%A1%E7%90%86/module.zip",
-        "changelog_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E8%AE%BE%E5%A4%87%E6%A0%87%E8%AF%86%E7%AE%A1%E7%90%86/changelog.txt",
-        "download_chn_alert": "",
-        "download_eng_alert": ""
-      },
-      "archive_entry_count": 7,
-      "module_index": {
-        "path": "modules/deviceIdentityManagerSKP20260904/module.json",
-        "sha256": "a1336a58dd60834623a5776ea266ac8335cc5c2d0cd40077706091ba0d6878fd",
-        "size": 2082
-      },
-      "source_index": {
-        "path": "sources/17e8bbd88d96aef0cc057163/index.json",
-        "sha256": "6e1dd5daf7f5ec6e2acc6fcdf6065c95d00ce1c2c6bf367e4ac8920a97775e74",
-        "size": 360
-      }
-    },
-    {
-      "chn_name": "应用自动隐藏",
-      "eng_name": "",
-      "ver": "1.9.3",
-      "desc": "【应用自动隐藏】检测触发应用进入前台时自动隐藏指定应用，离开后恢复。三重隐藏：pm hide应用层 + 内核filldir64目录层 + am force-stop进程层，对抗内核层枚举扫描；并在内核/proc层隐藏模块自身守护进程。支持后台保持、仅前台模式、多用户、一键救回。",
-      "author": "榆爱",
-      "id32": "cd08ae9eef7bb885c06f80ef3aea1d5c",
-      "update_date": "2026-10-16",
-      "ban": false,
-      "source_url": "sources/952781b1892999f3698f2c30/index.json",
-      "download_url": "packages/cd08ae9eef7bb885c06f80ef3aea1d5c/1.9.3/module.zip",
-      "changelog_url": "changelogs/cd08ae9eef7bb885c06f80ef3aea1d5c/1.9.3.md",
-      "download_chn_alert": "",
-      "download_eng_alert": "",
-      "type": "SKROOT_PRO",
-      "compatibility": {
-        "modes": [
-          "MapleSU_Ultra"
-        ],
-        "normal_supported": false,
-        "device_validation": "pending"
-      },
-      "sha256": "2fdc08482075a9865d49e2595a2487f07a37ab499aab744d8d9bb09a098d4a31",
-      "size": 668026,
-      "package": {
-        "path": "packages/cd08ae9eef7bb885c06f80ef3aea1d5c/1.9.3/module.zip",
-        "sha256": "2fdc08482075a9865d49e2595a2487f07a37ab499aab744d8d9bb09a098d4a31",
-        "size": 668026
-      },
-      "mirrors": {
-        "primary": "packages/cd08ae9eef7bb885c06f80ef3aea1d5c/1.9.3/module.zip",
-        "backup": "packages/cd08ae9eef7bb885c06f80ef3aea1d5c/1.9.3/module.zip"
-      },
-      "upstream": {
-        "chn_name": "应用自动隐藏",
-        "eng_name": "",
-        "ver": "1.9.3",
-        "desc": "【应用自动隐藏】检测触发应用进入前台时自动隐藏指定应用，离开后恢复。三重隐藏：pm hide应用层 + 内核filldir64目录层 + am force-stop进程层，对抗内核层枚举扫描；并在内核/proc层隐藏模块自身守护进程。支持后台保持、仅前台模式、多用户、一键救回。",
-        "author": "榆爱",
-        "id32": "cd08ae9eef7bb885c06f80ef3aea1d5c",
-        "update_date": "2026-10-16",
-        "ban": false,
-        "source_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E5%86%85%E6%A0%B8%E7%BA%A7%E5%BA%94%E7%94%A8%E9%9A%90%E8%97%8F/src.zip",
-        "download_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E5%86%85%E6%A0%B8%E7%BA%A7%E5%BA%94%E7%94%A8%E9%9A%90%E8%97%8F/module.zip",
-        "changelog_url": "https://abcz316.github.io/SKRoot-linuxKernelRoot/module_tools/%E5%86%85%E6%A0%B8%E7%BA%A7%E5%BA%94%E7%94%A8%E9%9A%90%E8%97%8F/changelog.txt",
-        "download_chn_alert": "",
-        "download_eng_alert": ""
-      },
-      "archive_entry_count": 6,
-      "module_index": {
-        "path": "modules/cd08ae9eef7bb885c06f80ef3aea1d5c/module.json",
-        "sha256": "ef788ab268c0a68323d98e61bca5dd92caac985adf782656d7ff6136473131b9",
-        "size": 2352
-      },
-      "source_index": {
-        "path": "sources/952781b1892999f3698f2c30/index.json",
-        "sha256": "5c6af6aacb39e4000a1449e7db76b51d042a0079562ad0ccb70aba83a718cd10",
-        "size": 367
       }
     },
     {
@@ -2158,12 +3515,114 @@
       "kind": "user-supplied-package",
       "path": "upstream/local-3ba9e2c7f0fbc1bcfa409f30acb1fdf7293ce82e7600b71d4d1e014d758b2ef6.json",
       "sha256": "3ba9e2c7f0fbc1bcfa409f30acb1fdf7293ce82e7600b71d4d1e014d758b2ef6"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-a8ad2a71ae07f5048b3423eb0926e7b889dedd5ba05b42bf6297512b38ea57e1.json",
+      "sha256": "a8ad2a71ae07f5048b3423eb0926e7b889dedd5ba05b42bf6297512b38ea57e1"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-be6b6e3c8b4933a9693aa199abc3c6efb238e0e29fd4a4eaad0c67b5030244ba.json",
+      "sha256": "be6b6e3c8b4933a9693aa199abc3c6efb238e0e29fd4a4eaad0c67b5030244ba"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-1441d23b853891d41196290135cea62edf1ad96cf11154117234e57ce1762b3f.json",
+      "sha256": "1441d23b853891d41196290135cea62edf1ad96cf11154117234e57ce1762b3f"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-5b031839bcf96cd7c4c0f4422f1249d16ef3ca5617a6d93dbffadf8a3308855a.json",
+      "sha256": "5b031839bcf96cd7c4c0f4422f1249d16ef3ca5617a6d93dbffadf8a3308855a"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-92370b1494ea06b31a03885bbb9ad07a5f56c960a779e5ceac14528be74944c9.json",
+      "sha256": "92370b1494ea06b31a03885bbb9ad07a5f56c960a779e5ceac14528be74944c9"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-600aa1b4ed4512a6c48217d630204073a817730a6b95deca0fe3b64944a3b858.json",
+      "sha256": "600aa1b4ed4512a6c48217d630204073a817730a6b95deca0fe3b64944a3b858"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-8eaf27a6325ebe12ad4f42939d25c620a16c17d70d4cba47bb31e7db84d141b4.json",
+      "sha256": "8eaf27a6325ebe12ad4f42939d25c620a16c17d70d4cba47bb31e7db84d141b4"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-a7b178758ebda1691a04c3685a81b9aece68c385be49acefb3b5fef28b98a50f.json",
+      "sha256": "a7b178758ebda1691a04c3685a81b9aece68c385be49acefb3b5fef28b98a50f"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-b60b6f72a34388371046df65efe5abf4a21464c00237a60ef2f85939ca54769a.json",
+      "sha256": "b60b6f72a34388371046df65efe5abf4a21464c00237a60ef2f85939ca54769a"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-a046fe2ba8bdc71f4b5ffd450696e184327a3b634a6d597fab68d320eb033075.json",
+      "sha256": "a046fe2ba8bdc71f4b5ffd450696e184327a3b634a6d597fab68d320eb033075"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-ca3643d3433b7dd1eb03738737e89fc745036d0c9b9296473e7710b4d1f2bb20.json",
+      "sha256": "ca3643d3433b7dd1eb03738737e89fc745036d0c9b9296473e7710b4d1f2bb20"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-d6b5236baa3c28fc1a875a6ba4097428d9764986feae94f9bc2f425e64707745.json",
+      "sha256": "d6b5236baa3c28fc1a875a6ba4097428d9764986feae94f9bc2f425e64707745"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-b11b08d7558ce58ac1e29336a95ead25c3e70230806f6c701b53ea7b0e6f190d.json",
+      "sha256": "b11b08d7558ce58ac1e29336a95ead25c3e70230806f6c701b53ea7b0e6f190d"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-24fadc82fc51b8975852837b589eccd6bd9e3a98aad7af4b3cbe9e402b06358b.json",
+      "sha256": "24fadc82fc51b8975852837b589eccd6bd9e3a98aad7af4b3cbe9e402b06358b"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-4dac43a37f9a5ca90c117e02b607262f9b2622b974d0a7a2fd5c3d5e514a6e22.json",
+      "sha256": "4dac43a37f9a5ca90c117e02b607262f9b2622b974d0a7a2fd5c3d5e514a6e22"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-7492c684e94d3fc0da5036345e409fed4f0cf162f467e2c40eb48eac3c31e6f7.json",
+      "sha256": "7492c684e94d3fc0da5036345e409fed4f0cf162f467e2c40eb48eac3c31e6f7"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-43eea27433834c6c2de3cca5e27342d1b6592cc637e4897ba8dc4f926e197a20.json",
+      "sha256": "43eea27433834c6c2de3cca5e27342d1b6592cc637e4897ba8dc4f926e197a20"
     }
   ],
   "pinned_module_ids": [
     "maplesu-tee",
     "c45e8a7390b24987a4b01d6e2c5f9143",
     "zygisk_lsposed",
-    "hma_oss_zygisk"
+    "hma_oss_zygisk",
+    "multiModelSpoofKernel20241000000",
+    "xmtThermalSkproYuai3330000000000",
+    "cd08ae9eef7bb885c06f80ef3aea1d5c",
+    "forceMaxFpsSKP202610240000000000",
+    "AppOpt",
+    "phoneSpoofHonor30SKirin820000000",
+    "deviceIdentityManagerSKP20260904",
+    "2fbe469d90f04ef89c6763c8d2885b47",
+    "a1b2c3d4e5f60718293a4b5c6d7e8f90",
+    "fa362333cf458e832cd032fda9a9f3c6",
+    "autotrigger20261024skrootpro0001",
+    "dfm_sf_sepolicy",
+    "drmid_spoof",
+    "opgcexiaoxun20260826000000000000",
+    "aah20260516auto_hider_module_v34",
+    "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d",
+    "6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT"
   ]
 }

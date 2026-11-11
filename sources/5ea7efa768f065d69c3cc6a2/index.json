@@ -1,0 +1,25 @@
+{
+  "kind": "user-supplied-package",
+  "archive": null,
+  "source_available": false,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "OPGCE 风驰增强.zip",
+    "sha256": "7dc0eaf886d1bd43e7374865eb2351c7a23cb376c62d19ec7f03e973815e8702",
+    "size": 4152306,
+    "release_date_basis": "maintainer-supplied package intake date",
+    "native_identity": {
+      "id32": "opgcexiaoxun20260826000000000000",
+      "member": "libopgce.so",
+      "sha256": "a4b29de29029edd4319a0ade864de7b4d32a0c64302cd6dd914a8580bc29bfef"
+    },
+    "native_descriptor": {
+      "name": "OPGCE 游戏优化",
+      "version": "2.5.1",
+      "description": "OPPO游戏空间策略注入 游戏性能优化 功耗控制 设备信息x风格WebUI CPU频率修复",
+      "author": "芙里芙气-xiaoxun",
+      "id": "opgcexiaoxun20260826000000000000"
+    }
+  },
+  "note": "用户提供此模块 ZIP；未提供可对应此包的源码归档。"
+}

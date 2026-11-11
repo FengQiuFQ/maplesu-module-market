@@ -1,0 +1,32 @@
+{
+  "module_list": [
+    {
+      "chn_name": "系统配置同步",
+      "eng_name": "系统配置同步",
+      "ver": "1.2.0",
+      "author": "sys",
+      "desc": "同步系统显示参数",
+      "id32": "forceMaxFpsSKP202610240000000000",
+      "update_date": "2026-11-11",
+      "origin": {
+        "kind": "user-supplied-package",
+        "file_name": "系统配置同步-1.2.0.zip",
+        "sha256": "2aca121a28825ef548668ebc925e9573122a691e40c641ab00011516d0953d04",
+        "size": 571142,
+        "release_date_basis": "maintainer-supplied package intake date",
+        "native_identity": {
+          "id32": "forceMaxFpsSKP202610240000000000",
+          "member": "libmodule_force_max_fps.so",
+          "sha256": "8d4dd8a2e97a8043fa946d87493dd9af678daf69743586278ee5c084f453b7bc"
+        },
+        "native_descriptor": {
+          "name": "系统配置同步",
+          "version": "1.2.0",
+          "description": "同步系统显示参数",
+          "author": "sys",
+          "id": "forceMaxFpsSKP202610240000000000"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "user-supplied-package",
+  "archive": null,
+  "source_available": false,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "Auto_Trigger-v2.1.0-skroot-pro.zip",
+    "sha256": "f0208fc4ebd6086fe6babc111633f0aa6c6de8553abfc8a48016bee4f554f94d",
+    "size": 2805687,
+    "release_date_basis": "maintainer-supplied package intake date",
+    "native_identity": {
+      "id32": "autotrigger20261024skrootpro0001",
+      "member": "libautotrigger_skroot.so",
+      "sha256": "294aa8f7ef826bc018846df7a6f6a748fb4b89b8c9a02785e4596f75dc46039e"
+    },
+    "native_descriptor": {
+      "name": "Auto Trigger",
+      "version": "2.1.0",
+      "description": "自动任务流处理模块 | 网页界面(127.0.0.1:2222) | 任务流执行/文件管理/交互终端/模块管理 | 自定义配置",
+      "author": "微微微",
+      "id": "autotrigger20261024skrootpro0001"
+    }
+  },
+  "note": "用户提供此模块 ZIP；未提供可对应此包的源码归档。"
+}

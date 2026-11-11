@@ -1,0 +1,25 @@
+{
+  "kind": "user-supplied-package",
+  "archive": null,
+  "source_available": false,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "SUSFS_Guard_LKM_2.3.2_SKRoot.zip",
+    "sha256": "a3b20425e77a9a234956646f82c39ae4b90b71d2a19be69aa8a278be04d763c1",
+    "size": 10075320,
+    "release_date_basis": "maintainer-supplied package intake date",
+    "native_identity": {
+      "id32": "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d",
+      "member": "libsusfs_guard_lkm.so",
+      "sha256": "e415699a907ee7795f9989a51f69b7fbaee1b22f66ce5ed1097f75335718366d"
+    },
+    "native_descriptor": {
+      "name": "SUSFS Guard (LKM) SKRoot版",
+      "version": "v2.3.2-r18.2",
+      "description": "susfs4ksu-lkm SUSFS Guard SKRoot 移植版 v2：开机自动按内核版本匹配并加载对应 .ko(8 个 arm64 KMI 全覆盖 5.10-6.18)，加载后自动重放已保存的 susfs 规则(内核规则重启即失，由本模块持久化与重放)。WebUI 管理：sus_path 路径隐藏 / SKRoot 模块扫描与按模块隐藏 / sus_kstat stat伪装 / sus_map maps隐藏 / uname 伪装 / bootconfig 伪装 / open_redirect 重定向 / 隐藏内核模块 / 隐藏挂载前缀+总开关 / 日志与AVC开关 / 一键SKRoot预设 / SUSFS版本与特性查看(supercall ABI 与 sidex15/susfs4ksu-module 互通)，规则改动即时生效。内核不匹配的机型拒绝安装。",
+      "author": "inforcqb (susfs4ksu-lkm) · SKRoot port",
+      "id": "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d"
+    }
+  },
+  "note": "用户提供此模块 ZIP；未提供可对应此包的源码归档。"
+}
