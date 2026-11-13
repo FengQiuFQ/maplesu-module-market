@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_id": "maplesu",
-  "generated_at": "2026-11-11T14:52:06Z",
+  "generated_at": "2026-11-13T18:08:10Z",
   "official_mirrors": {
     "primary": {
       "base_url": "https://fengqiufq.github.io/maplesu-module-market/",
@@ -28,30 +28,30 @@
     {
       "chn_name": "TEESimulator-RS_MapleSU",
       "eng_name": "TEESimulator-RS_MapleSU",
-      "ver": "6.0.16_MapleSU",
+      "ver": "6.0.17_MapleSU",
       "author": "TEESimulator-RS / MapleSU",
       "desc": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter.",
-      "id32": "maplesu-tee",
-      "update_date": "2026-11-06",
+      "id32": "maplesu0tee000000000000000000000",
+      "update_date": "2026-11-13",
       "origin": {
         "kind": "user-supplied-package",
-        "file_name": "TEESimulator-RS_MapleSU_6.0.16_market.zip",
-        "sha256": "d6718d001beb834d7d4963d19358dff9f1203cd11501bb8bf439bd0606a92148",
-        "size": 2888488,
+        "file_name": "TEESimulator-RS_MapleSU_6.0.17_market.zip",
+        "sha256": "cff1da5dc5c0ab57182129948ae55a5ab7beb95153a236eab9d117bdfc0fe1ca",
+        "size": 2891252,
         "payload_module_prop": {
           "id": "tricky_store",
           "name": "TEESimulator-RS_MapleSU",
-          "version": "6.0.16_MapleSU",
-          "versionCode": "61600",
+          "version": "6.0.17_MapleSU",
+          "versionCode": "61700",
           "author": "TEESimulator-RS / MapleSU",
           "description": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter."
         },
         "module_prop_path": "payload/module.prop",
         "release_date_basis": "maintainer-supplied release date",
         "native_identity": {
-          "id32": "maplesu-tee",
+          "id32": "maplesu0tee000000000000000000000",
           "member": "libmodule_TEESimulatorRS.so",
-          "sha256": "e54f7eb1da653f4d52affb1b64fd4c7f94a2f015f6989f8914c095d75fed97f6"
+          "sha256": "48e6cf43fcb2f965f7ca07e517cc01f84aa758bf09d14d47ed6f034c6e86c16e"
         }
       },
       "type": "SKROOT_PRO",
@@ -62,60 +62,60 @@
         "normal_supported": false,
         "device_validation": "pending"
       },
-      "download_url": "packages/maplesu-tee/6.0.16_MapleSU/module.zip",
-      "sha256": "d6718d001beb834d7d4963d19358dff9f1203cd11501bb8bf439bd0606a92148",
-      "size": 2888488,
+      "download_url": "packages/maplesu0tee000000000000000000000/6.0.17_MapleSU/module.zip",
+      "sha256": "cff1da5dc5c0ab57182129948ae55a5ab7beb95153a236eab9d117bdfc0fe1ca",
+      "size": 2891252,
       "package": {
-        "path": "packages/maplesu-tee/6.0.16_MapleSU/module.zip",
-        "sha256": "d6718d001beb834d7d4963d19358dff9f1203cd11501bb8bf439bd0606a92148",
-        "size": 2888488
+        "path": "packages/maplesu0tee000000000000000000000/6.0.17_MapleSU/module.zip",
+        "sha256": "cff1da5dc5c0ab57182129948ae55a5ab7beb95153a236eab9d117bdfc0fe1ca",
+        "size": 2891252
       },
-      "source_url": "sources/9d000b293b126caa4f5a8ecc/index.json",
-      "changelog_url": "changelogs/maplesu-tee/6.0.16_MapleSU.md",
+      "source_url": "sources/c71c64b307804542a377137d/index.json",
+      "changelog_url": "changelogs/maplesu0tee000000000000000000000/6.0.17_MapleSU.md",
       "mirrors": {
-        "primary": "packages/maplesu-tee/6.0.16_MapleSU/module.zip",
-        "backup": "packages/maplesu-tee/6.0.16_MapleSU/module.zip"
+        "primary": "packages/maplesu0tee000000000000000000000/6.0.17_MapleSU/module.zip",
+        "backup": "packages/maplesu0tee000000000000000000000/6.0.17_MapleSU/module.zip"
       },
       "upstream": {
         "chn_name": "TEESimulator-RS_MapleSU",
         "eng_name": "TEESimulator-RS_MapleSU",
-        "ver": "6.0.16_MapleSU",
+        "ver": "6.0.17_MapleSU",
         "author": "TEESimulator-RS / MapleSU",
         "desc": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter.",
-        "id32": "maplesu-tee",
-        "update_date": "2026-11-06",
+        "id32": "maplesu0tee000000000000000000000",
+        "update_date": "2026-11-13",
         "origin": {
           "kind": "user-supplied-package",
-          "file_name": "TEESimulator-RS_MapleSU_6.0.16_market.zip",
-          "sha256": "d6718d001beb834d7d4963d19358dff9f1203cd11501bb8bf439bd0606a92148",
-          "size": 2888488,
+          "file_name": "TEESimulator-RS_MapleSU_6.0.17_market.zip",
+          "sha256": "cff1da5dc5c0ab57182129948ae55a5ab7beb95153a236eab9d117bdfc0fe1ca",
+          "size": 2891252,
           "payload_module_prop": {
             "id": "tricky_store",
             "name": "TEESimulator-RS_MapleSU",
-            "version": "6.0.16_MapleSU",
-            "versionCode": "61600",
+            "version": "6.0.17_MapleSU",
+            "versionCode": "61700",
             "author": "TEESimulator-RS / MapleSU",
             "description": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter."
           },
           "module_prop_path": "payload/module.prop",
           "release_date_basis": "maintainer-supplied release date",
           "native_identity": {
-            "id32": "maplesu-tee",
+            "id32": "maplesu0tee000000000000000000000",
             "member": "libmodule_TEESimulatorRS.so",
-            "sha256": "e54f7eb1da653f4d52affb1b64fd4c7f94a2f015f6989f8914c095d75fed97f6"
+            "sha256": "48e6cf43fcb2f965f7ca07e517cc01f84aa758bf09d14d47ed6f034c6e86c16e"
           }
         }
       },
-      "archive_entry_count": 22,
+      "archive_entry_count": 23,
       "source_index": {
-        "path": "sources/9d000b293b126caa4f5a8ecc/index.json",
-        "sha256": "5e8108463affce524237c57f8a4b410b9afecdb175d64f12fa5dc374a979ade1",
-        "size": 1155
+        "path": "sources/c71c64b307804542a377137d/index.json",
+        "sha256": "20cf761869fb845e30ee8b2ff10aa287db0b7bf35ece424800c75885efd1f14b",
+        "size": 1176
       },
       "module_index": {
-        "path": "modules/maplesu-tee/module.json",
-        "sha256": "ef9858b2a46efcc66fea57aa2b9706b5d38338862ff94e8a524f359dfba177e9",
-        "size": 2810
+        "path": "modules/maplesu0tee000000000000000000000/module.json",
+        "sha256": "46f3800c48f6f4cc9285cd4c56de1e9ab3acdc8792be00d1c392a8ffd8cf5c7a",
+        "size": 2915
       }
     },
     {
@@ -3312,11 +3312,6 @@
     },
     {
       "kind": "user-supplied-package",
-      "path": "upstream/local-4939fd5cf92b43f1e4aac36cf9255824b8bc7f2f1f757c7060a05289538e8a37.json",
-      "sha256": "4939fd5cf92b43f1e4aac36cf9255824b8bc7f2f1f757c7060a05289538e8a37"
-    },
-    {
-      "kind": "user-supplied-package",
       "path": "upstream/local-3ba9e2c7f0fbc1bcfa409f30acb1fdf7293ce82e7600b71d4d1e014d758b2ef6.json",
       "sha256": "3ba9e2c7f0fbc1bcfa409f30acb1fdf7293ce82e7600b71d4d1e014d758b2ef6"
     },
@@ -3404,6 +3399,11 @@
       "kind": "user-supplied-package",
       "path": "upstream/local-43eea27433834c6c2de3cca5e27342d1b6592cc637e4897ba8dc4f926e197a20.json",
       "sha256": "43eea27433834c6c2de3cca5e27342d1b6592cc637e4897ba8dc4f926e197a20"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-9596dbd8ae84c6fe80663a703ba6a6ffa60f294b6f6ccd6b6dfbc23e0af5c7f3.json",
+      "sha256": "9596dbd8ae84c6fe80663a703ba6a6ffa60f294b6f6ccd6b6dfbc23e0af5c7f3"
     }
   ],
   "pinned_module_ids": [
