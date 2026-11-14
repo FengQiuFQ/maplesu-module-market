@@ -113,10 +113,66 @@
           }
         }
       }
+    },
+    {
+      "ver": "6.0.19_MapleSU",
+      "update_date": "2026-11-14",
+      "chn_name": "TEESimulator-RS_MapleSU",
+      "author": "TEESimulator-RS / MapleSU",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/maplesu0tee000000000000000000000/6.0.19_MapleSU/module.zip",
+        "sha256": "923afef899f79288cd38d9689fff745b7b8050d3d00ea2c1f92c96fe063c68c7",
+        "size": 2891389
+      },
+      "source_url": "sources/4280d80ca85936ffeb29a7bc/index.json",
+      "source_index": {
+        "path": "sources/4280d80ca85936ffeb29a7bc/index.json",
+        "sha256": "ab431149a5d4a17f6313fc2285a580599215fb00e980de1f1ad206091887f463",
+        "size": 1176
+      },
+      "changelog_url": "changelogs/maplesu0tee000000000000000000000/6.0.19_MapleSU.md",
+      "upstream": {
+        "chn_name": "TEESimulator-RS_MapleSU",
+        "eng_name": "TEESimulator-RS_MapleSU",
+        "ver": "6.0.19_MapleSU",
+        "author": "TEESimulator-RS / MapleSU",
+        "desc": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter.",
+        "id32": "maplesu0tee000000000000000000000",
+        "update_date": "2026-11-14",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "TEESimulator-RS_MapleSU_6.0.19_market.zip",
+          "sha256": "923afef899f79288cd38d9689fff745b7b8050d3d00ea2c1f92c96fe063c68c7",
+          "size": 2891389,
+          "payload_module_prop": {
+            "id": "tricky_store",
+            "name": "TEESimulator-RS_MapleSU",
+            "version": "6.0.19_MapleSU",
+            "versionCode": "61900",
+            "author": "TEESimulator-RS / MapleSU",
+            "description": "频道：@MapleAutumn MapleSU_Ultra定制版.Hardware-backed key attestation simulator, bundled and default-installed by MapleSU. By.MapleAutumn Customized Fixed Soter. 解决TEESimulator-RS目前已知所有检测点与Soter."
+          },
+          "module_prop_path": "payload/module.prop",
+          "release_date_basis": "maintainer-supplied release date",
+          "native_identity": {
+            "id32": "maplesu0tee000000000000000000000",
+            "member": "libmodule_TEESimulatorRS.so",
+            "sha256": "523bae5c602f7db4decbe59e257d1839d671da390825a3f61257dc913e92db8f"
+          }
+        }
+      }
     }
   ],
   "name": "TEESimulator-RS_MapleSU",
-  "latest_version": "6.0.18_MapleSU",
+  "latest_version": "6.0.19_MapleSU",
   "compatibility": {
     "modes": [
       "MapleSU_Ultra"
