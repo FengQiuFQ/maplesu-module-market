@@ -113,10 +113,66 @@
           }
         }
       }
+    },
+    {
+      "ver": "5.1.5",
+      "update_date": "2026-11-16",
+      "chn_name": "MapleSU Zygisk",
+      "author": "MapleSU; ReZygisk contributors",
+      "type": "SKROOT_PRO",
+      "compatibility": {
+        "modes": [
+          "MapleSU_Ultra"
+        ],
+        "normal_supported": false,
+        "device_validation": "pending"
+      },
+      "package": {
+        "path": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.5/module.zip",
+        "sha256": "04b3974ebcd096d573c876675252cf8cd4616e92cd33d4081b51856530edcb50",
+        "size": 3616114
+      },
+      "source_url": "sources/7a11726d6dfbe751ac3d992b/index.json",
+      "source_index": {
+        "path": "sources/7a11726d6dfbe751ac3d992b/index.json",
+        "sha256": "d532f1664c8c33a30fae87ada81674baec10d35cbfd06c2947fae9e739b7aff0",
+        "size": 1142
+      },
+      "changelog_url": "changelogs/c45e8a7390b24987a4b01d6e2c5f9143/5.1.5.md",
+      "upstream": {
+        "chn_name": "MapleSU Zygisk",
+        "eng_name": "MapleSU Zygisk",
+        "ver": "5.1.5",
+        "author": "MapleSU; ReZygisk contributors",
+        "desc": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32.",
+        "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
+        "update_date": "2026-11-16",
+        "origin": {
+          "kind": "user-supplied-package",
+          "file_name": "MapleSU-Zygisk-5.1.5-Ultra.zip",
+          "sha256": "04b3974ebcd096d573c876675252cf8cd4616e92cd33d4081b51856530edcb50",
+          "size": 3616114,
+          "payload_module_prop": {
+            "id": "maplesu_zygisk",
+            "name": "MapleSU Zygisk",
+            "version": "5.1.5",
+            "versionCode": "50105",
+            "author": "MapleSU; ReZygisk contributors",
+            "description": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32."
+          },
+          "module_prop_path": "payload/module.prop",
+          "release_date_basis": "maintainer-supplied release date",
+          "native_identity": {
+            "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
+            "member": "libmodule_maplesu_zygisk.so",
+            "sha256": "cb07e121ac5529235db7dde7f9f43a783769c2351b6f08931c7bd81468e8d2c6"
+          }
+        }
+      }
     }
   ],
   "name": "MapleSU Zygisk",
-  "latest_version": "5.1.2",
+  "latest_version": "5.1.5",
   "compatibility": {
     "modes": [
       "MapleSU_Ultra"

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "catalog_id": "maplesu",
-  "generated_at": "2026-11-14T07:06:31Z",
+  "generated_at": "2026-11-16T09:06:10Z",
   "official_mirrors": {
     "primary": {
       "base_url": "https://fengqiufq.github.io/maplesu-module-market/",
@@ -121,21 +121,21 @@
     {
       "chn_name": "MapleSU Zygisk",
       "eng_name": "MapleSU Zygisk",
-      "ver": "5.1.2",
+      "ver": "5.1.5",
       "author": "MapleSU; ReZygisk contributors",
       "desc": "MapleSU Ultra 的 Zygisk 宿主，基于 ReZygisk，支持 ARM64/ARM32、Zygisk API 1–5，提供 WebUI。安装后重启。\n\nMapleSU_Ultra采用零挂载且几乎无策略修改的方式，无需Zygisk进行环境修复，如您无特殊需求建议不安装此模块，优化版但仍可能对环境造成部分影响，请知悉",
       "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
-      "update_date": "2026-11-07",
+      "update_date": "2026-11-16",
       "origin": {
         "kind": "user-supplied-package",
-        "file_name": "MapleSU-Zygisk-5.1.2-Ultra.zip",
-        "sha256": "6be6569316de7c1a2d572487d879c0fcdd8e29f45e87f7944671ea508b7fba16",
-        "size": 3002317,
+        "file_name": "MapleSU-Zygisk-5.1.5-Ultra.zip",
+        "sha256": "04b3974ebcd096d573c876675252cf8cd4616e92cd33d4081b51856530edcb50",
+        "size": 3616114,
         "payload_module_prop": {
           "id": "maplesu_zygisk",
           "name": "MapleSU Zygisk",
-          "version": "5.1.2",
-          "versionCode": "50102",
+          "version": "5.1.5",
+          "versionCode": "50105",
           "author": "MapleSU; ReZygisk contributors",
           "description": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32."
         },
@@ -144,7 +144,7 @@
         "native_identity": {
           "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
           "member": "libmodule_maplesu_zygisk.so",
-          "sha256": "8fbd03c45972138894f8d8f0d23dfad4df3aa93be9ac7d1f68aa4cc3c0e6e780"
+          "sha256": "cb07e121ac5529235db7dde7f9f43a783769c2351b6f08931c7bd81468e8d2c6"
         }
       },
       "type": "SKROOT_PRO",
@@ -155,38 +155,38 @@
         "normal_supported": false,
         "device_validation": "pending"
       },
-      "download_url": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.2/module.zip",
-      "sha256": "6be6569316de7c1a2d572487d879c0fcdd8e29f45e87f7944671ea508b7fba16",
-      "size": 3002317,
+      "download_url": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.5/module.zip",
+      "sha256": "04b3974ebcd096d573c876675252cf8cd4616e92cd33d4081b51856530edcb50",
+      "size": 3616114,
       "package": {
-        "path": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.2/module.zip",
-        "sha256": "6be6569316de7c1a2d572487d879c0fcdd8e29f45e87f7944671ea508b7fba16",
-        "size": 3002317
+        "path": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.5/module.zip",
+        "sha256": "04b3974ebcd096d573c876675252cf8cd4616e92cd33d4081b51856530edcb50",
+        "size": 3616114
       },
-      "source_url": "sources/abd334af61e6de61f56fe37f/index.json",
-      "changelog_url": "changelogs/c45e8a7390b24987a4b01d6e2c5f9143/5.1.2.md",
+      "source_url": "sources/7a11726d6dfbe751ac3d992b/index.json",
+      "changelog_url": "changelogs/c45e8a7390b24987a4b01d6e2c5f9143/5.1.5.md",
       "mirrors": {
-        "primary": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.2/module.zip",
-        "backup": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.2/module.zip"
+        "primary": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.5/module.zip",
+        "backup": "packages/c45e8a7390b24987a4b01d6e2c5f9143/5.1.5/module.zip"
       },
       "upstream": {
         "chn_name": "MapleSU Zygisk",
         "eng_name": "MapleSU Zygisk",
-        "ver": "5.1.2",
+        "ver": "5.1.5",
         "author": "MapleSU; ReZygisk contributors",
         "desc": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32.",
         "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
-        "update_date": "2026-11-07",
+        "update_date": "2026-11-16",
         "origin": {
           "kind": "user-supplied-package",
-          "file_name": "MapleSU-Zygisk-5.1.2-Ultra.zip",
-          "sha256": "6be6569316de7c1a2d572487d879c0fcdd8e29f45e87f7944671ea508b7fba16",
-          "size": 3002317,
+          "file_name": "MapleSU-Zygisk-5.1.5-Ultra.zip",
+          "sha256": "04b3974ebcd096d573c876675252cf8cd4616e92cd33d4081b51856530edcb50",
+          "size": 3616114,
           "payload_module_prop": {
             "id": "maplesu_zygisk",
             "name": "MapleSU Zygisk",
-            "version": "5.1.2",
-            "versionCode": "50102",
+            "version": "5.1.5",
+            "versionCode": "50105",
             "author": "MapleSU; ReZygisk contributors",
             "description": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32."
           },
@@ -195,20 +195,20 @@
           "native_identity": {
             "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
             "member": "libmodule_maplesu_zygisk.so",
-            "sha256": "8fbd03c45972138894f8d8f0d23dfad4df3aa93be9ac7d1f68aa4cc3c0e6e780"
+            "sha256": "cb07e121ac5529235db7dde7f9f43a783769c2351b6f08931c7bd81468e8d2c6"
           }
         }
       },
-      "archive_entry_count": 29,
+      "archive_entry_count": 31,
       "source_index": {
-        "path": "sources/abd334af61e6de61f56fe37f/index.json",
-        "sha256": "c46685ad3ce6379a98a411135bdb7a54f1e51d0245dc9b34d32071b4dc7b4b03",
-        "size": 1201
+        "path": "sources/7a11726d6dfbe751ac3d992b/index.json",
+        "sha256": "d532f1664c8c33a30fae87ada81674baec10d35cbfd06c2947fae9e739b7aff0",
+        "size": 1142
       },
       "module_index": {
         "path": "modules/c45e8a7390b24987a4b01d6e2c5f9143/module.json",
-        "sha256": "f41a4a8689434872e9c9e26eb93e1ac731aac249cc30a245f62216c6150a1d1d",
-        "size": 4791
+        "sha256": "85467833b9bd7c286d94b5c10cb5a616d4240c7c2f40514ebdd6bac5225da4ca",
+        "size": 7044
       },
       "download_chn_alert": "仅用于 Ultra。请先停用其他 Zygisk 宿主，安装后重启。"
     },
@@ -3414,6 +3414,11 @@
       "kind": "user-supplied-package",
       "path": "upstream/local-29a9c843716f2873288d669d1073bbdf2fcfab354da1da32745376d6ff5285c3.json",
       "sha256": "29a9c843716f2873288d669d1073bbdf2fcfab354da1da32745376d6ff5285c3"
+    },
+    {
+      "kind": "user-supplied-package",
+      "path": "upstream/local-f263b7cf125ff2f84659ec13b31e539600165f31ecd9f5eb58c113f16505b66e.json",
+      "sha256": "f263b7cf125ff2f84659ec13b31e539600165f31ecd9f5eb58c113f16505b66e"
     }
   ],
   "pinned_module_ids": [

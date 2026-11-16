@@ -1,0 +1,31 @@
+{
+  "kind": "user-supplied-package",
+  "archive": {
+    "path": "sources/7a11726d6dfbe751ac3d992b/source.zip",
+    "sha256": "219c07c034210e29ae35bf5d70bb785fa84070f8606211a6f7e704592691f291",
+    "size": 1766801
+  },
+  "source_available": true,
+  "origin": {
+    "kind": "user-supplied-package",
+    "file_name": "MapleSU-Zygisk-5.1.5-Ultra.zip",
+    "sha256": "04b3974ebcd096d573c876675252cf8cd4616e92cd33d4081b51856530edcb50",
+    "size": 3616114,
+    "payload_module_prop": {
+      "id": "maplesu_zygisk",
+      "name": "MapleSU Zygisk",
+      "version": "5.1.5",
+      "versionCode": "50105",
+      "author": "MapleSU; ReZygisk contributors",
+      "description": "MapleSU Ultra Zygisk host. Reboot after installation. Zygisk API 1–5; ARM64/ARM32."
+    },
+    "module_prop_path": "payload/module.prop",
+    "release_date_basis": "maintainer-supplied release date",
+    "native_identity": {
+      "id32": "c45e8a7390b24987a4b01d6e2c5f9143",
+      "member": "libmodule_maplesu_zygisk.so",
+      "sha256": "cb07e121ac5529235db7dde7f9f43a783769c2351b6f08931c7bd81468e8d2c6"
+    }
+  },
+  "note": "对应源码随原始模块包提供。"
+}
