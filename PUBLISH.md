@@ -1,69 +1,60 @@
-# 独立仓库发布
+# 发布与维护
 
-此文档描述发布步骤；执行工具准备目录不会创建远端仓库或上传。初次发布继续使用已冻结的 `market.json` 和 `market.json.sig`，不重新生成时间戳或签名。
+本仓库维护模块目录、原始模块包、对应源码与来源记录。投稿通过 Fork/PR 或 Issue 提交；目录签名和发布由仓库维护者管理。工具导出只准备本地文件，部署完成后再核对主备下载端点。
 
-## 文件集合
+## 本地检查
 
-独立仓库根目录保留：
+以下命令在本仓库根目录执行：
 
-- `market.json`、`market.json.sig`、`upstream-overrides.json`
-- `README.md`、`SCHEMA.md`、`PUBLISH.md`、`requirements.txt`、`.gitignore`
-- `.github/workflows/{ci,pages,sign}.yml`
-- `tools/*.py` 与 `trust/{public-key.pem,public-key.spki.b64}`
-- `modules/`、`packages/`、`sources/`、`changelogs/`、`upstream/` 的内容
-
-排除 `.private/`、其他 PEM/私钥容器、Git blob 下载缓存、`__pycache__/`、虚拟环境、下载临时文件、`dist/` 和 `_site/`。原始模块 ZIP、源码 ZIP 的字节保持完整，不展开运行。
-
-## 本地准备和复核
-
-在 MapleSU 工作区执行，输出目录应为此前不存在的新目录：
-
-```powershell
-py -3 maplesu-module-market/tools/prepare_repository.py --out evidence/module-market-20261101/repository-ready --report evidence/module-market-20261101/repository-ready-files.json
-py -3 maplesu-module-market/tools/check_publish_tree.py --root evidence/module-market-20261101/repository-ready --all
-py -3 evidence/module-market-20261101/repository-ready/tools/market.py verify --public-key evidence/module-market-20261101/repository-ready/trust/public-key.pem
+```shell
+python -m pip install -r requirements.txt
+python tools/market.py verify --public-key trust/public-key.pem
+python tools/check_maintainers.py
+python -m unittest discover -s tools -p "test_*.py" -v
 ```
 
-文件清单和字节统计写入 `repository-ready-files.json`。准备工具会验证正式签名，并在复制前检查所有选中文件；其输出包含工作流、维护工具和公钥。Pages 的静态树与该完整维护仓库分开生成。
+PR 可以使用 `verify --allow-unsigned` 检查待签名的目录。正式发布始终使用固定公钥验证目录签名，不把 PR 的结构检查当作发行验签结果。
 
-## 建库、推送与启用 Pages
+## 准备独立审阅目录
 
-在已登录正确 GitHub 账号的 PowerShell 中执行以下命令。若远端仓库已经存在，先核对其内容和远端地址，再在现有仓库更新，跳过建库步骤。
+输出目录应为此前不存在的新目录：
 
-```powershell
-$marketRepository = 'D:/Maple_Workflow/MapleSU/evidence/module-market-20261101/repository-ready'
-gh auth status
-git -C $marketRepository init -b main
-git -C $marketRepository add .
-py -3 "$marketRepository/tools/check_publish_tree.py"
-git -C $marketRepository diff --cached --stat
-git -C $marketRepository commit -m 'Publish independently signed MapleSU module market'
-gh repo create FengQiuFQ/maplesu-module-market --public --source $marketRepository --remote origin
-git -C $marketRepository push -u origin main
-gh api --method POST repos/FengQiuFQ/maplesu-module-market/pages -f build_type=workflow
-gh workflow run pages.yml --repo FengQiuFQ/maplesu-module-market --ref main
-gh run list --repo FengQiuFQ/maplesu-module-market --limit 10
+```shell
+python tools/prepare_repository.py --out ../module-market-review --report ../module-market-review-files.json
+python tools/check_publish_tree.py --root ../module-market-review --all
+python ../module-market-review/tools/market.py verify --public-key ../module-market-review/trust/public-key.pem
 ```
 
-若 Pages 站点已存在，则用以下命令把发布来源设为 GitHub Actions，替代上面的 POST：
+完整维护目录包含 README、SCHEMA、PUBLISH、贡献和版权说明、工具、Issue/PR 模板、维护登记、来源、公钥、原始包和对应源码。下载缓存、私钥容器、虚拟环境、临时文件与 `_site/` 不进入导出目录。
 
-```powershell
-gh api --method PUT repos/FengQiuFQ/maplesu-module-market/pages -f build_type=workflow
+准备工具在报告中写入逐文件摘要、维护状态与 `release_ready`。原始包不展开执行；目录和签名原始字节保持不变。
+
+## 发行前检查
+
+```shell
+python tools/check_maintainers.py --release
+python tools/market.py verify --public-key trust/public-key.pem
 ```
 
-初次推送触发的 Pages 任务可能早于站点配置；完成配置后显式运行 `pages.yml`，以该次任务的部署结果为准。任务只在签名与所有静态文件验证通过后上传 Pages artifact。工作流 Actions 以完整 commit SHA 固定。
+已有条目逐项登记维护人、原作来源、实际许可与证据。待确认条目可供结构审阅，但会阻止发行检查通过。作者与资源许可按上传内容单独核对，工具许可证不覆盖市场包。
 
-部署完成后分别验证主备 URL。先核对清单和签名的实际响应字节，再验证清单引用的包；不要把 GitHub 任务成功视作多地区网络可达的证明。
+清单发生字节变化后重新签名。原始版本包保持不可变，新内容使用新版本；维护和投稿规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-```powershell
-py -3 "$marketRepository/tools/market.py" probe --base-url https://fengqiufq.github.io/maplesu-module-market/ --report evidence/module-market-20261101/network-primary.json
-py -3 "$marketRepository/tools/market.py" probe --base-url https://raw.githubusercontent.com/FengQiuFQ/maplesu-module-market/main/ --report evidence/module-market-20261101/network-backup.json
-```
+## 签名
 
-## 后续更新与可选工作流签名
+`trust/public-key.pem` 与 `trust/public-key.spki.b64` 是固定验签公钥。私钥由维护者单独保存，PR 和 Pages 构建只持有公钥。
 
-常规更新可以本地导入、验证、签名后一起提交。推送 `main` 后，CI 和 Pages 都使用固定公钥验签；Pages 构建过程不读取私钥。
+可选的 `Sign catalog` 工作流使用仓库 Secret `MARKET_SIGNING_PRIVATE_KEY`。签名材料仅在 runner 临时目录使用，工作流输出 `signed-catalog-<commit SHA>` artifact，不自动写回仓库。维护者核对 artifact 中的清单与审阅版本字节一致、使用固定公钥验签后，再一同提交清单和签名。
 
-可选的 `Sign catalog` 工作流需要维护者事先配置仓库 Secret `MARKET_SIGNING_PRIVATE_KEY`，内容为与固定公钥配对的 PKCS#8 PEM。密钥仅在 runner 临时目录创建，权限为 `0600`，使用后清理，不进入 checkout 或 artifact。该工作流权限仅为 `contents: read`，不自动写回仓库。
+## Pages 与主备源
 
-手动运行签名任务后，下载名称为 `signed-catalog-<commit SHA>` 的 artifact。核对其中 `market.json` 与当前准备发布的清单原始字节一致，再接收对应 `market.json.sig`，使用 `trust/public-key.pem` 验证，提交并推送。清单发生任何字节变化，都需要重新签名。
+启用 GitHub Pages 的 GitHub Actions 发布方式。合并到 `main` 后，CI 和 Pages 先执行来源、维护登记、签名和包检查，再生成并上传静态目录；全部发布检查通过后才部署。
+
+| 入口 | 地址 |
+| --- | --- |
+| 主索引 | `https://fengqiufq.github.io/maplesu-module-market/market.json` |
+| 备用索引 | `https://raw.githubusercontent.com/FengQiuFQ/maplesu-module-market/main/market.json` |
+
+部署后使用 `market.py probe --base-url` 分别核对主备站点，验证清单、签名与其引用的包和源码摘要。最后在 MapleSU 验证列表、详情、下载与安装前检查；站点上传成功与应用端验收分别记录。
+
+版权与移除请求通过 [COPYRIGHT.md](COPYRIGHT.md) 和专用 Issue 处理。

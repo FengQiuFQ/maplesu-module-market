@@ -1,0 +1,35 @@
+name: 模块投稿与更新
+description: 提交新模块、更新版本或申请维护交接
+title: "[模块] "
+body:
+  - type: input
+    id: identity
+    attributes:
+      label: 名称、稳定 ID 与版本
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 作者与维护账号
+      description: 请填写原作者和负责后续更新的 GitHub 账号。
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 下载、源码与许可
+      description: 提供该版本的发布链接、对应源码、实际许可证，以及包内第三方资源的来源。
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: 兼容范围与验证
+      description: MapleSU 版本、界面或工作模式、设备信息、实际预览及已完成的检查。
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: 更新或维护交接说明

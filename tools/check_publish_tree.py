@@ -10,6 +10,8 @@ import subprocess
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = {
+    "CONTRIBUTING.md", "COPYRIGHT.md", "NOTICE", "LICENSE", "maintainers.json", "tools/check_maintainers.py",
+    ".github/ISSUE_TEMPLATE/rights.yml", ".github/ISSUE_TEMPLATE/submission.yml",
     "market.json", "market.json.sig", "README.md", "SCHEMA.md", "PUBLISH.md", "requirements.txt", ".gitignore",
     "trust/public-key.pem", "trust/public-key.spki.b64", "tools/market.py",
     ".github/workflows/ci.yml", ".github/workflows/pages.yml", ".github/workflows/sign.yml",

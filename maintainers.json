@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "entries": {
+    "c45e8a7390b24987a4b01d6e2c5f9143": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [
+        "reviews/maplesu-zygisk.md"
+      ],
+      "status": "pending",
+      "notes": "独立 Zygisk 模块：核对固定 ReZygisk 提交 2c1d0df3b0d6e40d064927523c4dd1116cb8e832 的 AGPL NOTICE 与 GPL LICENSE 文本差异，保留原文，确认对应版本的适用许可和完整对应源码后再通过本模块发行审核。此项不属于 MapleSU Manager 主仓库发行条件。"
+    },
+    "zygisk_lsposed": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "hma_oss_zygisk": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "multiModelSpoofKernel20241000000": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "xmtThermalSkproYuai3330000000000": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "cd08ae9eef7bb885c06f80ef3aea1d5c": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "forceMaxFpsSKP202610240000000000": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "AppOpt": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "phoneSpoofHonor30SKirin820000000": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "deviceIdentityManagerSKP20260904": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "2fbe469d90f04ef89c6763c8d2885b47": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "a1b2c3d4e5f60718293a4b5c6d7e8f90": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "fa362333cf458e832cd032fda9a9f3c6": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "autotrigger20261024skrootpro0001": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "dfm_sf_sepolicy": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "drmid_spoof": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "opgcexiaoxun20260826000000000000": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "aah20260516auto_hider_module_v34": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "s5u3s9f1sLkmSkR00tV2026Xq7Ab2C4d": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "6dkUGp9U19f0m2XqkGCdwdobpNoWBLcT": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "ae12076c010ebabbb233affdd0239c14": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "fb044e7a140697bb1a6d1ddb6f15b0b4": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "zse9vkTjLjWXbafvx8Mlh1MTf8SMTUEL": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "kO8hT9tT2fB0hY9hV2bB4eJ6aY2nQ6kL": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "be4b666b97e92f1ddcf4b212ba436b40": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "BbA6MdJYoS2ggs58zU327m5ufBihCOrS": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "teesimulator601skpro202607210000": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "c3a70f603b48380a611131d29c50aac3": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "nv2ZfKbBpBYxYvFqwgcGHEvQkjFjaRvS": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "o9oOZyIQPHSKmlmmh4Gt9tNZ7KMNO0vo": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "Vk0EFJTuG2aBLQqc6WLHVPHnhfiZ8VKG": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "z2rYhJP0gOTKK9lYmXS9sanxw6cIZGYD": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "mZ0lUavxLGTMnwCRDlnSyAZPmZUZpgI0": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "touch_boost_oplus_1021_000000000": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "a1b2c3d4e5f67890abcdef1234567890": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "d3f7a9c2e5b8f1a4d6c9e0b3f2a7c5e8": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "DrAofKWAYs3XO0Js4YBzB3ecqMQVdzkH": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "u6rQGRK4WoE7IJRvYsSxD70eBtutYK31": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "xhTxKsI5kHacgHJ04b5VhO4ffiOP4sdc": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "6080b19fb2db26c534af3051103f541f": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "62027df1409d6109da7e153d04915074": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "b7e4d333fd4689044b58b59e631a40e5": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "3608c9af28db4dcfc05c32bbc584753e": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    },
+    "maplesu0tee000000000000000000000": {
+      "maintainers": [],
+      "origin": "",
+      "license": "",
+      "evidence": [],
+      "status": "pending",
+      "notes": "待原作者或维护者补齐对应版本来源、许可与维护登记。"
+    }
+  }
+}

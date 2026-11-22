@@ -1,5 +1,13 @@
 # MapleSU 模块市场
 
+## 一起维护
+
+模块由用户贡献、上传并维护。如涉及侵权，请在本仓库提交 Issue 申请删除。
+
+[投稿与维护指南](CONTRIBUTING.md) · [版权与删除请求](COPYRIGHT.md) · [维护登记](maintainers.json) · [Telegram · @KernelMapleSU](https://t.me/KernelMapleSU)
+
+新模块、更新与维护交接走 Fork / PR；也可使用投稿 Issue。历史收录的来源与再分发条件按条目核对，`check_maintainers.py --release` 阻止尚待确认的内容进入新的公开发行。
+
 独立维护的静态模块目录。客户端从 MapleSU 的主备地址读取签名清单、模块包和更新记录；运行时不请求原上游服务。
 
 当前收录 44 个模块。置顶顺序为 TEESimulator-RS_MapleSU 6.0.16、MapleSU Zygisk 5.1.2、LSPosed v2.1.1 (7790)、HMA-OSS Zygisk oss-173；其后按上传顺序排列本次用户提供的 17 个模块，其余模块保持原顺序。模块 ZIP 保留完整原始字节；源码归档与来源索引分开保存。兼容类别为 MapleSU_Ultra，具体安装条件见各条目说明。
@@ -50,6 +58,8 @@ py -3 tools/market.py add-local --package PATH_TO_ZIP --native-id NATIVE_ID --na
 
 普通脚本模块省略 `--native-id` 和 `--native-member`，从根目录 `module.prop` 读取真实 ID，记录为 `KERNEL_SU`；原生模块记录为 `SKROOT_PRO`。展示版本保持原值，仅静态路径将空格等字符替换为下划线。
 
+更新已有模块时，在验收后为 `add-local` 增加 `--select-latest`，明确选择新版本。旧版本包、源码索引及来源快照继续保留并参与验证；同 ID、同版本的不同包仍会被拒绝。
+
 本地包来源索引明确标注是否附带对应源码；包内的 `webroot/source.zip` 会单独保存并校验。日期由维护者指定。`pinned_module_ids` 控制置顶顺序，后续导入继续保留。新增或更新清单会移除旧签名。
 
 ## 签名与发布
@@ -70,7 +80,7 @@ py -3 tools/market.py publish --private-key OUTSIDE_REPOSITORY/release-private.p
 py -3 tools/market.py export --public-key trust/public-key.pem --out NEW_STATIC_DIRECTORY
 ```
 
-仓库提供三个工作流：`Verify market` 在推送和 PR 时执行发布文件检查、测试及完整验签；`Publish Pages` 在 `main` 推送后验证并发布静态树；`Sign catalog` 由维护者手动运行，从仓库 Secret 中读取私钥，只产出清单与签名 artifact，不自动提交。默认维护方式仍可在本地签名，不要求给 GitHub 配置私钥。
+仓库提供三个工作流：`Verify market` 在推送时执行完整验签，在 PR 时检查结构和包完整性；发布阶段额外检查来源登记；`Publish Pages` 在 `main` 推送后验证并发布静态树；`Sign catalog` 由维护者手动运行，从仓库 Secret 中读取私钥，只产出清单与签名 artifact，不自动提交。默认维护方式仍可在本地签名，不要求给 GitHub 配置私钥。
 
 完整独立仓库包含工具、公钥、工作流和静态内容；Pages 产物只包含运行所需静态文件。使用 `tools/prepare_repository.py` 生成经过检查的独立仓库发布目录。建库、Pages 配置及精确命令见 [PUBLISH.md](PUBLISH.md)。
 

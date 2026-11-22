@@ -8,15 +8,17 @@ from pathlib import Path
 import shutil
 
 import check_publish_tree
+import check_maintainers
 import market
 
-DIRECTORIES = {"packages", "sources", "changelogs", "upstream", "modules", "tools", "trust", ".github"}
-FILES = {"market.json", "market.json.sig", "README.md", "SCHEMA.md", "PUBLISH.md", "requirements.txt", ".gitignore", ".gitattributes", "upstream-overrides.json"}
+DIRECTORIES = {"packages", "sources", "changelogs", "upstream", "modules", "tools", "trust", ".github", "reviews"}
+FILES = {"market.json", "market.json.sig", "README.md", "SCHEMA.md", "PUBLISH.md", "requirements.txt", ".gitignore", ".gitattributes", "upstream-overrides.json", "CONTRIBUTING.md", "COPYRIGHT.md", "NOTICE", "LICENSE", "maintainers.json"}
 
 
 def prepare(root: Path, output: Path) -> dict:
     if output.exists() or output.resolve().is_relative_to(root.resolve()):
         raise ValueError("repository output must be a new directory outside the source tree")
+    maintenance = check_maintainers.check(root)
     market.verify(root, root / "trust/public-key.pem")
     selected = sorted(path.relative_to(root).as_posix() for path in root.rglob("*")
                       if path.is_file() and not check_publish_tree.is_cache(path.relative_to(root).as_posix())
@@ -31,7 +33,8 @@ def prepare(root: Path, output: Path) -> dict:
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(root / relative, destination)
     result = market.verify(output, output / "trust/public-key.pem")
-    result.update({"output": str(output), "files": selected, "file_count": len(selected),
+    result.update({"maintenance": maintenance, "release_ready": not maintenance["pending"],
+                   "output": str(output), "files": selected, "file_count": len(selected),
                    "total_bytes": sum((output / relative).stat().st_size for relative in selected),
                    "catalog_sha256": market.digest((output / "market.json").read_bytes())})
     return result

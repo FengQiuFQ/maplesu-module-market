@@ -1,0 +1,9 @@
+MapleSU 模块市场
+
+Repository tools and original maintenance documentation: GPL-3.0-or-later.
+Uploaded packages, previews, fonts, images and third-party source archives retain
+their own copyright and license terms. The repository LICENSE does not relicense them.
+See maintainers.json, provenance records, CONTRIBUTING.md and COPYRIGHT.md.
+
+The theme format and theme interaction primarily reference FinaSU.
+Module compatibility retains the actual runtime and package-format provenance.

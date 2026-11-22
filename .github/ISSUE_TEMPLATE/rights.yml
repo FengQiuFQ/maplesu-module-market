@@ -1,0 +1,26 @@
+name: 版权或删除请求
+description: 报告模块或主题的署名、许可及权利问题
+title: "[版权] "
+labels: []
+body:
+  - type: input
+    id: item
+    attributes:
+      label: 条目与版本
+      description: 名称、ID、版本及受影响文件的公开链接
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: 权利依据与问题说明
+      description: 请提供原作、作者或许可的可核对链接；个人证件和联系方式请通过私密渠道提交。
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: 希望采取的处理
+      description: 例如补充署名、修正来源、停止分发或删除。
+    validations:
+      required: true
