@@ -166,6 +166,27 @@ class MarketTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "native descriptor identity"):
             market.add_local(self.root, path, "maplesu-tee", "libmodule_local.so", "2026-11-07")
 
+    def test_native_sdk_constants_preserve_the_declared_identity(self):
+        begin = b"b33dcddd88c07d079a8e0e9ec6ab976f15f2edba46cab91a61234cfbb982111c"
+        end = b"3020d9a6c07a30e2649dd29a72d7e57121f0c0ca457b6d21dca5a69acbe6c2c4"
+        identity = "e46a18d2c9074f63b85a9210d7ce304f"
+        constants = begin + b"\0" + end + b"\0"
+        path = self.local_package(native_id=identity, suffix=constants + begin + identity.encode() + end + b"\0" + constants)
+        market.add_local(self.root, path, identity, "libmodule_local.so", "2026-11-22")
+        self.signature()
+        self.assertEqual(2, market.verify(self.root, self.public_key)["modules_verified"])
+        item = next(row for row in json.loads((self.root / "market.json").read_bytes())["module_list"] if row["id32"] == identity)
+        self.assertEqual("MAPLESU", item["type"])
+
+    def test_duplicate_native_descriptions_are_rejected(self):
+        begin = b"b33dcddd88c07d079a8e0e9ec6ab976f15f2edba46cab91a61234cfbb982111c"
+        end = b"3020d9a6c07a30e2649dd29a72d7e57121f0c0ca457b6d21dca5a69acbe6c2c4"
+        identity = "e46a18d2c9074f63b85a9210d7ce304f"
+        descriptor = begin + identity.encode() + end + b"\0"
+        path = self.local_package(native_id=identity, suffix=descriptor + descriptor)
+        with self.assertRaisesRegex(ValueError, "native descriptor identity"):
+            market.add_local(self.root, path, identity, "libmodule_local.so", "2026-11-22")
+
     def test_existing_release_bytes_cannot_be_silently_replaced(self):
         path = self.local_package()
         market.add_local(self.root, path, "local-module", "libmodule_local.so", "2026-11-01")

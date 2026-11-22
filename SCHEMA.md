@@ -18,7 +18,7 @@
     "chn_name": "保留上游名称",
     "ver": "保留上游版本",
     "id32": "保留原始标识（并非总是32位十六进制）",
-    "type": "SKROOT_PRO",
+    "type": "MAPLESU",
     "compatibility": {
       "modes": ["MapleSU_Ultra"],
       "normal_supported": false,
@@ -43,7 +43,7 @@
 
 `download_url`、`source_url`、`changelog_url`、`package.path`、`module_index.path`、`mirrors` 都是相对于所加载清单 URL 的路径。主备部署应包含完全相同的静态树，App 分别以可信主备根地址解析；当前正式地址已配置，`published=false` 表示仍待发布验收。
 
-`compatibility` 来自市场格式/来源归类，`device_validation=pending` 表示未宣称已逐个在真机安装。`type=SKROOT_PRO` 为原生模块，`type=KERNEL_SU` 为根目录含 `module.prop` 的脚本模块，均按实际归档交给安装器识别。当前商城仅在 MapleSU_Ultra 开放；脚本模块的 Zygisk 等依赖由安装器按实际环境处理。
+`compatibility` 来自市场格式/来源归类，`device_validation=pending` 表示未宣称已逐个在真机安装。`type=MAPLESU` 为新导入原生模块，既有 `type=SKROOT_PRO` 使用相同原生通道继续兼容，`type=KERNEL_SU` 为根目录含 `module.prop` 的脚本模块，均按实际归档交给安装器识别。当前商城仅在 MapleSU_Ultra 开放；脚本模块的 Zygisk 等依赖由安装器按实际环境处理。
 
 顶层可选 `pinned_module_ids` 数组按 ID 指定置顶顺序；维护工具将它们放在 `module_list` 开头，其余条目保持原顺序，客户端按清单顺序展示。后续导入保留该数组。
 

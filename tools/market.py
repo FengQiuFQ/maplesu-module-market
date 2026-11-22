@@ -153,8 +153,16 @@ def add_local(root: Path, package_path: Path, native_id: str | None, native_memb
             begin = b"b33dcddd88c07d079a8e0e9ec6ab976f15f2edba46cab91a61234cfbb982111c"
             end = b"3020d9a6c07a30e2649dd29a72d7e57121f0c0ca457b6d21dca5a69acbe6c2c4"
             if begin in native:
-                descriptor_id, marker, _ = native.split(begin, 1)[1].partition(end)
-                if not marker or not re.fullmatch(rb"[A-Za-z0-9]{32}", descriptor_id) or descriptor_id != native_id.encode("ascii"):
+                descriptors = []
+                for match in re.finditer(re.escape(begin), native):
+                    start = match.end()
+                    if native[start:start + 1] == b"\0":
+                        continue
+                    descriptor_id, marker, _ = native[start:].partition(end)
+                    if not marker or not re.fullmatch(rb"[A-Za-z0-9]{32}", descriptor_id):
+                        raise ValueError("native descriptor identity differs from the catalog identity")
+                    descriptors.append(descriptor_id)
+                if descriptors != [native_id.encode("ascii")]:
                     raise ValueError("native descriptor identity differs from the catalog identity")
             elif native_id.encode("ascii") + b"\0" not in native:
                 raise ValueError("native module identity not present in selected library")
@@ -211,7 +219,7 @@ def add_local(root: Path, package_path: Path, native_id: str | None, native_memb
                                f"收录日期：{release_date}。\n\n"
                                "本条仅记录用户提供版本，未附独立实现变更说明。\n").encode())
     write(destination, package)
-    item = {**original, "type": "SKROOT_PRO" if native_member else "KERNEL_SU",
+    item = {**original, "type": "MAPLESU" if native_member else "KERNEL_SU",
             "compatibility": {"modes": ["MapleSU_Ultra"], "normal_supported": False, "device_validation": "pending"},
             "download_url": relative, "sha256": digest(package), "size": len(package),
             "package": {"path": relative, "sha256": digest(package), "size": len(package)},
@@ -477,7 +485,7 @@ def verify(root: Path, public_key: Path | None = None, allow_unsigned: bool = Fa
         for mirror_path in module["mirrors"].values():
             if mirror_path != package["path"]:
                 raise ValueError(f"mirror package mismatch: {identity}")
-        if module["type"] not in ("SKROOT_PRO", "KERNEL_SU") or module["compatibility"]["modes"] != ["MapleSU_Ultra"]:
+        if module["type"] not in ("MAPLESU", "SKROOT_PRO", "KERNEL_SU") or module["compatibility"]["modes"] != ["MapleSU_Ultra"]:
             raise ValueError(f"unexpected imported module compatibility: {identity}")
     snapshot = catalog["upstream_snapshot"]
     snapshot_bytes = path_for(root, snapshot["path"]).read_bytes()

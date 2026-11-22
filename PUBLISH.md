@@ -13,7 +13,7 @@ python tools/check_maintainers.py
 python -m unittest discover -s tools -p "test_*.py" -v
 ```
 
-PR 可以使用 `verify --allow-unsigned` 检查待签名的目录。正式发布始终使用固定公钥验证目录签名，不把 PR 的结构检查当作发行验签结果。
+目录更新后使用 `verify --allow-unsigned` 运行待签名检查，发布使用固定公钥验证目录签名。
 
 ## 准备独立审阅目录
 
@@ -36,7 +36,7 @@ python tools/check_maintainers.py --release
 python tools/market.py verify --public-key trust/public-key.pem
 ```
 
-已有条目逐项登记维护人、原作来源、实际许可与证据。待确认条目可供结构审阅，但会阻止发行检查通过。作者与资源许可按上传内容单独核对，工具许可证不覆盖市场包。
+`maintainers.json` 按模块 ID 登记维护账号、原作来源、实际许可和版本来源文件。`check_maintainers.py` 检查登记结构，`--release` 汇总各条目的维护登记完成状态。模块内容沿用各自许可证，工具代码使用仓库许可证。
 
 清单发生字节变化后重新签名。原始版本包保持不可变，新内容使用新版本；维护和投稿规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
@@ -48,13 +48,23 @@ python tools/market.py verify --public-key trust/public-key.pem
 
 ## Pages 与主备源
 
-启用 GitHub Pages 的 GitHub Actions 发布方式。合并到 `main` 后，CI 和 Pages 先执行来源、维护登记、签名和包检查，再生成并上传静态目录；全部发布检查通过后才部署。
+GitHub Pages 使用 GitHub Actions 发布。合并到 `main` 后，Pages 工作流运行公开树检查、单元测试和固定公钥验签，校验原始包及来源索引，再通过 `market.py export` 生成静态目录并部署。维护登记由 `check_maintainers.py` 独立维护。
 
 | 入口 | 地址 |
 | --- | --- |
 | 主索引 | `https://fengqiufq.github.io/maplesu-module-market/market.json` |
 | 备用索引 | `https://raw.githubusercontent.com/FengQiuFQ/maplesu-module-market/main/market.json` |
 
-部署后使用 `market.py probe --base-url` 分别核对主备站点，验证清单、签名与其引用的包和源码摘要。最后在 MapleSU 验证列表、详情、下载与安装前检查；站点上传成功与应用端验收分别记录。
+部署后使用 `market.py probe --base-url` 分别记录主备清单的下载状态与摘要。目录验签和本地包完整性由 `market.py verify --public-key trust/public-key.pem` 执行；匿名下载按清单中的包和源码摘要复核。MapleSU 端检查列表、详情、下载与安装前识别。
 
 版权与移除请求通过 [COPYRIGHT.md](COPYRIGHT.md) 和专用 Issue 处理。
+
+## MapleSU_Ultra 原生模块更新
+
+新模块使用 `MAPLESU` 类型，已发布的 `SKROOT_PRO` 条目继续兼容。模块 ABI、ID 和原包保持稳定；更新使用新版本，`--select-latest` 选择当前版本并保留历史索引。
+
+```shell
+python tools/market.py add-local --package ../module-release/hello.zip --native-id e46a18d2c9074f63b85a9210d7ce304f --native-member libmodule_hello.so --release-date 2026-11-22
+```
+
+原生发布元信息放在 `payload/module.prop`。模块库内描述定义 ID，SDK 自带的独立标签常量由导入器略过。对应源码放在 `webroot/source.zip` 时，工具生成源码索引并记录字节摘要。完整调用、编译与打包见 [MapleSU_Ultra 开发指南](https://github.com/FengQiuFQ/MapleSU/blob/main/docs/ULTRA_MODULES.md)。
